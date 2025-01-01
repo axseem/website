@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- 0.136.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Dec 2024 08:15:18 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I Read 16 Books in a Year</title>
+      <link>http://localhost:1313/posts/i-read-16-books-in-a-year/</link>
+      <pubDate>Mon, 30 Dec 2024 08:15:18 +0100</pubDate>
+      <guid>http://localhost:1313/posts/i-read-16-books-in-a-year/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve never been into books. I thought reading is boring and there are better ways to get the information I need.&lt;/p&gt;
+&lt;h1 id=&#34;i-was-wrong&#34;&gt;I was wrong&lt;/h1&gt;
+&lt;p&gt;Turns out&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

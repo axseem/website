@@ -1,0 +1,26 @@
+baseURL = 'https://axseem.me/'
+languageCode = 'en-us'
+title = "axseem"
+theme = 'paper'
+
+[permalinks]
+post = "/:slug/"
+
+[params]
+ShowReadingTime = true
+
+[params.homeInfoParams]
+Title = "Hi, I'm Max"
+Content = "aka @axseem or Maksym Bohdan. Here I share my thoughts and ideas."
+
+[[params.socialIcons]]
+name = "instagram"
+url = "https://www.instagram.com/axseem"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://www.github.com/axseem"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:max@axseem.me"
