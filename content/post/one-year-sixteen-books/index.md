@@ -1,7 +1,7 @@
 +++
 date = '2024-12-30'
 title = 'One Year - Sixteen Books'
-summary = 'I thought books were useless. I was so wrong.'
+summary = 'I thought books were useless. I was so wrong'
 +++
 
 I was never into books. For me, reading seemed boring and unproductive. I thought books were useless considering all the various novel ways to consume the information.
