@@ -1,0 +1,92 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+interface PostFrontmatter {
+  title: string;
+  date: string;
+  summary: string;
+}
+
+const blogPosts = (await Astro.glob('./blog/*.md'))
+  .map(post => ({
+    ...(post.frontmatter as PostFrontmatter),
+    url: `/blog/${post.file.split('/').pop()?.replace('.md', '')}/`
+  }))
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+const diaryEntries = (await Astro.glob('./diary/*.md'))
+  .map(entry => ({
+    ...(entry.frontmatter as PostFrontmatter),
+    url: `/diary/${entry.file.split('/').pop()?.replace('.md', '')}/`
+  }))
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+---
+
+<Layout>
+  <div class="container markdown-content">
+    <section class="posts-section">
+      <h2 class="section-heading">Blog</h2>
+      <ul class="post-list">
+        {blogPosts.map(post => (
+          <li class="post-item">
+            <a href={post.url} class="post-link">{post.title}</a>
+            <span class="post-date"> - {new Date(post.date).toLocaleDateString()}</span>
+            {post.summary && <p class="post-summary"><em>{post.summary}</em></p>}
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="posts-section">
+      <h2 class="section-heading">Diary</h2>
+      <ul class="post-list">
+        {diaryEntries.map(entry => (
+          <li class="post-item">
+            <a href={entry.url} class="post-link">{entry.title}</a>
+            <span class="post-date"> - {new Date(entry.date).toLocaleDateString()}</span>
+            {entry.summary && <p class="post-summary"><em>{entry.summary}</em></p>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  </div>
+</Layout>
+
+<style>
+  .section-heading {
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem;
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.5rem;
+  }
+
+  .post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .post-item {
+    margin-bottom: 1.5rem;
+  }
+
+  .post-link {
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .post-link:hover {
+    text-decoration: underline;
+  }
+
+  .post-date {
+    color: #888;
+    font-size: 0.9em;
+  }
+
+  .post-summary {
+    color: #ccc;
+    margin: 0.5rem 0 0;
+    font-size: 0.95em;
+  }
+</style>
