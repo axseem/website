@@ -17,6 +17,6 @@ const { title, date, summary, minutesRead, url } = Astro.props;
     <h3>{title}</h3>
     <p class="text-neutral-300"><em>{summary}</em></p>
     <p class="text-neutral-500">
-        {new Date(date).toLocaleDateString()} - {minutesRead}
+        {new Date(date).toDateString()} - {minutesRead}
     </p>
 </a>

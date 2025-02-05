@@ -6,14 +6,13 @@ const { title, date, minutesRead } = frontmatter;
 ---
 
 <Layout title={title}>
-	<div class="max-w-48 flex flex-col gap-2">
+	<div class="max-w-48 flex flex-col gap-3">
 		<a target="_self" href="/">axseem</a>
 		<div class="flex flex-col gap-0.5">
 			<h1>{title}</h1>
 			<p class="text-neutral-400">
-				{new Date(date).toLocaleDateString()} - {minutesRead}
+				{new Date(date).toDateString()} - {minutesRead}
 			</p>
-			<hr />
 		</div>
 		<div class="flex flex-col gap-1">
 			<base target="_blank" />
