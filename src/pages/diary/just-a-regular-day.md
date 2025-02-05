@@ -1,4 +1,5 @@
 +++
+layout = '../../layouts/Markdown.astro'
 title = "Just a Regular Day"
 date = "2025-02-01"
 summary = "I'm too lazy to write a creative summary at this point"

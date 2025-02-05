@@ -10,6 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.2.4"
+    "@tailwindcss/vite": "^4.0.3",
+    "astro": "^5.2.4",
+    "mdast-util-to-string": "^4.0.0",
+    "reading-time": "^1.5.0",
+    "tailwindcss": "^4.0.3"
   }
 }

@@ -1,0 +1,22 @@
+---
+export interface Props {
+    title: string;
+    date: string;
+    summary: string;
+    minutesRead: string;
+    url: string;
+}
+
+const { title, date, summary, minutesRead, url } = Astro.props;
+---
+
+<a
+    href={url}
+    class="flex flex-col no-underline hover:translate-x-0.5 border-white transition"
+>
+    <h3>{title}</h3>
+    <p class="text-neutral-300"><em>{summary}</em></p>
+    <p class="text-neutral-500">
+        {new Date(date).toLocaleDateString()} - {minutesRead}
+    </p>
+</a>

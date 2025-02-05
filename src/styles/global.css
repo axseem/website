@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+
+@layer base {
+  :root {
+    --spacing: 1rem;
+  }
+
+  h1 {
+    font-size: var(--text-4xl);
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: var(--text-3xl);
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: var(--text-2xl);
+    font-weight: 500;
+  }
+
+  a {
+    text-decoration-line: underline;
+  }
+
+  img {
+    @apply rounded-2xl border-2 border-neutral-800;
+  }
+
+  code {
+    background: #1a1a1a;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-family: monospace;
+  }
+
+  pre {
+    background: #1a1a1a;
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+  }
+}

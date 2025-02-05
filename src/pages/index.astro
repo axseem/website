@@ -1,92 +1,73 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import Post from "../components/Post.astro";
+import type { Props as PostProps } from "../components/Post.astro";
 
-interface PostFrontmatter {
-  title: string;
-  date: string;
-  summary: string;
+async function processPosts(
+  modules: Record<string, () => Promise<{ frontmatter: PostProps }>>,
+  basePath: string,
+) {
+  return Promise.all(
+    Object.entries(modules).map(async ([path, mod]) => {
+      const { frontmatter } = await mod();
+      const slug = path.split("/").pop()!.replace(".md", "");
+      return { ...frontmatter, url: `/${basePath}/${slug}/` };
+    }),
+  ).then((posts) =>
+    posts.sort((a, b) => Number(new Date(b.date)) - Number(new Date(a.date))),
+  );
 }
 
-const blogPosts = (await Astro.glob('./blog/*.md'))
-  .map(post => ({
-    ...(post.frontmatter as PostFrontmatter),
-    url: `/blog/${post.file.split('/').pop()?.replace('.md', '')}/`
-  }))
-  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-
-const diaryEntries = (await Astro.glob('./diary/*.md'))
-  .map(entry => ({
-    ...(entry.frontmatter as PostFrontmatter),
-    url: `/diary/${entry.file.split('/').pop()?.replace('.md', '')}/`
-  }))
-  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+const blog = await processPosts(
+  import.meta.glob<{ frontmatter: PostProps }>("./blog/*.md"),
+  "blog",
+);
+const diary = await processPosts(
+  import.meta.glob<{ frontmatter: PostProps }>("./diary/*.md"),
+  "diary",
+);
 ---
 
-<Layout>
-  <div class="container markdown-content">
-    <section class="posts-section">
-      <h2 class="section-heading">Blog</h2>
-      <ul class="post-list">
-        {blogPosts.map(post => (
-          <li class="post-item">
-            <a href={post.url} class="post-link">{post.title}</a>
-            <span class="post-date"> - {new Date(post.date).toLocaleDateString()}</span>
-            {post.summary && <p class="post-summary"><em>{post.summary}</em></p>}
-          </li>
-        ))}
+<Layout title="@axseem">
+  <div class="flex flex-col w-48 gap-2">
+    <div class="flex flex-col gap-1 pt-4">
+      <h1>Hi' I'm Max</h1>
+      <p class="text-neutral-200">
+        Also known as @axseem or Maksym Bohdan. Here you will find my thoughts,
+        projects, ideas and much more.
+      </p>
+      <p>
+        <a target="_blank" href="mailto:max@axseem.me">Email</a>
+        <a target="_blank" href="https://www.github.com/axseem">GitHub</a>
+        <a target="_blank" href="https://www.instagram.com/axseem">Instagram</a>
+        <a target="_blank" href="https://www.x.com/axseemm">X</a>
+      </p>
+    </div>
+
+    <section class="flex flex-col gap-1">
+      <h2>Blog</h2>
+      <ul class="flex flex-col gap-1">
+        {
+          blog.map((post) => (
+            <li>
+              <Post {...post} />
+            </li>
+          ))
+        }
       </ul>
     </section>
 
-    <section class="posts-section">
-      <h2 class="section-heading">Diary</h2>
-      <ul class="post-list">
-        {diaryEntries.map(entry => (
-          <li class="post-item">
-            <a href={entry.url} class="post-link">{entry.title}</a>
-            <span class="post-date"> - {new Date(entry.date).toLocaleDateString()}</span>
-            {entry.summary && <p class="post-summary"><em>{entry.summary}</em></p>}
-          </li>
-        ))}
+    <section class="flex flex-col gap-1">
+      <h2>Diary</h2>
+      <ul class="flex flex-col gap-1">
+        {
+          diary.map((post) => (
+            <li>
+              <Post {...post} />
+            </li>
+          ))
+        }
       </ul>
     </section>
   </div>
 </Layout>
-
-<style>
-  .section-heading {
-    font-size: 1.5rem;
-    margin: 2rem 0 1rem;
-    border-bottom: 1px solid #333;
-    padding-bottom: 0.5rem;
-  }
-
-  .post-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .post-item {
-    margin-bottom: 1.5rem;
-  }
-
-  .post-link {
-    text-decoration: none;
-    font-weight: 500;
-  }
-
-  .post-link:hover {
-    text-decoration: underline;
-  }
-
-  .post-date {
-    color: #888;
-    font-size: 0.9em;
-  }
-
-  .post-summary {
-    color: #ccc;
-    margin: 0.5rem 0 0;
-    font-size: 0.95em;
-  }
-</style>
