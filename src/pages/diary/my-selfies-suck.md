@@ -9,7 +9,7 @@ You see, I love making and sharing pictures of myself, but **I literally suck at
 
 **Selfies are an oddly funny** thing in themselves, **but there's more to it**. Your **photos are like a social portfolio** - you can tell a lot about someone just by looking at their pictures. Plus, **it forces you to get creative** if you constrain yourself, for instance every has to be unique, done in different places or poses and so on.
 
-Tody, I checked my Instagram profile and thought: *Why don't I post more often?* **The answer is written in the first sentence**, in case you didn't notice, **but I came up with a solution** to that problem.
+Today, I checked my Instagram profile and thought: *Why don't I post more often?* **The answer is written in the first sentence**, in case you didn't notice, **but I came up with a solution** to that problem.
 
 **Take one selfie every day.**
 
