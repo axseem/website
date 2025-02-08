@@ -5,9 +5,9 @@ interface ImageModule {
     default: { src: string };
 }
 
-const imageModules = await import.meta.glob("./*.jpg", { eager: true });
-const imageFiles = (Object.values(imageModules) as ImageModule[]).map((mod) =>
-    mod.default.src.split("/").pop(),
+const imageModules = import.meta.glob<ImageModule>("./*.jpg");
+const imageFiles = await Promise.all(
+    Object.values(imageModules).map(async (mod) => (await mod()).default.src),
 );
 
 const groupedImages: Record<string, string[]> = {};
@@ -35,7 +35,7 @@ const sortedGroups = Object.entries(groupedImages).sort((a, b) =>
             {
                 sortedGroups.map(([prefix, images]) => (
                     <img
-                        src={`/src/pages/gallery/${images[0]}`}
+                        src={images[0]}
                         class="thumbnail border-none rounded-none object-cover aspect-square"
                         data-group={prefix}
                         alt={`Thumbnail ${prefix}`}
