@@ -5,9 +5,17 @@ const { frontmatter } = Astro.props;
 const { title, date, minutesRead } = frontmatter;
 ---
 
-<Layout title={title}>
-	<div class="max-w-48 flex flex-col gap-3">
-		<a target="_self" href="/">axseem</a>
+<Layout title={"axseem - " + title}>
+	<div class="max-w-48 w-full flex flex-col gap-3">
+		<div class="text-neutral-300 py-1">
+			<a target="_self" href="/" class="text-neutral-200 py-1">axseem</a>
+			<span> / </span>
+			<a target="_self" href={"/" + Astro.url.pathname.split("/").at(-3)}
+				>{Astro.url.pathname.split("/").at(-3)}</a
+			>
+			<span> / </span>
+			<span>{Astro.url.pathname.split("/").at(-2)}</span>
+		</div>
 		<div class="flex flex-col gap-0.5">
 			<h1>{title}</h1>
 			<p class="text-neutral-400">

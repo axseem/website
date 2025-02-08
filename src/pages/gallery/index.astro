@@ -1,0 +1,47 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+interface ImageModule {
+    default: { src: string };
+}
+
+const imageModules = await import.meta.glob("./*.jpg", { eager: true });
+const imageFiles = (Object.values(imageModules) as ImageModule[]).map((mod) =>
+    mod.default.src.split("/").pop(),
+);
+
+const groupedImages: Record<string, string[]> = {};
+imageFiles.forEach((file) => {
+    if (file) {
+        const prefix = file.split("-")[0];
+        groupedImages[prefix] = [...(groupedImages[prefix] || []), file];
+    }
+});
+
+const sortedGroups = Object.entries(groupedImages).sort((a, b) =>
+    b[0].localeCompare(a[0]),
+);
+---
+
+<Layout title="axseem's gallery">
+    <div class="max-w-48 w-full flex flex-col gap-3">
+        <div class="text-neutral-300 py-1">
+            <a href="/" class="text-neutral-200 py-1">axseem</a>
+            <span> / </span>
+            <span>gallery</span>
+        </div>
+        <h1>Gallery</h1>
+        <div class="grid grid-cols-3 gap-0.5">
+            {
+                sortedGroups.map(([prefix, images]) => (
+                    <img
+                        src={`/src/pages/gallery/${images[0]}`}
+                        class="thumbnail border-none rounded-none object-cover aspect-square"
+                        data-group={prefix}
+                        alt={`Thumbnail ${prefix}`}
+                    />
+                ))
+            }
+        </div>
+    </div>
+</Layout>

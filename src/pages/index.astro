@@ -1,73 +1,84 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Post from "../components/Post.astro";
-import type { Props as PostProps } from "../components/Post.astro";
+import Post from "../components/Article.astro";
+import type { Article as ArticleProps } from "../components/Article.astro";
+import { importArticles } from "../lib/importArticles";
+import profilePicture from "./gallery/0006-0.jpg?inline";
 
-async function processPosts(
-  modules: Record<string, () => Promise<{ frontmatter: PostProps }>>,
-  basePath: string,
-) {
-  const posts = await Promise.all(
-    Object.entries(modules).map(async ([path, mod]) => {
-      const { frontmatter } = await mod();
-      const slug = path.split("/").at(-1)?.replace(".md", "");
-      return { ...frontmatter, url: `/${basePath}/${slug}/` };
-    }),
-  );
+const blog = (
+  await importArticles(
+    import.meta.glob<{ frontmatter: ArticleProps }>("./blog/*.md"),
+    "blog",
+  )
+).slice(0, 2);
 
-  return posts.sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
-}
-
-const blog = await processPosts(
-  import.meta.glob<{ frontmatter: PostProps }>("./blog/*.md"),
-  "blog",
-);
-const diary = await processPosts(
-  import.meta.glob<{ frontmatter: PostProps }>("./diary/*.md"),
-  "diary",
-);
+const diary = (
+  await importArticles(
+    import.meta.glob<{ frontmatter: ArticleProps }>("./diary/*.md"),
+    "diary",
+  )
+).slice(0, 2);
 ---
 
-<Layout title="@axseem">
-  <div class="flex flex-col max-w-48 gap-2 md:pt-4 pb-4">
-    <div class="flex flex-col gap-1">
-      <h1>Hi' I'm Max</h1>
-      <p class="text-neutral-200">
-        Also known as @axseem or Maksym Bohdan. Here you will find my thoughts,
-        projects, ideas and much more.
-      </p>
-      <p>
-        <a target="_blank" href="mailto:max@axseem.me">Email</a>
-        <a target="_blank" href="https://www.github.com/axseem">GitHub</a>
-        <a target="_blank" href="https://www.instagram.com/axseem">Instagram</a>
-        <a target="_blank" href="https://www.x.com/axseemm">X</a>
-      </p>
+<Layout title="axseem's website">
+  <div class="flex flex-col w-full max-w-48 gap-3 pb-4 h-full">
+    <div class="text-neutral-300 py-1">
+      <span class="text-neutral-200 py-1">axseem</span>
+      <span> / </span>
+      <span><a href="/blog">blog</a>,</span>
+      <span><a href="/diary">diary</a>,</span>
+      <a href="/gallery">gallery</a>
     </div>
+    <div class="flex flex-col justify-center items-center w-full h-full gap-4">
+      <div class="flex gap-1 sm:gap-2">
+        <img
+          src={profilePicture}
+          alt="profile picture"
+          class="aspect-square border-none rounded-none max-w-10 h-full hidden sm:block"
+        />
+        <div class="flex flex-col gap-1 w-full">
+          <h1>Hi' I'm Max</h1>
+          <p class="text-neutral-200">
+            Also known as @axseem or Maksym Bohdan. Here you will find my
+            thoughts, projects, ideas and much more.
+          </p>
+          <p>
+            <a target="_blank" href="mailto:max@axseem.me">Email</a>
+            <a target="_blank" href="https://github.com/axseem">GitHub</a>
+            <a target="_blank" href="https://instagram.com/axseem">Instagram</a>
+            <a target="_blank" href="https://t.me/axseem">Telegram</a>
+            <a target="_blank" href="https://x.com/axseemm">Twitter/X</a>
+          </p>
+        </div>
+      </div>
 
-    <section class="flex flex-col gap-1">
-      <h2>Blog</h2>
-      <ul class="flex flex-col gap-1">
-        {
-          blog.map((post) => (
-            <li>
-              <Post {...post} />
-            </li>
-          ))
-        }
-      </ul>
-    </section>
+      <section class="flex flex-col gap-1 w-full">
+        <h2>Recent Blog Posts</h2>
+        <ul class="flex flex-col gap-1">
+          {
+            blog.map((post) => (
+              <li>
+                <Post {...post} />
+              </li>
+            ))
+          }
+        </ul>
+        <a href="blog">...more</a>
+      </section>
 
-    <section class="flex flex-col gap-1">
-      <h2>Diary</h2>
-      <ul class="flex flex-col gap-1">
-        {
-          diary.map((post) => (
-            <li>
-              <Post {...post} />
-            </li>
-          ))
-        }
-      </ul>
-    </section>
+      <section class="flex flex-col gap-1 w-full">
+        <h2>Recent Diary Records</h2>
+        <ul class="flex flex-col gap-1">
+          {
+            diary.map((post) => (
+              <li>
+                <Post {...post} />
+              </li>
+            ))
+          }
+        </ul>
+        <a href="diary">...more</a>
+      </section>
+    </div>
   </div>
 </Layout>

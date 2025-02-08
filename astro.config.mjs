@@ -7,13 +7,16 @@ import { targetBlank } from './targetBlank';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://axseem.me',
+
   markdown: {
     remarkPlugins: [remarkReadingTime],
     rehypePlugins: [[targetBlank, { domain: 'axseem.me' }]],
   },
+
   vite: {
     plugins: [tailwindcss()],
   },
+
   redirects: {
     '/one-year-sixteen-books': {
       destination: '/blog/one-year-sixteen-books',
