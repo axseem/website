@@ -5,6 +5,8 @@ import type { Article as ArticleProps } from "../components/Article.astro";
 import { importArticles } from "../lib/importArticles";
 import profilePicture from "./gallery/0006-0.jpg";
 
+import "@fontsource-variable/inter";
+
 const blog = (
   await importArticles(
     import.meta.glob<{ frontmatter: ArticleProps }>("./blog/*.md"),
@@ -21,54 +23,48 @@ const diary = (
 ---
 
 <Layout title="axseem's website">
-  <div class="flex flex-col w-full max-w-48 gap-3 pb-4 h-full">
-    <div class="text-neutral-300 py-1">
-      <span class="text-neutral-200 py-1">axseem</span>
+  <div class="flex flex-col w-full max-w-48 h-full">
+    <div
+      class="text-neutral-400 py-1 flex gap-1 border-b border-neutral-800 flex-wrap sticky top-0 bg-black z-10"
+    >
+      <span class="text-neutral-50">axseem</span>
       <span> / </span>
-      <span><a href="/blog">blog</a>,</span>
-      <span><a href="/diary">diary</a>,</span>
+      <a href="/blog">blog</a>
+      <a href="/diary">diary</a>
       <a href="/gallery">gallery</a>
     </div>
     <div class="flex flex-col justify-center items-center w-full h-full gap-4">
-      <div class="flex gap-1 sm:gap-2">
+      <div
+        class="flex flex-col sm:flex-row gap-1 sm:gap-2 border-neutral-800 sm:py-2 py-4 border-b sm:items-center"
+      >
         <img
           src={profilePicture.src}
           alt="profile picture"
-          class="aspect-square border-none rounded-none max-w-10 h-full hidden sm:block"
+          class="aspect-square border-none rounded-none max-w-12 sm:my-2 w-8 sm:w-full h-full"
         />
         <div class="flex flex-col gap-1 w-full">
-          <h1>Hi' I'm Max</h1>
-          <p class="text-neutral-200">
-            Also known as @axseem or Maksym Bohdan. Here you will find my
-            thoughts, projects, ideas and much more.
-          </p>
-          <p>
+          <div class="flex flex-col">
+            <h1 class="text-neutral-50">Hi' I'm Max</h1>
+            <p class="text-neutral-300">
+              Also known as @axseem or Maksym Bohdan. Here you will find my
+              thoughts, projects, ideas and much more.
+            </p>
+          </div>
+          <div class="flex gap-1 text-neutral-400 flex-wrap">
             <a target="_blank" href="mailto:max@axseem.me">Email</a>
             <a target="_blank" href="https://github.com/axseem">GitHub</a>
             <a target="_blank" href="https://instagram.com/axseem">Instagram</a>
             <a target="_blank" href="https://t.me/axseem">Telegram</a>
-            <a target="_blank" href="https://x.com/axseemm">Twitter/X</a>
-          </p>
+            <a target="_blank" href="https://x.com/axseemm">X/Twitter</a>
+          </div>
         </div>
       </div>
 
       <section class="flex flex-col gap-1 w-full">
-        <h2>Recent Blog Posts</h2>
-        <ul class="flex flex-col gap-1">
-          {
-            blog.map((post) => (
-              <li>
-                <Post {...post} />
-              </li>
-            ))
-          }
-        </ul>
-        <a href="blog">...more</a>
-      </section>
-
-      <section class="flex flex-col gap-1 w-full">
         <h2>Recent Diary Records</h2>
-        <ul class="flex flex-col gap-1">
+        <ul
+          class="flex flex-col divide-y divide-neutral-800 border-y border-neutral-800"
+        >
           {
             diary.map((post) => (
               <li>
@@ -77,7 +73,23 @@ const diary = (
             ))
           }
         </ul>
-        <a href="diary">...more</a>
+        <a class="text-neutral-400" href="diary">...more</a>
+      </section>
+
+      <section class="flex flex-col gap-1 w-full">
+        <h2>Recent Blog Posts</h2>
+        <ul
+          class="flex flex-col divide-y divide-neutral-800 border-y border-neutral-800"
+        >
+          {
+            blog.map((post) => (
+              <li>
+                <Post {...post} />
+              </li>
+            ))
+          }
+        </ul>
+        <a class="text-neutral-400" href="blog">...more</a>
       </section>
     </div>
   </div>

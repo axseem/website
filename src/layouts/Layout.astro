@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import "@fontsource-variable/inter";
 const { title = "@axseem" } = Astro.props;
 ---
 
@@ -13,7 +14,7 @@ const { title = "@axseem" } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body
-		class="bg-black text-neutral-200 flex flex-col items-center min-h-screen overflow-y-scroll px-1 pb-12"
+		class="bg-black text-neutral-200 flex flex-col items-center min-h-screen overflow-y-scroll px-1 sm:px-2 pb-12"
 	>
 		<slot />
 	</body>

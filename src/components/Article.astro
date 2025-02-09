@@ -12,11 +12,11 @@ const { title, date, summary, minutesRead, url } = Astro.props;
 
 <a
     href={url}
-    class="flex flex-col no-underline hover:translate-x-0.5 border-white transition"
+    class="flex flex-col no-underline hover:translate-x-0.5 border-white transition py-1"
 >
     <h3>{title}</h3>
     <p class="text-neutral-300"><em>{summary}</em></p>
-    <p class="text-neutral-500">
+    <p class="text-neutral-500 truncate">
         {new Date(date).toDateString()} - {minutesRead}
     </p>
 </a>
