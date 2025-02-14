@@ -1,0 +1,41 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getImagesByPrefix } from "../../lib/importImages";
+
+export async function getStaticPaths() {
+  const { getGroupedImages } = await import("../../lib/importImages");
+  const groupedImages = await getGroupedImages();
+  return groupedImages.map(([prefix]) => ({
+    params: { img: prefix },
+  }));
+}
+
+const { img } = Astro.params;
+const imageFiles = await getImagesByPrefix(img);
+---
+
+<Layout title={img}>
+  <div class="max-w-48 w-full flex flex-col gap-3">
+    <div
+      class="text-neutral-400 py-1 flex gap-1 border-b border-neutral-800 flex-wrap sticky top-0 bg-black z-10"
+    >
+      <a href="/">axseem</a>
+      <span> / </span>
+      <a href="/gallery" class="text-neutral-50">gallery</a>
+      <span> / </span>
+      <span> {img} </span>
+    </div>
+    <div class="flex flex-col gap-1 sm:px-4 items-center">
+      {
+        imageFiles.map((image) => (
+          <img
+            src={image}
+            class="border-none rounded-none max-h-[80vh] max-w-full"
+            alt={image}
+          />
+        ))
+      }
+    </div>
+    </div>
+  </div>
+</Layout>

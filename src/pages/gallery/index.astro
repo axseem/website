@@ -1,26 +1,9 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 
-interface ImageModule {
-    default: { src: string };
-}
+import { getGroupedImages } from "../../lib/importImages";
 
-const imageModules = import.meta.glob<ImageModule>("./*.jpg");
-const imageFiles = await Promise.all(
-    Object.values(imageModules).map(async (mod) => (await mod()).default.src),
-);
-
-const groupedImages: Record<string, string[]> = {};
-imageFiles.forEach((file) => {
-    if (file) {
-        const prefix = file.split("-")[0];
-        groupedImages[prefix] = [...(groupedImages[prefix] || []), file];
-    }
-});
-
-const sortedGroups = Object.entries(groupedImages).sort((a, b) =>
-    b[0].localeCompare(a[0]),
-);
+const sortedGroups = await getGroupedImages();
 ---
 
 <Layout title="axseem's gallery">
@@ -38,12 +21,19 @@ const sortedGroups = Object.entries(groupedImages).sort((a, b) =>
         <div class="grid grid-cols-3 gap-0.5">
             {
                 sortedGroups.map(([prefix, images]) => (
-                    <img
-                        src={images[0]}
-                        class="thumbnail border-none rounded-none object-cover aspect-square"
-                        data-group={prefix}
-                        alt={`Thumbnail ${prefix}`}
-                    />
+                    
+                    <a href={"/gallery/"+prefix} class="relative">
+                        {images.length > 1 && (
+                            <div class="bg-black absolute bottom-0.25 right-0.25 py-1 px-0.5">
+                                <p class="leading-0 font-semibold">{images.length}</p>
+                            </div>
+                        )}
+                        <img
+                            src={images[0]}
+                            class="border-none rounded-none object-cover aspect-square"
+                            alt={`Thumbnail ${prefix}`}
+                        />
+                    </a>
                 ))
             }
         </div>

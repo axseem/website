@@ -3,20 +3,25 @@ import Layout from "../layouts/Layout.astro";
 import Post from "../components/Article.astro";
 import type { Article as ArticleProps } from "../components/Article.astro";
 import { importArticles } from "../lib/importArticles";
-import profilePicture from "./gallery/0006-0.jpg";
+import profilePicture from "./gallery/6-0.jpg";
 
 import "@fontsource-variable/inter";
 
 const blog = (
   await importArticles(
-    import.meta.glob<{ frontmatter: ArticleProps }>("./blog/*.md"),
+    import.meta.glob<{ frontmatter: ArticleProps }>(
+      "./blog/*.md",
+    ),
+
     "blog",
   )
 ).slice(0, 2);
 
 const diary = (
   await importArticles(
-    import.meta.glob<{ frontmatter: ArticleProps }>("./diary/*.md"),
+    import.meta.glob<{ frontmatter: ArticleProps }>(
+      "./diary/*.md",
+    ),
     "diary",
   )
 ).slice(0, 2);
