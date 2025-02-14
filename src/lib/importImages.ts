@@ -18,9 +18,12 @@ export async function getGroupedImages() {
         }
     });
 
-    return Object.entries(groupedImages).sort((a, b) =>
-        b[0].localeCompare(a[0]),
-    );
+    return Object.entries(groupedImages).sort((a, b) => {
+        const numA = parseInt(a[0].split(delimiter)[0], 10);
+        const numB = parseInt(b[0].split(delimiter)[0], 10);
+        
+        return numB - numA;
+    });
 }
 
 export async function getImagesByPrefix(prefix: string) {
