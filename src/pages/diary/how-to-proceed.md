@@ -1,7 +1,7 @@
 +++
 layout = '../../layouts/Markdown.astro'
 title = "How to Proceed"
-date = "2025-02-03"
+date = "2025-02-03 20:42 +0100"
 summary = "It's so easy to stuck in a planing and forget about acting"
 +++
 

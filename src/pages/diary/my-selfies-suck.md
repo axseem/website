@@ -1,7 +1,7 @@
 +++
 layout = "../../layouts/Markdown.astro"
 title = "My Selfies Suck"
-date = "2025-02-07"
+date = "2025-02-07 22:03 +0100"
 summary = "And to fix that, I'll do one selfie each day"
 +++
 

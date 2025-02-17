@@ -1,7 +1,7 @@
 +++
 layout = '../../layouts/Markdown.astro'
 title = "I'll Beg For Attention"
-date = "2025-02-02"
+date = "2025-02-02 21:03 +0100"
 summary = "Let's change the way I do my posts"
 +++
 

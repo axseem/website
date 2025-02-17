@@ -1,7 +1,7 @@
 +++
 layout = "../../layouts/Markdown.astro"
 title = "Morning > Evening"
-date = "2025-02-10"
+date = "2025-02-10 12:10 +0100"
 summary = "Making a better schedule and reflecting on progress"
 +++
 

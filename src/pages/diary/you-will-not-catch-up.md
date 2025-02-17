@@ -1,7 +1,7 @@
 +++
 layout = '../../layouts/Markdown.astro'
 title = "You Won't Catch Up"
-date = "2025-02-08"
+date = "2025-02-08 21:55 +0100"
 summary = "How even seemingly minor bad decisions can ruin everything"
 +++
 

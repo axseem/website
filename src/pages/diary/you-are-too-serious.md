@@ -1,7 +1,7 @@
 +++
 layout = '../../layouts/Markdown.astro'
 title = "You Are Too Serious"
-date = "2025-02-06'"
+date = "2025-02-06 21:33 +0100"
 summary = "Being fun is no joking matter"
 +++
 

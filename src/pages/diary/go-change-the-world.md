@@ -1,7 +1,7 @@
 +++
 layout = '../../layouts/Markdown.astro'
 title = "Go Change The World"
-date = "2025-02-13"
+date = "2025-02-13 12:16 +0100"
 summary = "Everyone can achieve anything, and you are no exception"
 +++
 

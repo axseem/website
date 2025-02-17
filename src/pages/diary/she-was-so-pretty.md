@@ -1,7 +1,7 @@
 +++
 layout = '../../layouts/Markdown.astro'
 title = "She Was So Pretty"
-date = "2025-02-11"
+date = "2025-02-11 22:17 +0100"
 summary = "But surely, I managed to mess everything up"
 +++
 

@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/Markdown.astro'
 title: "Work-Life Balance Is a Myth"
-date: "2025-02-17"
+date: "2025-02-17 07:47 +0100"
 summary: "You don't have to choose one if you can have both"
 ---
 

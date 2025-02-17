@@ -1,7 +1,7 @@
 +++
 layout = '../../layouts/Markdown.astro'
 title = "i am worse than you think"
-date = "2025-01-30"
+date = "2025-01-30 20:55 +0100"
 summary = "can't handle all the feelings anymore"
 +++
 

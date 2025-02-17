@@ -1,7 +1,7 @@
 +++
 layout = '../../layouts/Markdown.astro'
 title = "Dropping Out of University"
-date = "2025-02-14"
+date = "2025-02-14 20:12 +0100"
 summary = "Sometimes you have to take a step back"
 +++
 

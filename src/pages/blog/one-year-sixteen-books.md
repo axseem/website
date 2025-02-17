@@ -1,6 +1,6 @@
 +++
 layout = '../../layouts/Markdown.astro'
-date = '2024-12-30'
+date = '2024-12-30 18:23 +0100'
 title = 'One Year - Sixteen Books'
 summary = 'I thought books were useless. I was so wrong'
 +++

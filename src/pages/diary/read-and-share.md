@@ -1,7 +1,7 @@
 +++
 layout = '../../layouts/Markdown.astro'
 title = "Read and Share"
-date = "2025-02-11"
+date = "2025-02-11 07:17 +0100"
 summary = "Want to build something cool, and I might have an idea"
 +++
 

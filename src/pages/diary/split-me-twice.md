@@ -1,7 +1,7 @@
 +++
 layout = "../../layouts/Markdown.astro"
 title = "split me twice"
-date = "2025-02-09"
+date = "2025-02-09 18:57 +0100"
 summary = "just sad me, writing down everything that comes to mind"
 +++
 

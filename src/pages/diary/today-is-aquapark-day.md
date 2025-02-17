@@ -1,7 +1,7 @@
 +++
 layout = "../../layouts/Markdown.astro"
 title = "Today is Aquapark Day"
-date = "2025-02-15"
+date = "2025-02-15 02:29 +0100"
 summary = "I won't be able to write anything during the day, so here it goes."
 +++
 
