@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Post from "../components/Article.astro";
 import type { Article as ArticleProps } from "../components/Article.astro";
 import { importArticles } from "../lib/importArticles";
-import profilePicture from "./gallery/6-0.jpg";
+import profilePicture from "./gallery/14-1.jpg";
 
 import "@fontsource-variable/inter";
 
@@ -42,11 +42,14 @@ const diary = (
       <div
         class="flex flex-col sm:flex-row gap-1 sm:gap-2 border-neutral-800 sm:py-2 py-4 border-b sm:items-center"
       >
+      <div class="max-w-12 sm:my-2 w-8 sm:w-full h-full overflow-hidden">
         <img
           src={profilePicture.src}
           alt="profile picture"
-          class="aspect-square border-none rounded-none max-w-12 sm:my-2 w-8 sm:w-full h-full"
+          class="aspect-square border-none rounded-none w-full h-full scale-160"
         />
+      </div>
+
         <div class="flex flex-col gap-1 w-full">
           <div class="flex flex-col">
             <h1 class="text-neutral-50">Hi, I'm Max</h1>
