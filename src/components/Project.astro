@@ -1,0 +1,61 @@
+---
+export interface Props {
+    title: string
+    description: string
+    image: ImageMetadata
+    tags: string[]
+    url: string,
+}
+
+const { title, description, image, tags, url } = Astro.props;
+
+let stars = -1;
+const repoMatch = url.match(/github\.com\/([^\/]+\/[^\/]+)/);
+if (repoMatch) {
+    try {
+        const response = await fetch(`https://api.github.com/repos/${repoMatch[1]}`);
+        if (response.ok) {
+            console.log(response)
+            const data = await response.json();
+            stars = data.stargazers_count || 0;
+        }
+    } catch (error) {
+        console.error(`GitHub API request failed for ${url}:`, error);
+    }
+}
+---
+
+<a
+    href={url}
+    class="flex flex-col no-underline outline outline-neutral-800 transition hover:outline-neutral-700 hover:bg-neutral-950 overflow-hidden rounded-xl"
+>
+    <div class="w-full relative">
+        {(stars != -1) &&
+            (<div class="absolute top-0.75 right-0.75 bg-black p-0.5 rounded-sm flex gap-0.5">
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="fill-white">
+                    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
+                </svg>
+                <p class="leading-1" id="stars">
+                    {stars.toLocaleString() + " stars"}
+                </p>
+            </div>)
+        }
+        <img class="w-full aspect-2/1 object-cover rounded-none border-none" src={image.src} alt={title + " image"}>
+    </div>
+    <div class="flex flex-col p-1.5">
+        <h3>{title}</h3>
+        <p class="text-neutral-300"><em>{description}</em></p>
+        <ul class="flex gap-0.5 mt-0.5">
+            {
+                tags.map((tag) => (
+                    <li>
+                        <div class="bg-neutral-900 border border-neutral-700 py-0.25 px-0.5 rounded-md text-neutral-300">
+                            <span>{tag}</span>
+                        </div>
+                    </li>
+                ))
+            }
+        </ul>
+    </div>
+</a>
+

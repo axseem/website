@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Post from "../components/Article.astro";
-import type { Article as ArticleProps } from "../components/Article.astro";
+import type { Props as ArticleProps } from "../components/Article.astro";
 import { importArticles } from "../lib/importArticles";
 import profilePicture from "./gallery/14-1.jpg";
 
@@ -28,7 +28,7 @@ const diary = (
 ---
 
 <Layout title="axseem's website">
-  <div class="flex flex-col w-full max-w-48 h-full">
+  
     <div
       class="text-neutral-400 py-1 flex gap-1 border-b border-neutral-800 flex-wrap sticky top-0 bg-black z-10"
     >
@@ -37,6 +37,7 @@ const diary = (
       <a href="/blog">blog</a>
       <a href="/diary">diary</a>
       <a href="/gallery">gallery</a>
+      <a href="/projects">projects</a>
     </div>
     <div class="flex flex-col justify-center items-center w-full h-full gap-4">
       <div
@@ -69,37 +70,39 @@ const diary = (
         </div>
       </div>
 
-      <section class="flex flex-col gap-1 w-full">
-        <h2>Recent Diary Records</h2>
-        <ul
-          class="flex flex-col divide-y divide-neutral-800 border-y border-neutral-800"
-        >
-          {
-            diary.map((post) => (
-              <li>
-                <Post {...post} />
-              </li>
-            ))
-          }
-        </ul>
-        <a class="text-neutral-400" href="diary">...more</a>
-      </section>
+      <div class="flex flex-col md:flex-row w-full max-w-full gap-2">
+        <section class="flex flex-col gap-1 w-full">
+          <h2>Diary Records</h2>
+          <ul
+            class="flex flex-col divide-y divide-neutral-800 border-y border-neutral-800"
+          >
+            {
+              diary.map((post) => (
+                <li>
+                  <Post {...post} truncate={true}/>
+                </li>
+              ))
+            }
+          </ul>
+          <a class="text-neutral-400" href="diary">...more</a>
+        </section>
+  
+        <section class="flex flex-col gap-1 w-full">
+          <h2>Blog Posts</h2>
+          <ul
+            class="flex flex-col divide-y divide-neutral-800 border-y border-neutral-800"
+          >
+            {
+              blog.map((post) => (
+                <li>
+                  <Post {...post} truncate={true}/>
+                </li>
+              ))
+            }
+          </ul>
+          <a class="text-neutral-400" href="blog">...more</a>
+        </section>
 
-      <section class="flex flex-col gap-1 w-full">
-        <h2>Recent Blog Posts</h2>
-        <ul
-          class="flex flex-col divide-y divide-neutral-800 border-y border-neutral-800"
-        >
-          {
-            blog.map((post) => (
-              <li>
-                <Post {...post} />
-              </li>
-            ))
-          }
-        </ul>
-        <a class="text-neutral-400" href="blog">...more</a>
-      </section>
     </div>
-  </div>
+
 </Layout>

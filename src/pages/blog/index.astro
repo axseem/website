@@ -1,7 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import Post from "../../components/Article.astro";
-import type { Article as ArticleProps } from "../../components/Article.astro";
+import type { Props as ArticleProps } from "../../components/Article.astro";
 import { importArticles } from "../../lib/importArticles";
 
 const blog = await importArticles(
@@ -11,7 +11,7 @@ const blog = await importArticles(
 ---
 
 <Layout title="axseem's blog">
-    <div class="flex flex-col w-full max-w-48 gap-3 pb-4">
+    <div class="flex flex-col w-full gap-3 pb-4">
         <div
             class="text-neutral-400 py-1 flex gap-1 border-b border-neutral-800 flex-wrap sticky top-0 bg-black z-10"
         >
@@ -20,6 +20,7 @@ const blog = await importArticles(
             <span class="text-neutral-50">blog</span>
             <a href="/diary">diary</a>
             <a href="/gallery">gallery</a>
+            <a href="/projects">projects</a>
         </div>
         <h1>Blog</h1>
         <ul
