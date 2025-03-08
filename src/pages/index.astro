@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Post from "../components/Article.astro";
 import type { Props as ArticleProps } from "../components/Article.astro";
 import { importArticles } from "../lib/importArticles";
-import profilePicture from "./gallery/14-1.jpg";
+import profilePicture from "./profile.jpg";
 
 import "@fontsource-variable/inter";
 
@@ -47,7 +47,7 @@ const diary = (
         <img
           src={profilePicture.src}
           alt="profile picture"
-          class="aspect-square border-none rounded-none w-full h-full scale-160"
+          class="aspect-square border-none rounded-none w-full h-full"
         />
       </div>
 
