@@ -3,6 +3,7 @@ layout = '../../layouts/Markdown.astro'
 title = "The Diary That Talked Back"
 date = "2025-03-11 20:29 +0100"
 summary = "I fed my diary to an AI and got way more than I bargained for"
+mood = 7
 +++
 
 It happened again. I put off writing in my diary all day, only to speedrun it in the evening. Honestly, I'm way too forgiving with myself. I ignored the "opt-out" rule I set on Sunday, and as a result, I lost a big chunk of today's time. I'm really tired of this lifestyle. Tomorrow *will* be different, I promise.
