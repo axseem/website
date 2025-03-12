@@ -1,4 +1,4 @@
-import type { Article as ArticleProps } from "../components/Article.astro";
+import type { Props as ArticleProps } from "../components/Article.astro";
 
 export async function importArticles(
     modules: Record<string, () => Promise<{ frontmatter: ArticleProps }>>,

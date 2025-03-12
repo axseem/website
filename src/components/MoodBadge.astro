@@ -1,0 +1,14 @@
+---
+import { moodToColor } from "../lib/diary";
+
+export interface Props {
+    mood: number;
+}
+
+const { mood } = Astro.props;
+const moodColor = moodToColor(mood);
+---
+
+<div style={`border-color: ${moodColor};`} class="bg-neutral-900 border rounded-md py-0.125 px-0.25 leading-none">
+    <span class="text-xs text-nowrap" style={`color: ${moodColor};`}>Mood: {mood}/10</span>
+</div>

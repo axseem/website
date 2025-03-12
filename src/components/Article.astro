@@ -1,4 +1,5 @@
 ---
+import MoodBadge from "./MoodBadge.astro";
 export interface Props {
     title: string;
     date: string;
@@ -6,18 +7,35 @@ export interface Props {
     minutesRead: string;
     url: string;
     truncate?: boolean;
+    mood?: number;
 }
 
-const { title, date, summary, minutesRead, url, truncate } = Astro.props;
+const { title, date, summary, minutesRead, url, truncate, mood } = Astro.props;
 ---
 
 <a
     href={url}
     class="flex flex-col no-underline hover:translate-x-0.5 border-white transition py-1 w-full"
 >
-    <h3 style={truncate ? "overflow: hidden;text-overflow: ellipsis;white-space: nowrap;" : ""}>{title}</h3>
-    <p class="text-neutral-300" style={truncate ? "overflow: hidden;text-overflow: ellipsis;white-space: nowrap;" : ""}><em>{summary}</em></p>
-    <p class="text-neutral-500">
-        {new Date(date).toDateString().slice(4)} - {minutesRead}
+    <h3
+        style={truncate
+            ? "overflow: hidden;text-overflow: ellipsis;white-space: nowrap;"
+            : ""}
+    >
+        {title}
+    </h3>
+    <p
+        class="text-neutral-300"
+        style={truncate
+            ? "overflow: hidden;text-overflow: ellipsis;white-space: nowrap;"
+            : ""}
+    >
+        <em>{summary}</em>
     </p>
+    <div class="flex gap-0.5 items-center">
+        <p class="text-neutral-500">
+            {new Date(date).toDateString().slice(4)} - {minutesRead}
+        </p>
+        {mood && <MoodBadge mood={mood} />}
+    </div>
 </a>
