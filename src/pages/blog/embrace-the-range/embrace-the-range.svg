@@ -1,0 +1,26 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1920" height="1080" fill="white"/>
+<circle cx="364" cy="460" r="32" fill="black"/>
+<circle cx="364" cy="540" r="32" fill="black"/>
+<circle cx="364" cy="620" r="32" fill="black"/>
+<circle cx="444" cy="380" r="32" fill="black"/>
+<circle cx="444" cy="460" r="32" fill="black"/>
+<circle cx="444" cy="540" r="32" fill="black"/>
+<circle cx="444" cy="620" r="32" fill="black"/>
+<circle cx="444" cy="700" r="32" fill="black"/>
+<circle cx="524" cy="380" r="32" fill="black"/>
+<circle cx="524" cy="460" r="32" fill="black"/>
+<circle cx="524" cy="540" r="32" fill="black"/>
+<circle cx="524" cy="620" r="32" fill="black"/>
+<circle cx="524" cy="700" r="32" fill="black"/>
+<circle cx="604" cy="380" r="32" fill="black"/>
+<circle cx="604" cy="460" r="32" fill="black"/>
+<circle cx="604" cy="540" r="32" fill="black"/>
+<circle cx="604" cy="620" r="32" fill="black"/>
+<circle cx="604" cy="700" r="32" fill="black"/>
+<circle cx="684" cy="460" r="32" fill="black"/>
+<circle cx="684" cy="540" r="32" fill="black"/>
+<circle cx="684" cy="620" r="32" fill="black"/>
+<path d="M912 476L1008 540L912 604" stroke="black" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1396" cy="540" r="192" fill="black"/>
+</svg>
