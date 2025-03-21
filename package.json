@@ -11,12 +11,12 @@
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.2.5",
-    "@tailwindcss/vite": "^4.0.13",
-    "astro": "^5.4.3",
+    "@tailwindcss/vite": "^4.0.15",
+    "astro": "^5.5.3",
     "mdast-util-to-string": "^4.0.0",
     "reading-time": "^1.5.0",
     "sharp": "^0.33.5",
-    "tailwindcss": "^4.0.13",
+    "tailwindcss": "^4.0.15",
     "typescript": "^5.8.2"
   }
 }
