@@ -1,9 +1,9 @@
----
-layout: '../../layouts/Markdown.astro'
-title: "Work-Life Balance Is a Myth"
-date: "2025-02-17 07:47 +0100"
-summary: "You don't have to choose one if you can have both"
----
++++
+layout = '../../layouts/Markdown.astro'
+title = "Work-Life Balance Is a Myth"
+date = "2025-02-17 07:47 +0100"
+summary = "You don't have to choose one if you can have both"
++++
 
 It's noticeable how I improve every day, yet I still wish I were doing more. I'm really enjoying the gym lately. About two months ago, I had the idea to try working out at a gym instead of at home. I wasn't expecting it to be such a pleasant experience, I'd even call it addictive. Currently, I only work out on Mondays, Wednesdays, and Fridays, but I'm thinking I should start going every day. Recently, it's become clear that on days when I don't visit the gym in the morning, I'm far less productive, even though there's theoretically more time for work.
 
