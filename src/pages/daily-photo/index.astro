@@ -1,0 +1,47 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { Image } from "astro:assets";
+
+// Fetch all image files from the current directory
+const images = await Astro.glob("./*.{webp,jpg,jpeg,png}");
+
+// Sort images by filename number, descending (latest first)
+images.sort((a, b) => {
+  const numA = parseInt(a.default.src.split('/').pop()!.split('.')[0]);
+  const numB = parseInt(b.default.src.split('/').pop()!.split('.')[0]);
+  return numB - numA; // Sort descending
+});
+---
+
+<Layout title="axseem's gallery">
+    <div class="w-full flex flex-col gap-3">
+        <div
+            class="text-neutral-400 py-1 flex gap-1 border-b border-neutral-800 flex-wrap sticky top-0 bg-black z-10"
+        >
+            <a href="/">axseem</a>
+            <span> / </span>
+            <a href="/blog">blog</a>
+            <a href="/diary">diary</a>
+            <a href="/gallery">gallery</a>
+            <a href="/projects">projects</a>
+        </div>
+        <h1>Daily Photo Gallery</h1>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-0.5">
+            {
+                images.map((image) => {
+                    const filename = image.default.src.split("/").pop()!; // Extract filename
+                    return (
+                    <a href={`/daily-photo/${filename}`} class="relative group">
+                        <Image
+                            src={image.default}
+                            class="border-none rounded-none object-cover aspect-square"
+                            alt={`Gallery image ${filename}`}
+                            widths={[200, 400]}
+                            sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
+                        />
+                    </a>
+                )})
+            }
+        </div>
+    </div>
+</Layout>
