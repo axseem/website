@@ -18,7 +18,7 @@ images.sort((a, b) => {
         {
             images.map((image) => (
                 
-                <a href={"daily-photo/"+image.split("/").pop()?.split(".")[0] || ""} class="relative">
+                <a href={"/daily-photo/"+image.split("/").pop()?.split(".")[0] || ""} class="relative">
                     <img
                         src={image}
                         class="rounded object-cover aspect-square"

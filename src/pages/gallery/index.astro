@@ -11,7 +11,7 @@ const sortedGroups = await getGroupedImages();
         {
             sortedGroups.map(([prefix, images]) => (
                 
-                <a href={"gallery/"+prefix} class="relative">
+                <a href={"/gallery/"+prefix} class="relative">
                     {images.length > 1 && (
                         <div class="bg-black absolute bottom-1 right-1 py-4 px-2">
                             <p class="leading-0 font-semibold">{images.length}</p>
