@@ -2,11 +2,24 @@
 
 @theme {
   --font-sans: 'Inter Variable', 'sans-serif';
+
+  --color-gray-0: hsl(0deg,0%,7%,100%);
+  --color-gray-1: #292929;
+  --color-gray-2: #CCCCCC;
+  --color-gray-3: #F5F5F5;
+
+  --color-red-0: #471F25;
+  --color-red-1: #862D34;
+
+  --color-green-0: #1F473A;
+  --color-green-1: #2A6F47;
+
+  --color-blue-0: #2E293D;
+  --color-blue-1: #393F84;
 }
 
 @layer base {
   :root {
-    --spacing: 1rem;
     color-scheme: dark;
   }
 
@@ -27,10 +40,6 @@
 
   a {
     text-decoration-line: underline;
-  }
-
-  img {
-    @apply rounded-2xl border border-neutral-800;
   }
 
   code {

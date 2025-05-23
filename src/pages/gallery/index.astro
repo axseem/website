@@ -7,36 +7,23 @@ const sortedGroups = await getGroupedImages();
 ---
 
 <Layout title="axseem's gallery">
-    <div class="w-full flex flex-col gap-3">
-        <div
-            class="text-neutral-400 py-1 flex gap-1 border-b border-neutral-800 flex-wrap sticky top-0 bg-black z-10"
-        >
-            <a href="/">axseem</a>
-            <span> / </span>
-            <a href="/blog">blog</a>
-            <a href="/diary">diary</a>
-            <span class="text-neutral-50">gallery</span>
-            <a href="/projects">projects</a>
-        </div>
-        <h1>Gallery</h1>
-        <div class="grid grid-cols-3 gap-0.5">
-            {
-                sortedGroups.map(([prefix, images]) => (
-                    
-                    <a href={"/gallery/"+prefix} class="relative">
-                        {images.length > 1 && (
-                            <div class="bg-black absolute bottom-0.25 right-0.25 py-1 px-0.5">
-                                <p class="leading-0 font-semibold">{images.length}</p>
-                            </div>
-                        )}
-                        <img
-                            src={images[0]}
-                            class="border-none rounded-none object-cover aspect-square"
-                            alt={`Thumbnail ${prefix}`}
-                        />
-                    </a>
-                ))
-            }
-        </div>
+    <div class="grid grid-cols-3 gap-1">
+        {
+            sortedGroups.map(([prefix, images]) => (
+                
+                <a href={"gallery/"+prefix} class="relative">
+                    {images.length > 1 && (
+                        <div class="bg-black absolute bottom-1 right-1 py-4 px-2">
+                            <p class="leading-0 font-semibold">{images.length}</p>
+                        </div>
+                    )}
+                    <img
+                        src={images[0]}
+                        class="rounded object-cover aspect-square"
+                        alt={`Thumbnail ${prefix}`}
+                    />
+                </a>
+            ))
+        }
     </div>
 </Layout>

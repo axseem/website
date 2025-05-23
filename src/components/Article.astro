@@ -15,7 +15,7 @@ const { title, date, summary, minutesRead, url, truncate, mood } = Astro.props;
 
 <a
     href={url}
-    class="flex flex-col no-underline hover:translate-x-0.5 border-white transition py-1 w-full"
+    class="flex flex-col no-underline py-4 px-5 w-full border-2 border-gray-1 hover:border-gray-2 hover:bg-gray-1 rounded-xl"
 >
     <h3
         style={truncate
@@ -32,7 +32,7 @@ const { title, date, summary, minutesRead, url, truncate, mood } = Astro.props;
     >
         <em>{summary}</em>
     </p>
-    <div class="flex gap-0.5 items-center">
+    <div class="flex gap-2 items-center">
         <p class="text-neutral-500">
             {new Date(date).toDateString().slice(4)} - {minutesRead}
         </p>

@@ -1,7 +1,6 @@
 ---
 import "../styles/global.css";
 import "@fontsource-variable/inter";
-import Nav from "../components/Nav.astro";
 const { title = "@axseem" } = Astro.props;
 ---
 
@@ -15,11 +14,10 @@ const { title = "@axseem" } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body
-		class="bg-gray-0 text-gray-3 flex flex-col md:flex-row justify-center items-start overflow-y-scroll w-full px-1 sm:px-2"
+		class="bg-black text-neutral-200 flex flex-col items-center min-h-screen overflow-y-scroll px-1 sm:px-2 pb-12"
 	>
-	<Nav/>
-	<main class="flex flex-col w-full max-w-196 h-full md:p-8 p-4">
+	<div class="flex flex-col w-full max-w-48 h-full">
 		<slot />
-	</main>
+	</div>
 	</body>
 </html>

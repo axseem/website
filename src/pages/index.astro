@@ -1,10 +1,12 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Post from "../components/Article.astro";
+import Article from "../components/Article.astro";
 import type { Props as ArticleProps } from "../components/Article.astro";
 import { importArticles } from "../lib/importArticles";
 import profilePicture from "./profile.webp";
-
+import type { Props as ProjectProps } from "../components/Project.astro";
+import flakeImage from "./projects/anywhy-flake.jpg";
+import Project from "../components/Project.astro";
 import "@fontsource-variable/inter";
 
 const blog = (
@@ -25,41 +27,38 @@ const diary = (
     "diary",
   )
 ).slice(0, 2);
+
+const projects: ProjectProps[] = [
+    {
+        title: "Anywhy Flake",
+        description: "Ultra-thin minimalistic ergonomic keyboard with 40/46/58 keys",
+        image: flakeImage,
+        tags: ["Hardware", "KiCad", "FreeCAD"],
+        url: "https://github.com/anywhy-io/flake",
+    }
+]
 ---
 
 <Layout title="axseem's website">
-  
-    <div
-      class="text-neutral-400 py-1 flex gap-1 border-b border-neutral-800 flex-wrap sticky top-0 bg-black z-10"
-    >
-      <span class="text-neutral-50">axseem</span>
-      <span> / </span>
-      <a href="/blog">blog</a>
-      <a href="/diary">diary</a>
-      <a href="/gallery">gallery</a>
-      <a href="/projects">projects</a>
-    </div>
-    <div class="flex flex-col justify-center items-center w-full h-full gap-4">
+    <div class="flex flex-col justify-center items-center w-full h-full gap-16">
       <div
-        class="flex flex-col sm:flex-row gap-1 sm:gap-2 border-neutral-800 sm:py-2 py-4 border-b sm:items-center"
+        class="flex flex-col gap-8"
       >
-      <div class="max-w-12 sm:my-2 w-8 sm:w-full h-full overflow-hidden">
         <img
           src={profilePicture.src}
           alt="profile picture"
-          class="aspect-square border-none rounded-none w-full h-full"
+          class="aspect-square border-none rounded max-w-36 w-24 sm:w-full h-full"
         />
-      </div>
 
-        <div class="flex flex-col gap-1 w-full">
+        <div class="flex flex-col gap-4 w-full">
           <div class="flex flex-col">
-            <h1 class="text-neutral-50">Hi, I'm Max</h1>
-            <p class="text-neutral-300">
+            <h1>Hi, I'm Max</h1>
+            <p class="font-light">
               Also known as @axseem or Maksym Bohdan. Here you will find my
               thoughts, projects, ideas and much more.
             </p>
           </div>
-          <div class="flex gap-1 gap-y-0 text-neutral-400 flex-wrap">
+          <div class="flex gap-4 gap-y-0 text-gray-2 flex-wrap">
             <a target="_blank" href="mailto:max@axseem.me">Email</a>
             <a target="_blank" href="https://github.com/axseem">GitHub</a>
             <a target="_blank" href="https://instagram.com/axseem">Instagram</a>
@@ -71,39 +70,33 @@ const diary = (
         </div>
       </div>
 
-
-        <section class="flex flex-col gap-1 w-full">
-          <h2>Diary Records</h2>
-          <ul
-            class="flex flex-col divide-y divide-neutral-800 border-y border-neutral-800"
-          >
-            {
-              diary.map((post) => (
-                <li>
-                  <Post {...post} truncate={true}/>
-                </li>
+      <section class="flex flex-col gap-4 w-full">
+        <a href="projects" class="font-medium text-xl">My Projects &#62;</a>
+        <ul
+          class="flex flex-col"
+        >
+          {
+              projects.map((project) => (
+                  <li>
+                      <Project {...project}/>
+                  </li>
               ))
-            }
-          </ul>
-          <a class="text-neutral-400" href="diary">...more</a>
-        </section>
-  
-        <section class="flex flex-col gap-1 w-full">
-          <h2>Blog Posts</h2>
-          <ul
-            class="flex flex-col divide-y divide-neutral-800 border-y border-neutral-800"
-          >
-            {
-              blog.map((post) => (
-                <li>
-                  <Post {...post} truncate={true}/>
-                </li>
-              ))
-            }
-          </ul>
-          <a class="text-neutral-400" href="blog">...more</a>
-        </section>
+          }
+      </ul>
+      </section>
 
-
-
+      <section class="flex flex-col gap-4 w-full">
+        <a href="blog" class="font-medium text-xl">Recent Posts &#62;</a>
+        <ul
+          class="flex flex-col gap-4"
+        >
+          {
+            blog.map((post) => (
+              <li>
+                <Article {...post} truncate={true}/>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
 </Layout>

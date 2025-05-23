@@ -1,14 +1,22 @@
-interface ImageModule {
+export interface ImageModule {
     default: { src: string };
 }
 
 const delimiter = "-"
 
-export async function getGroupedImages() {
-    const imageModules = import.meta.glob<ImageModule>("../pages/gallery/*.jpg");
+export async function getImages(imageModules: Record<string, () => Promise<ImageModule>>) {
     const imageFiles = await Promise.all(
         Object.values(imageModules).map(async (mod) => (await mod()).default.src),
     );
+    imageFiles.map((file) => {
+        file = file.split("/").pop() || "" ;
+    });
+    
+    return imageFiles
+}
+
+export async function getGroupedImages() {
+    const imageFiles = await getImages(import.meta.glob<ImageModule>("../pages/gallery/*.jpg"))
 
     const groupedImages: Record<string, string[]> = {};
     imageFiles.forEach((file) => {
@@ -26,8 +34,7 @@ export async function getGroupedImages() {
     });
 }
 
-export async function getImagesByPrefix(prefix: string) {
-    const imageModules = import.meta.glob<ImageModule>("../pages/gallery/*.jpg", { eager: true });
+export async function getImagesByPrefix(imageModules: Record<string, ImageModule>, prefix: string) {
     return Object.entries(imageModules)
         .filter(([path]) => path.includes(`/${prefix}${delimiter}`))
         .map(([_, module]) => module.default.src);
