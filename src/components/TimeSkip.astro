@@ -1,0 +1,13 @@
+---
+export interface Props {
+    time: string
+}
+
+const {time} = Astro.props;
+---
+
+<div class="flex items-center gap-8">
+    <div class="border-t-2 border-gray-1 border- w-full"/>
+    <span class="text-gray-2 select-none leading-4 italic">{time}</span>
+    <div class="border-t-2 border-gray-1 w-full"/>
+</div>

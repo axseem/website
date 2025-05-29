@@ -1,6 +1,5 @@
 ---
 import Layout from "./Layout.astro";
-import MoodBadge from "../components/MoodBadge.astro";
 import { type Frontmatter } from "../lib/diary";
 
 const { frontmatter } = Astro.props;
@@ -28,7 +27,6 @@ const { title, date, minutesRead, mood }: Frontmatter = frontmatter;
 				<p class="text-neutral-400">
 					{date} - {minutesRead}
 				</p>
-				{mood && <MoodBadge mood={mood} />}
 			</div>
 		</div>
 		<div class="flex flex-col gap-6">

@@ -15,10 +15,10 @@ const { title = "@axseem" } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body
-		class="bg-gray-0 text-gray-3 flex flex-col md:flex-row justify-center items-start overflow-y-scroll w-full px-1 sm:px-2"
+		class="bg-gray-0 text-gray-3 flex flex-col md:flex-row justify-center items-start overflow-y-scroll w-full"
 	>
 	<Nav/>
-	<main class="flex flex-col w-full max-w-196 h-full md:p-8 p-4">
+	<main class="flex flex-col gap-4 w-full max-w-196 h-full md:p-8 p-4">
 		<slot />
 	</main>
 	</body>

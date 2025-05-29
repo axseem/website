@@ -1,5 +1,4 @@
 ---
-import MoodBadge from "./MoodBadge.astro";
 export interface Props {
     title: string;
     date: string;
@@ -36,6 +35,5 @@ const { title, date, summary, minutesRead, url, truncate, mood } = Astro.props;
         <p class="text-neutral-500">
             {new Date(date).toDateString().slice(4)} - {minutesRead}
         </p>
-        {mood && <MoodBadge mood={mood} />}
     </div>
 </a>

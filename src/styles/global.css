@@ -11,11 +11,17 @@
   --color-red-0: #471F25;
   --color-red-1: #862D34;
 
+  --color-violet-0: #36293D;
+  --color-violet-1: #5E3984;
+
   --color-green-0: #1F473A;
   --color-green-1: #2A6F47;
 
   --color-blue-0: #2E293D;
   --color-blue-1: #393F84;
+
+  --color-cyan-0: #293A3D;
+  --color-cyan-1: #337278;
 }
 
 @layer base {

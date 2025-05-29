@@ -4,6 +4,8 @@ import tailwindcss from '@tailwindcss/vite';
 import { remarkReadingTime } from './remark-reading-time.mjs';
 import { targetBlank } from './targetBlank';
 
+import mdx from '@astrojs/mdx';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://axseem.me',
@@ -56,4 +58,6 @@ export default defineConfig({
       status: 301,
     },
   },
+
+  integrations: [mdx()],
 });

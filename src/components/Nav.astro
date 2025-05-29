@@ -22,10 +22,10 @@ const normalizePath = (path: string): string => {
 const normalizedCurrentPathname = normalizePath(currentPathname);
 ---
 
-<nav class="md:p-8 p-2 flex md:flex-col place-content-between w-full md:w-80 gap-2 md:gap-8 sticky top-0 left-0 z-10 bg-gray-0 border-b border-gray-1 md:border-none">
+<nav class="md:p-8 p-4 flex md:flex-col place-content-between w-full md:w-80 gap-2 md:gap-8 sticky top-0 left-0 z-10 bg-gray-0 border-b border-gray-1 md:border-none">
     <div class="flex items-center">
-        <a href="/" class="hover-header">
-            <ShuffleText  
+        <a href="/" class="w-full md:text-3xl no-underline text-nowrap">
+            <!-- <ShuffleText  
                 initialText="axseem"
                 texts={["Max", "Maksym", "axseem"]}
                 href="/"
@@ -36,7 +36,8 @@ const normalizedCurrentPathname = normalizePath(currentPathname);
                 cursorChar="|"
                 cursorBlinkSpeed={500}
                 class={"w-full md:text-3xl no-underline text-nowrap"}
-            />
+            /> -->
+            axseem
         </a>
         <!-- <button
             class="text-gray-2 hover:bg-gray-1 aspect-square w-8 h-8 rounded flex justify-center items-center"
