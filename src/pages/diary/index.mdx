@@ -5,6 +5,12 @@ layout = '../../layouts/Layout.astro'
 import DiaryRecord from "../../components/DiaryRecord.astro"
 import TimeSkip from "../../components/TimeSkip.astro"
 
+<DiaryRecord date="2025-06-19 20:19 +0200" mood={3}>
+I came up with a cool project today. I was meant to be updating my website, specifically the gallery section. It's unoptimized and could be much more convenient to use. One of the main features that would improve the user experience is a tag system, so every image can have several tags that people can use to sort and group them into albums. I realized that to do this, I'd obviously need to store all the relationships between images and tags somewhere. I decided to do that in a separate file, and after considering JSON, TOML, or a custom format, I settled on JSON.
+
+But during that process, I realized what a killer feature this would be for my whole system. Using tags instead of directories could solve a bunch of my file system organization problems. At that moment, I completely switched from updating my website to designing a portable, automatically manageable tag system that would seamlessly integrate into the UNIX ecosystem. It's actually turned out to be a pretty tough problem, but I think I've found a good enough solution that, with some additional tweaking, should work absolutely great.
+</DiaryRecord>
+
 <DiaryRecord date="2025-06-18 7:46 +0200" mood={4}>
 I'm in love with Zig. I spent my stream yesterday writing a 2D rendering system for a game engine, and the experience was incredible. It's gotten to the point where I just want to rush through my other tasks so I can get back to writing this library. Zig is filled with small, seemingly unusual design decisions that, it turns out, are intentionally crafted for the best possible programming experience.
 
