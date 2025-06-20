@@ -1,13 +1,9 @@
 ---
-import ShuffleText from "./ShuffleText.astro";
-
-// src/components/Header.astro
 const navLinks = [
   { text: 'Projects', href: '/projects' },
   { text: 'Blog', href: '/blog' },
-  { text: 'Gallery', href: '/gallery' },
+  { text: 'Gallery', href: '/gallery/tag/favorite' },
   { text: 'Diary', href: '/diary' },
-  { text: 'Daily Photo', href: '/daily-photo' },
 ];
 
 const currentPathname = Astro.url.pathname;
@@ -25,41 +21,14 @@ const normalizedCurrentPathname = normalizePath(currentPathname);
 <nav class="md:p-8 p-4 flex md:flex-col place-content-between w-full md:w-80 gap-2 md:gap-8 sticky top-0 left-0 z-10 bg-gray-0 border-b border-gray-1 md:border-none">
     <div class="flex items-center">
         <a href="/" class="w-full md:text-3xl no-underline text-nowrap">
-            <!-- <ShuffleText  
-                initialText="axseem"
-                texts={["Max", "Maksym", "axseem"]}
-                href="/"
-                class:list={["my-username-link"]}
-                typingSpeed={100}
-                erasingSpeed={100}
-                TextDuration={2000}
-                cursorChar="|"
-                cursorBlinkSpeed={500}
-                class={"w-full md:text-3xl no-underline text-nowrap"}
-            /> -->
             axseem
         </a>
-        <!-- <button
-            class="text-gray-2 hover:bg-gray-1 aspect-square w-8 h-8 rounded flex justify-center items-center"
-        >
-            <svg
-                width="22"
-                height="22"
-                viewBox="0 0 22 22"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <path
-                    d="M11 14C11.8333 14 12.5417 13.7083 13.125 13.125C13.7083 12.5417 14 11.8333 14 11C14 10.1667 13.7083 9.45833 13.125 8.875C12.5417 8.29167 11.8333 8 11 8C10.1667 8 9.45833 8.29167 8.875 8.875C8.29167 9.45833 8 10.1667 8 11C8 11.8333 8.29167 12.5417 8.875 13.125C9.45833 13.7083 10.1667 14 11 14ZM11 16C9.61667 16 8.4375 15.5125 7.4625 14.5375C6.4875 13.5625 6 12.3833 6 11C6 9.61667 6.4875 8.4375 7.4625 7.4625C8.4375 6.4875 9.61667 6 11 6C12.3833 6 13.5625 6.4875 14.5375 7.4625C15.5125 8.4375 16 9.61667 16 11C16 12.3833 15.5125 13.5625 14.5375 14.5375C13.5625 15.5125 12.3833 16 11 16ZM4 12H0V10H4V12ZM22 12H18V10H22V12ZM10 4V0H12V4H10ZM10 22V18H12V22H10ZM5.4 6.75L2.875 4.325L4.3 2.85L6.7 5.35L5.4 6.75ZM17.7 19.15L15.275 16.625L16.6 15.25L19.125 17.675L17.7 19.15ZM15.25 5.4L17.675 2.875L19.15 4.3L16.65 6.7L15.25 5.4ZM2.85 17.7L5.375 15.275L6.75 16.6L4.325 19.125L2.85 17.7Z"
-                    fill="#CCCCCC"></path>
-            </svg>
-        </button> -->
     </div>
     <div class="border-gray-1 border-b-2"></div>
     <ul class="flex md:flex-col flex-wrap md:gap-3 items-center md:items-baseline gap-2">
 		<base target="_self" />
         {navLinks.map(link => {
-          const isActive = normalizePath(link.href) === normalizedCurrentPathname;
+          const isActive = normalizePath(link.href) === normalizedCurrentPathname || (link.href !== '/' && normalizedCurrentPathname.startsWith(normalizePath(link.href)));
           const linkClasses = [
             "md:text-2xl text-sm w-full h-full no-underline text-nowrap",
           ];

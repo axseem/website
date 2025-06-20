@@ -1,21 +1,32 @@
 ---
 import { Image } from "astro:assets";
-import Layout from "../../layouts/Layout.astro";
-import { getGalleryImages, getAllTags } from "../../lib/gallery";
+import Layout from "../../../layouts/Layout.astro";
+import { getImagesByTag, getAllTags } from "../../../lib/gallery";
 
-const images = await getGalleryImages();
-const tags = await getAllTags();
+export async function getStaticPaths() {
+  const tags = await getAllTags();
+  return tags.map((tag) => ({
+    params: { tag },
+  }));
+}
+
+const { tag } = Astro.params;
+const images = await getImagesByTag(tag!);
+const allTags = await getAllTags();
 ---
 
-<Layout title="axseem's gallery">
+<Layout title={`Gallery - #${tag}`}>
     <div class="flex flex-col gap-4">
         <div class="flex flex-wrap gap-2">
-            <a href="/gallery" class="bg-gray-3 text-gray-0 py-1 px-3 rounded-md no-underline">
+            <a href="/gallery" class="bg-gray-1 hover:bg-gray-2 hover:text-gray-0 py-1 px-3 rounded-md no-underline">
                 <span class="text-sm font-medium">All</span>
             </a>
-            {tags.map(tag => (
-                <a href={`/gallery/tag/${tag}`} class="bg-gray-1 hover:bg-gray-2 hover:text-gray-0 py-1 px-3 rounded-md no-underline">
-                    <span class="text-sm font-medium capitalize">{tag}</span>
+            {allTags.map(t => (
+                <a href={`/gallery/tag/${t}`} class:list={[
+                    "py-1 px-3 rounded-md no-underline",
+                    t === tag ? "bg-gray-3 text-gray-0" : "bg-gray-1 hover:bg-gray-2 hover:text-gray-0"
+                ]}>
+                    <span class="text-sm font-medium capitalize">{t}</span>
                 </a>
             ))}
         </div>
@@ -28,7 +39,7 @@ const tags = await getAllTags();
                             src={imageSrc}
                             class="rounded object-cover aspect-square"
                             alt={`Photo taken on ${image.date.toDateString()}`}
-                            widths={[128, 256]}
+                            widths={[256, 512]}
                             sizes="(max-width: 640px) 33vw, (max-width: 768px) 25vw, 20vw"
                         />
                     </a>

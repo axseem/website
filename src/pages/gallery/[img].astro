@@ -1,28 +1,34 @@
 ---
+import { Image } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
-import { getImagesByPrefix, getGroupedImages, type ImageModule } from "../../lib/importImages";
+import { getGalleryImages, type GalleryImage } from "../../lib/gallery";
 
 export async function getStaticPaths() {
-  const groupedImages = await getGroupedImages();
-  return groupedImages.map(([prefix]) => ({
-    params: { img: prefix },
+  const images = await getGalleryImages();
+  return images.map((image) => ({
+    params: { img: image.id }, 
+    props: { image }
   }));
 }
 
-const { img } = Astro.params;
-const imageFiles = await getImagesByPrefix(import.meta.glob<ImageModule>("./*.jpg", { eager: true }), img);
+const { image } = Astro.props as { image: GalleryImage };
+const { default: imageSrc } = await image.module();
 ---
 
-<Layout title={img}>
-    <div class="flex flex-col gap-1 sm:px-4 items-center">
-      {
-        imageFiles.map((image) => (
-          <img
-            src={image}
-            class="max-h-[80vh] max-w-full"
-            alt={image}
-          />
-        ))
-      }
+<Layout title={`Photo from ${image.date.toDateString()}`}>
+  <div class="flex flex-col gap-4 items-start">
+    <a href="/gallery" class="text-gray-2 self-start">← Back to gallery</a>
+    <Image
+      src={imageSrc}
+      class="max-h-[85vh] max-w-full rounded-lg"
+      alt={`Full size photo from ${image.date.toDateString()}`}
+    />
+    <div class="flex gap-2">
+        {image.tags.map(tag => (
+            <a href={`/gallery/tag/${tag}`} class="bg-gray-1 hover:bg-gray-2 hover:text-gray-0 py-1 px-3 rounded-md no-underline">
+                <span class="text-sm font-medium capitalize">{tag}</span>
+            </a>
+        ))}
+    </div>
   </div>
 </Layout>
