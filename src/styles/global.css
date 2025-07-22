@@ -3,10 +3,10 @@
 @theme {
   --font-sans: 'Inter Variable', 'sans-serif';
 
-  --color-gray-0: hsl(0deg,0%,7%,100%);
-  --color-gray-1: #292929;
-  --color-gray-2: #CCCCCC;
-  --color-gray-3: #F5F5F5;
+  --color-gray-0: black;
+  --color-gray-1: hsl(0deg, 0%, 12%);
+  --color-gray-2: hsl(0deg, 0%, 85%);
+  --color-gray-3: white;
 
   --color-red-0: #471F25;
   --color-red-1: #862D34;
