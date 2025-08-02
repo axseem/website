@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/Base.astro';
+import PageLayout from '../layouts/Page.astro';
+
+import flakeImage from "../content/projects/anywhy-flake.jpg";
+import type { Props as ProjectProps } from "../components/Project.astro";
+import Project from "../components/Project.astro";
+
+
+const projects: ProjectProps[] = [
+    {
+        title: "Anywhy Flake",
+        description: "Ultra-thin minimalistic ergonomic keyboard with 40/46/58 keys",
+        image: flakeImage,
+        tags: ["Hardware", "KiCad", "FreeCAD"],
+        url: "https://github.com/anywhy-io/flake",
+    }
+]
+---
+<BaseLayout title="axseem's projects">
+  <PageLayout>
+    <h1 class="mono"># projects</h1>
+    <ul>
+      {
+        projects.map((project) => (
+          <li>
+            <Project {...project}/>
+          </li>
+        ))
+      }
+    </ul>
+  </PageLayout>
+</BaseLayout>
+
+<style>
+ul {
+  list-style-type: none;
+}
+li {
+  margin: 0;
+}
+</style>

@@ -1,0 +1,27 @@
+---
+import { getEntry, render } from 'astro:content';
+import BaseLayout from '../layouts/Base.astro';
+import PageLayout from '../layouts/Page.astro';
+
+const journalEntry = await getEntry('journal', 'journal');
+
+if (!journalEntry) {
+  throw new Error("Could not find the journal entry. Make sure 'src/content/journal/journal.mdx' exists.");
+}
+
+const { Content } = await render(journalEntry);
+---
+<BaseLayout title="axseem's journal">
+  <PageLayout>
+    <div>
+      <h1 class="mono"># journal</h1>
+      <Content />
+    </div>
+  </PageLayout>
+</BaseLayout>
+
+<style>
+:global(.page-content > div) {
+  margin-bottom: 2rem;
+}
+</style>

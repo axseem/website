@@ -1,25 +1,47 @@
 ---
-import Layout from "../../layouts/Layout.astro";
-import Post from "../../components/Article.astro";
-import type { Props as ArticleProps } from "../../components/Article.astro";
-import { importArticles } from "../../lib/importArticles";
+import BaseLayout from '../../layouts/Base.astro';
+import PageLayout from '../../layouts/Page.astro';
 
-const blog = await importArticles(
-    import.meta.glob<{ frontmatter: ArticleProps }>("./*.md"),
-    "blog",
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+const sortedPosts = allPosts.sort(
+  (a: CollectionEntry<'blog'>, b: CollectionEntry<'blog'>) => b.data.date.valueOf() - a.data.date.valueOf()
 );
 ---
-
-<Layout title="axseem's blog">
-    <ul
-        class="flex flex-col gap-4"
-    >
-        {
-            blog.map((post) => (
-                <li>
-                    <Post {...post} />
-                </li>
-            ))
-        }
+<BaseLayout title="axseem's blog">
+  <PageLayout>
+    <h1 class="mono"># blog</h1>
+    <ul>
+      {sortedPosts.map((post: CollectionEntry<'blog'>) => (
+        <li>
+          <a href={`/blog/${post.id}`}>
+            <h2 class="mono">{post.data.title}</h2>
+          <p class="muted mono">{post.data.date.toDateString().slice(4)}</p>
+          </a>
+        </li>
+      ))}
     </ul>
-</Layout>
+  </PageLayout>
+</BaseLayout>
+
+<style>
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  li a {
+    text-decoration: none;
+    display: block;
+  }
+  li a:hover h2 {
+    text-decoration: underline;
+  }
+  h2, li, p {
+    margin: 0;
+  }
+</style>

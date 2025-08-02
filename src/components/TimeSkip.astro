@@ -6,8 +6,21 @@ export interface Props {
 const {time} = Astro.props;
 ---
 
-<div class="flex items-center gap-8">
-    <div class="border-t-2 border-gray-1 border- w-full"/>
-    <span class="text-gray-2 select-none leading-4 italic">{time}</span>
-    <div class="border-t-2 border-gray-1 w-full"/>
+<div class="container">
+    <div class="line"/>
+    <span class="muted mono">{time}</span>
+    <div class="line"/>
 </div>
+
+<style>
+  .container{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .line {
+    border-top: dashed 2px var(--bd);
+    width: 100%;
+  }
+</style>

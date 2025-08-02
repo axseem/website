@@ -1,93 +1,82 @@
 ---
-import { Image } from "astro:assets";
-import Layout from "../layouts/Layout.astro";
-import Article from "../components/Article.astro";
-import type { Props as ArticleProps } from "../components/Article.astro";
-import { importArticles } from "../lib/importArticles";
-import profilePicture from "../assets/images/profile.jpg";
-import type { Props as ProjectProps } from "../components/Project.astro";
-import flakeImage from "../assets/images/anywhy-flake.jpg";
-import Project from "../components/Project.astro";
-import "@fontsource-variable/inter";
+import BaseLayout from '../layouts/Base.astro';
+// import { Image } from "astro:assets";
+// import profileImage from "../content/profile.jpg";
 
-const blog = (
-  await importArticles(
-    import.meta.glob<{ frontmatter: ArticleProps }>("./blog/*.md"),
-    "blog",
-  )
-).slice(0, 2);
-
-const projects: ProjectProps[] = [
-    {
-        title: "Anywhy Flake",
-        description: "Ultra-thin minimalistic ergonomic keyboard with 40/46/58 keys",
-        image: flakeImage,
-        tags: ["Hardware", "KiCad", "FreeCAD"],
-        url: "https://github.com/anywhy-io/flake",
-    }
-]
+const navLinks = [
+  // { href: "/about", label: "/about" },
+  { href: "/blog", label: "/blog" },
+  // { href: "/gallery", label: "/gallery" },
+  { href: "/journal", label: "/journal" },
+  { href: "/projects", label: "/projects" },
+];
 ---
-
-<Layout title="axseem's website">
-    <div class="flex flex-col justify-center items-center w-full h-full gap-16">
-      <div
-        class="flex flex-col gap-8"
-      >
-        <Image
-          src={profilePicture}
-          alt="profile picture"
-          class="aspect-square border-none rounded max-w-36 w-24 sm:w-full h-full"
-        />
-
-        <div class="flex flex-col gap-4 w-full">
-          <div class="flex flex-col">
-            <h1>Hi, I'm Max</h1>
-            <p class="font-light">
-              Also known as @axseem or Maksym Bohdan. Here you will find my
-              thoughts, projects, ideas and much more.
-            </p>
-          </div>
-          <div class="flex gap-4 gap-y-0 text-gray-2 flex-wrap">
-            <a target="_blank" href="mailto:max@axseem.me">Email</a>
-            <a target="_blank" href="https://discord.gg/mPdbchFAr4">Discord</a>
-            <a target="_blank" href="https://twitch.tv/axseem">Twitch</a>
-            <a target="_blank" href="https://t.me/axseem">Telegram</a>
-            <a target="_blank" href="https://github.com/axseem">GitHub</a>
-            <a target="_blank" href="https://www.youtube.com/@axseem">YouTube</a>
-            <a target="_blank" href="https://reddit.com/u/axseem">Reddit</a>
-            <a target="_blank" href="https://instagram.com/axseem">Instagram</a>
-            <a target="_blank" href="https://x.com/axseemm">X/Twitter</a>
-          </div>
+<BaseLayout title="axseem">
+  <div class="page">
+    <main class="mono">
+      <header>
+      <!-- <Image src={profileImage} alt="axseem's profile picture" class="avatar"/> -->
+        <div class="greeting">
+          <h1>Hey! I'm Max</h1>
+          <p class="muted thin">also known as @axseem or Maksym&nbspBohdan</p>
         </div>
-      </div>
+      </header>
+      <hr />
+      <nav>
+        {navLinks.map(link => <a href={link.href}>{link.label}</a>)}
+      </nav>
+    </main>
+  </div>
+</BaseLayout>
 
-      <section class="flex flex-col gap-4 w-full">
-        <a href="/projects" class="font-medium text-xl no-underline">My Projects ></a>
-        <ul
-          class="flex flex-col"
-        >
-          {
-              projects.map((project) => (
-                  <li>
-                      <Project {...project}/>
-                  </li>
-              ))
-          }
-      </ul>
-      </section>
-
-      <section class="flex flex-col gap-4 w-full">
-        <a href="/blog" class="font-medium text-xl no-underline">Recent Posts ></a>
-        <ul
-          class="flex flex-col gap-4"
-        >
-          {
-            blog.map((post) => (
-              <li>
-                <Article {...post} truncate={true}/>
-              </li>
-            ))
-          }
-        </ul>
-      </section>
-</Layout>
+<style>
+  .page {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  h1, p {
+    margin: 0;
+  }
+  .avatar {
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--bg-1);
+    flex-shrink: 0;
+  }
+  .greeting {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.25rem;
+  }
+  @media (width < 48rem) {
+    main {
+      line-height: inherit;
+    }
+    header {
+      flex-direction: column;
+      align-items: start;
+    }
+    nav {
+      flex-direction: column;
+    }
+  }
+</style>

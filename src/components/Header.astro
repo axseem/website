@@ -1,0 +1,60 @@
+---
+const navLinks = [
+  // { href: "/about", label: "/about" },
+  { href: "/blog", label: "/blog" },
+  // { href: "/gallery", label: "/gallery" },
+  { href: "/journal", label: "/journal" },
+  { href: "/projects", label: "/projects" },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="mono">
+  <a href="/" class="home">axseem</a>
+  <nav>
+    {navLinks.map(link => (
+      <a href={link.href} class:list={[
+        { muted: currentPath !== link.href }
+      ]}>
+        {link.label}
+      </a>
+    ))}
+  </nav>
+</header>
+
+<style>
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
+    line-height: 1;
+  }
+  .home {
+    font-size: 2rem;
+  }
+  nav {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.25rem;
+  }
+  @media (width < 64rem) {
+    nav {
+      gap: 1rem;
+      font-size: 1rem;
+    }
+    .home {
+      font-size: 1.25rem;
+    }
+    header {
+      padding: 1.5rem 0;
+    }
+  }
+  @media (width < 40rem) {
+    nav {
+      display: none;
+    }
+  }
+</style>
