@@ -13,15 +13,7 @@ const { Content } = await render(journalEntry);
 ---
 <BaseLayout title="axseem's journal">
   <PageLayout>
-    <div>
-      <h1 class="mono"># journal</h1>
-      <Content />
-    </div>
+    <h1 class="mono"># journal</h1>
+    <Content />
   </PageLayout>
 </BaseLayout>
-
-<style>
-:global(.page-content > div) {
-  margin-bottom: 2rem;
-}
-</style>

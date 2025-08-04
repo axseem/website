@@ -1,0 +1,34 @@
+---
+export interface Props {
+  birthdate: string;
+}
+
+const { birthdate } = Astro.props;
+const formattedDate = new Date(birthdate).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+Born on {formattedDate}, I'm currently <span id="age-placeholder">(you'll have to do the math, as you've got no JS enabled 🙃)</span>.
+
+<script define:vars={{ birthdate }}>
+  function calculateAge(dateString) {
+    const birthDate = new Date(dateString);
+    const today = new Date();
+
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const thisYearsBirthday = new Date(today.getFullYear(), birthDate.getMonth(), birthDate.getDate());
+    if (today < thisYearsBirthday) {
+      age--;
+    }
+
+    return age;
+  }
+
+  const agePlaceholder = document.getElementById('age-placeholder');
+  const age = calculateAge(birthdate);
+  
+  agePlaceholder.textContent = `${age} years old`;
+</script>

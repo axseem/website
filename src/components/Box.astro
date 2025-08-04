@@ -1,0 +1,32 @@
+---
+interface Props {
+  label?: string;
+  ClassName?: string;
+  [key: string]: any;
+}
+
+const { label, className, labelColor, ...rest } = Astro.props;
+---
+
+<fieldset class:list={["mono", className]} {...rest}>
+  {label && 
+  <legend>{label}</legend>
+  }
+  <slot />
+</fieldset>
+
+<style>
+  fieldset {
+    --pad: 2ch;
+    border-width: 2px;
+    padding: var(--pad);
+    border-radius: var(--br);
+  }
+
+  legend {
+    padding: 0 0.5ch; 
+    margin: 0 0 -1ch -1.5ch; 
+    color: var(--bd-1);
+    user-select: none;
+  }
+</style>

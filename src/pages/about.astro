@@ -1,12 +1,19 @@
 ---
+import { getEntry, render } from 'astro:content';
 import BaseLayout from '../layouts/Base.astro';
 import PageLayout from '../layouts/Page.astro';
+
+const journalEntry = await getEntry('about', 'about');
+
+if (!journalEntry) {
+  throw new Error("Could not find the about entry. Make sure 'src/content/about/about.mdx' exists.");
+}
+
+const { Content } = await render(journalEntry);
 ---
 <BaseLayout title="about axseem">
   <PageLayout>
     <h1 class="mono"># about</h1>
-    <p>
-      Comming soon!
-    </p>
+    <Content />
   </PageLayout>
 </BaseLayout>

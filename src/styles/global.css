@@ -3,10 +3,15 @@
 
 :root {
   --bg: oklch(0% 0 0);
-  --bg-1: oklch(17% 0 0);
-  --bd: oklch(24% 0 0);
+  --bg-1: oklch(20% 0 0);
+
+  --bd: oklch(30% 0 0);
+  --bd-1: oklch(35% 0 0);
+
   --fg: oklch(100% 0 0);
-  --fg-1: oklch(56% 0 0);
+  --fg-1: oklch(60% 0 0);
+
+  --br: 0.25rem;
 
   background-color: var(--bg);
   color: var(--fg);
@@ -40,14 +45,15 @@ p {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   margin: 1rem 0 2rem 0;
   line-height: 1.1;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.75rem;
+  font-weight: 600;
   margin: 0.75rem 0 1.5rem 0;
   line-height: 1.2;
 }
@@ -96,6 +102,10 @@ pre,
   margin-bottom: 1rem;
 }
 
+img {
+  border-radius: var(--br);
+}
+
 table,
 tr,
 th,
@@ -135,18 +145,4 @@ ol {
 
 li {
   margin-left: 2ch;
-}
-
-@media (width < 48rem) {
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  h2 {
-    font-size: 1.75rem;
-  }
-
-  h3 {
-    font-size: 1.25rem;
-  }
 }
