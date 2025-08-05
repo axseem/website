@@ -14,7 +14,7 @@ const { date, mood, maxMood = 5, title, summary } = Astro.props;
 <section>
   <div class="meta mono muted">
     <span>{date}</span>
-    <span>{`mood:[${mood}/${maxMood}]`}</span>
+    {mood != 0 && <span>{`mood:[${mood}/${maxMood}]`}</span>}
   </div>
   <div>
     <slot/>
