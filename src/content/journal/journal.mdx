@@ -1,8 +1,20 @@
 import DiaryRecord from "../../components/DiaryRecord.astro"
 import TimeSkip from "../../components/TimeSkip.astro"
 
+<DiaryRecord date="2025-08-07 14:19 +0200" mood={4}>
+Several days ago, during my stream on Twitch, `@fares0x1` made a point that most people are not using LLMs to theirs full potential, which is pity considering how powerful current models are. I disagreed with him, arguing that there is no such thing as full potential and that everyone uses the tools available to them to the maximum extent possible in accordance with their needs and capabilities. But this discussion made me wonder if I personally extract the maximum value from my interactions with AI.
+
+So yesterday evening I've been chatting with Gemini. Usually I don't really like its communication style as it feels overly one-directional. If I have a problem, they offer a solution. If I say I'm not satisfied with the solution, they apologize and offer other options, and so on. In my experience that's true for all the latest LLMs I tried. So I thought, current models are far from dumb, they just might have this "assistant" personality opted-in to satisfy the needs of most users. What if I just state what behavior do I expect, making my goals clear. And so I came up with a basic prompt which I used to recursively improve itself. After several iterations I came up with the following system prompt.
+
+```
+Be my Socratic guide. Help me solve my own problems by asking questions and challenging my solutions. Never give the answer directly unless I follow up by asking for it.
+```
+
+I believe that adding to many constraints and details may "mentally overload" LLM, which then leads to a decrease in the quality of outputs. Because of that the goal to put the maximum clarity into minimum amount of words. The final prompt still feels a bit rough at the edges, as it assumes that everything I'll ask is a problem to solve, but even that way I found interactions with AI much more satisfying and productive that evening. In some sense instead of you prompting LLM, they start to prompt you on how to solve the problem you have. It feels oddly satisfying.
+</DiaryRecord>
+
 <DiaryRecord date="2025-08-06 12:41 +0200" mood={4}>
-I'm playing league today
+I'm playing League today
 </DiaryRecord>
 
 <DiaryRecord date="2025-08-05 22:31 +0200" mood={4}>
