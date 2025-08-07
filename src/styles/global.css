@@ -100,6 +100,7 @@ pre,
   border-radius: 0.5rem;
   border-width: 1px;
   margin-bottom: 1rem;
+  text-wrap: wrap;
 }
 
 img {
