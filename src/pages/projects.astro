@@ -3,6 +3,11 @@ import BaseLayout from '../layouts/Base.astro';
 import PageLayout from '../layouts/Page.astro';
 
 import flakeImage from "../content/projects/anywhy-flake.jpg";
+import axseemDotMeImage from "../content/projects/axseemdotme.png";
+import pixvImage from "../content/projects/pixv.svg";
+import dirmdImage from "../content/projects/dirmd.svg";
+import peakstreakImage from "../content/projects/peakstreak.png";
+
 import type { Props as ProjectProps } from "../components/Project.astro";
 import Project from "../components/Project.astro";
 
@@ -12,8 +17,36 @@ const projects: ProjectProps[] = [
         title: "Anywhy Flake",
         description: "Ultra-thin minimalistic ergonomic keyboard with 40/46/58 keys",
         image: flakeImage,
-        tags: ["Hardware", "KiCad", "FreeCAD"],
+        tags: ["KiCad", "FreeCAD", "Hardware"],
         url: "https://github.com/anywhy-io/flake",
+    },
+    {
+        title: "peakstreak",
+        description: "Track your habits and share the progress",
+        image: peakstreakImage,
+        tags: ["Go", "Typescript", "PostgreSQL", "Web"],
+        url: "https://github.com/axseem/dirmd",
+    },
+    {
+        title: "pixv",
+        description: "Pixel art to SVG vectorization tool",
+        image: pixvImage,
+        tags: ["Go", "Image Processing"],
+        url: "https://github.com/axseem/pixv",
+    },
+    {
+        title: "dirmd",
+        description: "Bundle directories into a single Markdown file",
+        image: dirmdImage,
+        tags: ["Go", "File Processing"],
+        url: "https://github.com/axseem/dirmd",
+    },
+    {
+        title: "axseem.me",
+        description: "Simple, powerful and stylish personal website (you're using it right now)",
+        image: axseemDotMeImage,
+        tags: ["Typescript", "Astro", "Web"],
+        url: "https://github.com/axseem/website",
     }
 ]
 ---
@@ -34,7 +67,10 @@ const projects: ProjectProps[] = [
 
 <style>
 ul {
-  list-style-type: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 li {
   margin: 0;

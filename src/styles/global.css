@@ -11,7 +11,7 @@
   --fg: oklch(100% 0 0);
   --fg-1: oklch(60% 0 0);
 
-  --br: 0.25rem;
+  --br: 0.5rem;
 
   background-color: var(--bg);
   color: var(--fg);
