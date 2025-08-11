@@ -9,7 +9,7 @@ const currentPath = Astro.url.pathname;
   <nav>
     {nav.map(link => (
       <a href={link} class:list={[
-        { muted: currentPath !== link }
+        { muted: !currentPath.startsWith(link) }
       ]}>
       <span class="muted">{link.at(0)}</span>{link.slice(1)}
       </a>
