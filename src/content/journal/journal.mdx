@@ -1,6 +1,10 @@
 import DiaryRecord from "../../components/DiaryRecord.astro"
 import TimeSkip from "../../components/TimeSkip.astro"
 
+<DiaryRecord date="2025-08-14 18:03 +0200" mood={4}>
+I tried everything I could, but I just can't setup NixOS VPS with remote build. Like, it sounds so cool that the state of the server is stored on my machine and I almost everything locally, but it seems like I can't simply do that. The problem is that I just can't execute any sudo commands via nixos-rebuild on remote server, but at the same time I don't want to add root user or no password sudo for my user in sake of additional security. That's so frustrating. No way nixos-rebuild can't just prompt me over ssh to enter the password so I could use my regular user to do everything. I really hope it's a skill issue, as this problem sound to hilarious to be true, but I spend HOURS searching for the answer on web and didn't find it. I guess I'll have to spend several hours more to figure this out (hopefully not).
+</DiaryRecord>
+
 <DiaryRecord date="2025-08-13 06:48 +0200" mood={3}>
 I woke up at 05:30 for the first time in past two weeks. I've done all the morning routines including breakfast, and it's still only 06:30 now. It feels good.
 </DiaryRecord>
