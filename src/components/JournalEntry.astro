@@ -30,7 +30,14 @@ const { date, mood, maxMood = 5, title, summary } = Astro.props;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    margin-bottom: 1rem;
+    border-top-width: 1px;
+    padding: 1.5rem 0 0.5rem 0;
+  }
+  @media (width < 64rem) {
+      section {
+        margin: 0 -1.5rem;
+        padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+      }
   }
 </style>
 
