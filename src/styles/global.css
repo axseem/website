@@ -2,67 +2,67 @@
 @import "@fontsource-variable/jetbrains-mono/wght-italic.css";
 
 :root {
-  --bg: oklch(15% 0 0);
-  --bg-1: oklch(25% 0 0);
+    --bg: oklch(0% 0 0);
+    --bg-1: oklch(20% 0 0);
 
-  --bd: oklch(25% 0 0);
-  --bd-1: oklch(35% 0 0);
+    --bd: oklch(20% 0 0);
+    --bd-1: oklch(35% 0 0);
 
-  --highlight: oklch(95% 0 0);
-  --fg: oklch(90% 0 0);
-  --fg-1: oklch(60% 0 0);
+    --highlight: oklch(95% 0 0);
+    --fg: oklch(90% 0 0);
+    --fg-1: oklch(60% 0 0);
 
-  --br: 0rem;
+    --br: 0rem;
 
-  background-color: var(--bg);
-  color: var(--fg);
+    background-color: var(--bg);
+    color: var(--fg);
 
-  border-color: var(--bd);
-  outline-color: var(--bd);
+    border-color: var(--bd);
+    outline-color: var(--bd);
 
-  font-size: 1rem;
-  font-family: Geist, Inter, sans-serif;
-  overflow-y: scroll;
+    font-size: 1rem;
+    font-family: Geist, Inter, sans-serif;
+    overflow-y: scroll;
 }
 
 * {
-  border-color: var(--bd);
+    border-color: var(--bd);
 }
 
 body {
-  line-height: 1.5;
+    line-height: 1.5;
 }
 
 .mono {
-  font-family: "JetBrains Mono Variable", monospace;
+    font-family: "JetBrains Mono Variable", monospace;
 }
 
 .thin {
-  font-weight: 200;
+    font-weight: 200;
 }
 
 p {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin: 1rem 0 2rem 0;
-  line-height: 1.1;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem 0 2rem 0;
+    line-height: 1.1;
 }
 
 h2 {
-  font-size: 1.75rem;
-  font-weight: 600;
-  margin: 0.75rem 0 1.5rem 0;
-  line-height: 1.2;
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin: 0.75rem 0 1.5rem 0;
+    line-height: 1.2;
 }
 
 h3 {
-  font-size: 1.5rem;
-  margin: 0.5rem 0 1rem 0;
-  line-height: 1.3;
+    font-size: 1.5rem;
+    margin: 0.5rem 0 1rem 0;
+    line-height: 1.3;
 }
 
 h1,
@@ -71,93 +71,93 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "JetBrains Mono Variable", monospace;
-  color: var(--highlight);
+    font-family: "JetBrains Mono Variable", monospace;
+    color: var(--highlight);
 }
 
 strong {
-  color: var(--highlight);
+    color: var(--highlight);
 }
 
 hr {
-  color: var(--bd);
-  border: solid 1px;
-  border-top-width: 1px;
+    color: var(--bd);
+    border: solid 1px;
+    border-top-width: 1px;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 p > a {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 a {
-  color: var(--highlight);
+    color: var(--highlight);
 }
 
 .muted {
-  color: var(--fg-1);
+    color: var(--fg-1);
 }
 
 p > code {
-  background-color: var(--bg-1);
-  padding: 0 0.25rem;
-  border-radius: 0.25rem;
-  border-width: 1px;
+    background-color: var(--bg-1);
+    padding: 0 0.25rem;
+    border-radius: 0.25rem;
+    border-width: 1px;
 }
 
 pre,
 .astro-code {
-  padding: 1rem;
-  border-radius: 0.5rem;
-  border-width: 1px;
-  margin-bottom: 1rem;
-  text-wrap: wrap;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    margin-bottom: 1rem;
+    text-wrap: wrap;
 }
 
 img {
-  border-radius: var(--br);
+    border-radius: var(--br);
 }
 
 table,
 tr,
 th,
 td {
-  border-collapse: collapse;
-  border-width: 1px;
+    border-collapse: collapse;
+    border-width: 1px;
 }
 
 table {
-  border-radius: 0.5rem;
-  outline: solid 1px var(--bd);
-  outline-offset: -1px;
-  overflow: hidden;
-  margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    outline: solid 1px var(--bd);
+    outline-offset: -1px;
+    overflow: hidden;
+    margin-bottom: 1rem;
 }
 
 th,
 td {
-  padding: 0.5em 1em;
+    padding: 0.5em 1em;
 }
 
 th {
-  background-color: var(--bg-1);
+    background-color: var(--bg-1);
 }
 
 ul {
-  list-style-type: circle;
-  list-style-position: inside;
-  margin-bottom: 1rem;
+    list-style-type: circle;
+    list-style-position: inside;
+    margin-bottom: 1rem;
 }
 
 ol {
-  list-style-type: decimal;
-  list-style-position: inside;
-  margin-bottom: 1rem;
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-bottom: 1rem;
 }
 
 li {
-  margin-left: 2ch;
+    margin-left: 2ch;
 }
