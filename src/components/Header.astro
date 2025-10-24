@@ -1,57 +1,64 @@
 ---
-const nav = [ "/about", "/journal", "/blog",  "/notes", "/gallery", "/projects"];
+const nav = ["/about", "/projects", "/journal", "/blog", "/gallery", "/pages"];
 
 const currentPath = Astro.url.pathname;
 ---
 
 <header class="mono">
-  <a href="/" class="home">axseem</a>
-  <nav>
-    {nav.map(link => (
-      <a href={link} class:list={[
-        { muted: !currentPath.startsWith(link) }
-      ]}>
-      <span class="muted">{link.at(0)}</span>{link.slice(1)}
-      </a>
-    ))}
-  </nav>
+    <a href="/" class="home">axseem</a>
+    <nav>
+        {
+            nav.map((link) => (
+                <a
+                    href={link}
+                    class:list={[
+                        { muted: !currentPath.startsWith(link) },
+                        "flex",
+                    ]}
+                >
+                    <span class="muted">{link.at(0)}</span>
+                    {link.slice(1)}
+                </a>
+            ))
+        }
+    </nav>
 </header>
 
 <style>
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 0;
-    width: 100%;
-    line-height: 1;
-  }
-  .slash {
-    color: var(--bd-1);
-  }
-  .home {
-    font-size: 2rem;
-  }
-  nav {
-    display: flex;
-    gap: 2rem;
-    font-size: 1.25rem;
-  }
-  @media (width < 64rem) {
-    nav {
-      gap: 1rem;
-      font-size: 1rem;
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0;
+        width: 100%;
+        line-height: 1;
+    }
+    .slash {
+        color: var(--bd-1);
     }
     .home {
-      font-size: 1.25rem;
+        font-size: 2rem;
     }
-    header {
-      padding: 1.5rem 0;
-    }
-  }
-  @media (width < 44rem) {
     nav {
-      display: none;
+        display: flex;
+        gap: 2rem;
+        font-size: 1.25rem;
     }
-  }
+    @media (width < 64rem) {
+        nav {
+            gap: 1rem;
+            font-size: 1rem;
+        }
+        .home {
+            font-size: 1.25rem;
+        }
+        header {
+            padding: 1.5rem 0;
+        }
+    }
+    @media (width < 44rem) {
+        nav {
+            display: none;
+        }
+    }
 </style>

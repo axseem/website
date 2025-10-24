@@ -1,129 +1,162 @@
 ---
-import BaseLayout from '../layouts/Base.astro';
-import Box from '../components/Box.astro';
+import BaseLayout from "../layouts/Base.astro";
+import Box from "../components/Box.astro";
 import { Image } from "astro:assets";
 import profileImage from "../content/profile.webp";
 
-const nav = [ "/about", "/journal", "/projects",  "/notes", "/gallery",  "/blog"];
+const nav = ["/about", "/journal", "/blog", "/gallery", "/projects"];
 
 const links = [
-  { href: "https://github.com/axseem", label: "github" },
-  { href: "https://discord.gg/mPdbchFAr4", label: "discord" },
-  { href: "https://instagram.com/axseem", label: "instagram" },
-  { href: "https://reddit.com/u/axseem", label: "reddit" },
-  { href: "https://x.com/axseemm", label: "twitter" },
-  { href: "https://signal.me/#eu/28xj6tDNLgpQpiZDjdrjmQYve0xWO82V9a1OTDGYx33TsRXyc0BPY5En12TIx_kO", label: "signal" },
-  { href: "https://twitch.tv/axseem", label: "twitch" },
-  { href: "https://www.youtube.com/@axseem", label: "youtube" },
-  { href: "mailto:max@axseem.me", label: "email" },
+    { href: "https://github.com/axseem", label: "github" },
+    { href: "https://discord.gg/mPdbchFAr4", label: "discord" },
+    { href: "https://instagram.com/axseem", label: "instagram" },
+    { href: "https://reddit.com/u/axseem", label: "reddit" },
+    { href: "https://x.com/axseemm", label: "twitter" },
+    {
+        href: "https://signal.me/#eu/28xj6tDNLgpQpiZDjdrjmQYve0xWO82V9a1OTDGYx33TsRXyc0BPY5En12TIx_kO",
+        label: "signal",
+    },
+    { href: "https://twitch.tv/axseem", label: "twitch" },
+    { href: "https://www.youtube.com/@axseem", label: "youtube" },
+    { href: "mailto:max@axseem.me", label: "email" },
 ];
 ---
+
 <BaseLayout title="axseem">
-  <div class="page">
-    <main class="mono">
-      <Image src={profileImage} alt="axseem's profile picture" class="avatar"/>
-        <div class="meta">
-          <Box label='greetings'>
-          <div class="greetings">
-            <h1>Hello! I'm Max</h1>
-            <p class="muted">aka @axseem or Maksym&nbspBohdan</p>
-          </div>
-          </Box>
-          <Box label='links'>
-            <ul>
-              {links.map(link => <li><a href={link.href}><span class="muted">!</span>{link.label}</a></li>)}
-            </ul>
-          </Box>
-          <Box label='pages'>
-            <nav>
-                {nav.map(path => <a href={path}><span class="muted">{path.at(0)}</span>{path.slice(1)}</a>)}
-            </nav>
-          </Box>
-        </div>
-    </main>
-  </div>
+    <div class="page">
+        <main class="mono">
+            <Image
+                src={profileImage}
+                alt="axseem's profile picture"
+                class="avatar"
+            />
+            <div class="meta">
+                <Box label="greetings">
+                    <div class="greetings">
+                        <h1>Hello! I'm Max</h1>
+                        <p class="muted">aka @axseem or Maksym&nbspBohdan</p>
+                    </div>
+                </Box>
+                <Box label="links">
+                    <ul>
+                        {
+                            links.map((link) => (
+                                <li>
+                                    <a href={link.href} class="flex">
+                                        <span class="muted">!</span>
+                                        {link.label}
+                                    </a>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                </Box>
+                <Box label="pages">
+                    <nav>
+                        {
+                            nav.map((path) => (
+                                <a href={path} class="flex">
+                                    <span class="muted">{path.at(0)}</span>
+                                    {path.slice(1)}
+                                </a>
+                            ))
+                        }
+                        <a class="pages-link" href="pages">
+                            <span class="muted">more...</span>
+                        </a>
+                    </nav>
+                </Box>
+            </div>
+        </main>
+    </div>
 </BaseLayout>
 
 <style>
-  ul {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    justify-content: start;
-    column-gap: 2ch;
+    ul {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        justify-content: start;
+        column-gap: 2ch;
 
-    list-style: none;
-    padding: 0;
-    margin: 0 1ch 0 0;
-  }
-  li {
-    margin: 0;
-    padding: 0;
-  }
-  .page {
-    display: grid;
-    place-items: center;
-    min-height: 100vh;
-  }
-  main {
-    display: flex;
-    place-items: center;
-    justify-content: center;
-    gap: 2ch;
-    padding: 2ch;
-  }
-  .meta {
-    width: 21.125rem;
-    display: flex;
-    flex-direction: column;
-    margin-top: -1ch;
-  }
-  h1, p {
-    margin: 0;
-  }
-  .avatar {
-    width: 21.125rem;
-    height: 21.125rem;
-    background-color: var(--bg-1);
-    flex-shrink: 0;
-  }
-  .greetings {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  hr {
-    width: 100%;
-  }
-  nav {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    justify-content: start;
-    column-gap: 2ch;
-
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  @media (width < 56rem) {
-    .avatar {
-      width: 8rem;
-      height: 8rem;
+        list-style: none;
+        padding: 0;
+        margin: 0 1ch 0 0;
     }
-    .meta {
-        width: auto;
+    li {
+        margin: 0;
+        padding: 0;
     }
-    header, main {
-      flex-direction: column;
-      align-items: start;
+    .page {
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+    }
+    .pages-link:hover {
+        text-decoration-color: var(--fg-1);
     }
     main {
-      gap: 2ch;
+        display: flex;
+        place-items: center;
+        justify-content: center;
+        gap: 2ch;
+        padding: 2ch;
     }
-  }
-  @media (width < 24rem) {
-    ul, nav {
-      grid-template-columns: repeat(2, auto);
-      column-gap: 4ch;
+    .meta {
+        width: 21.125rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: -1ch;
     }
-  }
+    h1,
+    p {
+        margin: 0;
+    }
+    .avatar {
+        width: 21.125rem;
+        height: 21.125rem;
+        background-color: var(--bg-1);
+        flex-shrink: 0;
+    }
+    .greetings {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    hr {
+        width: 100%;
+    }
+    nav {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        justify-content: start;
+        column-gap: 2ch;
+
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    @media (width < 56rem) {
+        .avatar {
+            width: 8rem;
+            height: 8rem;
+        }
+        .meta {
+            width: auto;
+        }
+        header,
+        main {
+            flex-direction: column;
+            align-items: start;
+        }
+        main {
+            gap: 2ch;
+        }
+    }
+    @media (width < 24rem) {
+        ul,
+        nav {
+            grid-template-columns: repeat(2, auto);
+            column-gap: 4ch;
+        }
+    }
 </style>

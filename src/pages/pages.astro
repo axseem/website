@@ -1,0 +1,55 @@
+---
+import BaseLayout from "../layouts/Base.astro";
+import PageLayout from "../layouts/Page.astro";
+
+import { getCollection, type CollectionEntry } from "astro:content";
+
+const knowledgePages = await getCollection("content");
+---
+
+<BaseLayout title="axseem's blog">
+    <PageLayout>
+        <h1># feed</h1>
+        <ul>
+            <li>
+                <a class="mono" href="/journal">/journal</a>
+                <a class="mono" href="/projects">/projects</a>
+                <a class="mono" href="/blog">/blog</a>
+                <a class="mono" href="/gallery">/gallery</a>
+            </li>
+        </ul>
+        <h1># knowledge</h1>
+        <ul>
+            {
+                knowledgePages.map((page) => (
+                    <li>
+                        <a class="mono" href={`/${page.id}`}>
+                            {"/" + page.id}
+                        </a>
+                    </li>
+                ))
+            }
+        </ul>
+    </PageLayout>
+</BaseLayout>
+
+<style>
+    ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    li a {
+        display: block;
+    }
+    li a:hover h2 {
+        text-decoration: underline;
+    }
+    h2,
+    li,
+    p {
+        margin: 0;
+    }
+</style>

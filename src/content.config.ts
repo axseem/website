@@ -14,13 +14,13 @@ const journal = defineCollection({
   schema: z.object({}),
 });
 
-const about = defineCollection({
-  loader: glob({ pattern: "**/*.mdx", base: "./src/content/about" }),
+const content = defineCollection({
+  loader: glob({ pattern: ["*.mdx", "*.md"], base: "./src/content" }),
   schema: z.object({}),
 });
 
 export const collections = {
   blog: blog,
   journal: journal,
-  about: about,
+  content: content,
 };

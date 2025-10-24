@@ -1,47 +1,55 @@
 ---
-import BaseLayout from '../../layouts/Base.astro';
-import PageLayout from '../../layouts/Page.astro';
+import BaseLayout from "../../layouts/Base.astro";
+import PageLayout from "../../layouts/Page.astro";
 
-import { getCollection, type CollectionEntry } from 'astro:content';
+import { getCollection, type CollectionEntry } from "astro:content";
 
-const allPosts = await getCollection('blog');
+const allPosts = await getCollection("blog");
 const sortedPosts = allPosts.sort(
-  (a: CollectionEntry<'blog'>, b: CollectionEntry<'blog'>) => b.data.date.valueOf() - a.data.date.valueOf()
+    (a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) =>
+        b.data.date.valueOf() - a.data.date.valueOf(),
 );
 ---
+
 <BaseLayout title="axseem's blog">
-  <PageLayout>
-    <h1 class="mono"># blog</h1>
-    <ul>
-      {sortedPosts.map((post: CollectionEntry<'blog'>) => (
-        <li>
-          <a href={`/blog/${post.id}`}>
-            <h2 class="mono">{post.data.title}</h2>
-          <p class="muted mono">{post.data.date.toDateString().slice(4)}</p>
-          </a>
-        </li>
-      ))}
-    </ul>
-  </PageLayout>
+    <PageLayout>
+        <h1 class="mono"># blog</h1>
+        <ul>
+            {
+                sortedPosts.map((post) => (
+                    <li>
+                        <a href={`/blog/${post.id}`}>
+                            <h2 class="mono">{post.data.title}</h2>
+                            <p class="muted mono">
+                                {post.data.date.toDateString().slice(4)}
+                            </p>
+                        </a>
+                    </li>
+                ))
+            }
+        </ul>
+    </PageLayout>
 </BaseLayout>
 
 <style>
-  ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    margin-top: 1rem;
-  }
-  li a {
-    text-decoration: none;
-    display: block;
-  }
-  li a:hover h2 {
-    text-decoration: underline;
-  }
-  h2, li, p {
-    margin: 0;
-  }
+    ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-top: 1rem;
+    }
+    li a {
+        text-decoration: none;
+        display: block;
+    }
+    li a:hover h2 {
+        text-decoration: underline;
+    }
+    h2,
+    li,
+    p {
+        margin: 0;
+    }
 </style>
