@@ -9,9 +9,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.3.3",
+    "@astrojs/mdx": "4.3.8",
     "@fontsource-variable/geist": "^5.2.6",
     "@fontsource-variable/jetbrains-mono": "^5.2.6",
-    "astro": "^5.12.8"
+    "astro": "5.15.1"
   }
 }
