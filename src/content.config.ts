@@ -9,11 +9,6 @@ const blog = defineCollection({
   }),
 });
 
-const journal = defineCollection({
-  loader: glob({ pattern: "**/*.mdx", base: "./src/content/journal" }),
-  schema: z.object({}),
-});
-
 const content = defineCollection({
   loader: glob({ pattern: ["*.mdx", "*.md"], base: "./src/content" }),
   schema: z.object({}),
@@ -21,6 +16,5 @@ const content = defineCollection({
 
 export const collections = {
   blog: blog,
-  journal: journal,
   content: content,
 };
