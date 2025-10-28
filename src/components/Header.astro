@@ -4,9 +4,10 @@ const nav = ["about", "projects", "journal", "blog", "gallery", "navigate"];
 const currentPath = Astro.url.pathname;
 ---
 
-<header class="mono">
+<header class="mono" aria-label="Site header">
     <a href="/" class="home">axseem</a>
-    <nav>
+    <button class="menu" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav"></button>
+    <nav id="site-nav">
         {
             nav.map((link) => (
                 <a
@@ -23,6 +24,24 @@ const currentPath = Astro.url.pathname;
         }
     </nav>
 </header>
+
+<script>
+    const btn = document.querySelector<HTMLButtonElement>(".menu");
+    const nav = document.getElementById("site-nav");
+    if (btn && nav) {
+        btn.addEventListener("click", () => {
+            const open = btn.getAttribute("aria-expanded") === "true";
+            btn.setAttribute("aria-expanded", (!open).toString());
+            nav.classList.toggle("open", !open);
+        });
+    }
+    addEventListener("astro:page-load", () => {
+        if (btn && nav) {
+            btn.setAttribute("aria-expanded", "false");
+            nav.classList.remove("open");
+        }
+    });
+</script>
 
 <style>
     header {
@@ -56,9 +75,19 @@ const currentPath = Astro.url.pathname;
             padding: 1.5rem 0;
         }
     }
+    .menu {
+        display: none;
+        width: 2rem;
+        height: 2rem;
+        background: linear-gradient(currentColor 2px, transparent 0) center 35%/1.25rem 2px no-repeat,
+                    linear-gradient(currentColor 2px, transparent 0) center/1.25rem 2px no-repeat,
+                    linear-gradient(currentColor 2px, transparent 0) center 65%/1.25rem 2px no-repeat;
+        color: var(--fg);
+        border-radius: var(--br);
+    }
     @media (width < 44rem) {
-        nav {
-            display: none;
-        }
+        .menu { display: inline-block; }
+        nav { display: none; }
+        nav.open { display: flex; position: absolute; right: 1.5rem; top: 3.5rem; flex-direction: column; gap: 0.75rem; padding: 0.75rem; background: var(--bg); border: 1px solid var(--bd); border-radius: var(--br); }
     }
 </style>
