@@ -108,6 +108,33 @@ p > code {
     border-width: 1px;
 }
 
+blockquote {
+    border-left: 0.25rem solid var(--bd-1);
+    background-color: var(--bg-1);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+blockquote p {
+    margin: 0.5rem 0;
+}
+
+blockquote p:first-child {
+    margin-top: 0;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+blockquote footer,
+blockquote cite {
+    display: block;
+    margin-top: 0.5rem;
+    color: var(--fg-1);
+    font-style: normal;
+}
+
 pre,
 .astro-code {
     padding: 1rem;
