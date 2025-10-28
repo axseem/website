@@ -1,5 +1,5 @@
 ---
-const nav = ["/about", "/projects", "/journal", "/blog", "/gallery", "/pages"];
+const nav = ["about", "projects", "journal", "blog", "gallery", "navigate"];
 
 const currentPath = Astro.url.pathname;
 ---
@@ -10,14 +10,14 @@ const currentPath = Astro.url.pathname;
         {
             nav.map((link) => (
                 <a
-                    href={link}
+                    href={"/" + link}
                     class:list={[
-                        { muted: !currentPath.startsWith(link) },
+                        { muted: !currentPath.startsWith("/" + link) },
                         "flex",
                     ]}
                 >
-                    <span class="muted">{link.at(0)}</span>
-                    {link.slice(1)}
+                    <span class="muted">/</span>
+                    {link}
                 </a>
             ))
         }

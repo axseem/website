@@ -4,22 +4,11 @@ import Box from "../components/Box.astro";
 import { Image } from "astro:assets";
 import profileImage from "../content/profile.webp";
 
-const nav = ["/about", "/journal", "/blog", "/gallery", "/projects"];
+const nav = ["projects", "journal", "gallery", "about", "blog"];
 
-const links = [
-    { href: "https://github.com/axseem", label: "github" },
-    { href: "https://discord.gg/mPdbchFAr4", label: "discord" },
-    { href: "https://instagram.com/axseem", label: "instagram" },
-    { href: "https://reddit.com/u/axseem", label: "reddit" },
-    { href: "https://x.com/axseemm", label: "twitter" },
-    {
-        href: "https://signal.me/#eu/28xj6tDNLgpQpiZDjdrjmQYve0xWO82V9a1OTDGYx33TsRXyc0BPY5En12TIx_kO",
-        label: "signal",
-    },
-    { href: "https://twitch.tv/axseem", label: "twitch" },
-    { href: "https://www.youtube.com/@axseem", label: "youtube" },
-    { href: "mailto:max@axseem.me", label: "email" },
-];
+import links from "../content/data/links.json";
+
+const linksToShow = links.slice(0, 9);
 ---
 
 <BaseLayout title="axseem">
@@ -40,7 +29,7 @@ const links = [
                 <Box label="links">
                     <ul>
                         {
-                            links.map((link) => (
+                            linksToShow.map((link) => (
                                 <li>
                                     <a href={link.href} class="flex">
                                         <span class="muted">!</span>
@@ -51,17 +40,17 @@ const links = [
                         }
                     </ul>
                 </Box>
-                <Box label="pages">
+                <Box label="navigate">
                     <nav>
                         {
                             nav.map((path) => (
-                                <a href={path} class="flex">
-                                    <span class="muted">{path.at(0)}</span>
-                                    {path.slice(1)}
+                                <a href={"/" + path} class="flex">
+                                    <span class="muted">/</span>
+                                    {path}
                                 </a>
                             ))
                         }
-                        <a class="pages-link" href="pages">
+                        <a class="pages-link" href="/navigate">
                             <span class="muted">more...</span>
                         </a>
                     </nav>

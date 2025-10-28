@@ -1,0 +1,61 @@
+---
+import BaseLayout from "../layouts/Base.astro";
+import PageLayout from "../layouts/Page.astro";
+
+import { getCollection, type CollectionEntry } from "astro:content";
+
+// Build sorted arrays for feed and knowledge links (including /links)
+const knowledgeIds = (await getCollection("content"))
+    .map((e) => e.id)
+    .sort((a, b) => a.localeCompare(b));
+
+const knowledgeLinks = ["/links", ...knowledgeIds.map((id) => `/${id}`)].sort((a, b) =>
+    a.localeCompare(b)
+);
+
+const feedLinks = ["/blog", "/gallery", "/journal", "/projects"].sort((a, b) =>
+    a.localeCompare(b)
+);
+---
+
+<BaseLayout title="axseem's blog">
+    <PageLayout>
+        <h1># feed</h1>
+        <ul>
+            {feedLinks.map((href) => (
+                <li>
+                    <a class="mono" href={href}>{href}</a>
+                </li>
+            ))}
+        </ul>
+        <h1># knowledge</h1>
+        <ul>
+            {knowledgeLinks.map((href) => (
+                <li>
+                    <a class="mono" href={href}>{href}</a>
+                </li>
+            ))}
+        </ul>
+    </PageLayout>
+</BaseLayout>
+
+<style>
+    ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    li a {
+        display: block;
+    }
+    li a:hover h2 {
+        text-decoration: underline;
+    }
+    h2,
+    li,
+    p {
+        margin: 0;
+    }
+</style>

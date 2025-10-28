@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../layouts/Base.astro";
+import PageLayout from "../layouts/Page.astro";
+
+import links from "../content/data/links.json";
+---
+
+<BaseLayout title="links">
+    <PageLayout>
+        <h1># links</h1>
+        <ul>
+            <li>
+                {
+                    links.map((link) => (
+                        <a class="mono" href={link.href}>
+                            {link.label}
+                        </a>
+                    ))
+                }
+            </li>
+        </ul>
+    </PageLayout>
+</BaseLayout>
+
+<style>
+    ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    li a {
+        display: block;
+    }
+    h2,
+    li,
+    p {
+        margin: 0;
+    }
+</style>

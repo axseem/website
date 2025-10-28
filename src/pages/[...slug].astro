@@ -28,9 +28,17 @@ if (!post) {
 }
 
 const { Content } = await render(post);
+
+const fileBaseName = slug.split("/").pop() ?? slug;
+const titleFromFileName = fileBaseName
+    .replace(/[-_]+/g, " ")
+    .split(" ")
+    .filter(Boolean)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(" ");
 ---
 
-<BaseLayout title={post.data.title}>
+<BaseLayout title={titleFromFileName}>
     <PageLayout>
         <article>
             <div class="content">
