@@ -2,15 +2,15 @@
 @import "@fontsource-variable/jetbrains-mono/wght-italic.css";
 
 :root {
-    --bg: oklch(0% 0 0);
-    --bg-1: oklch(20% 0 0);
+    --bg: #000;
+    --bg-1: #111;
 
-    --bd: oklch(20% 0 0);
-    --bd-1: oklch(35% 0 0);
+    --bd: #111;
+    --bd-1: #333;
 
-    --highlight: oklch(95% 0 0);
-    --fg: oklch(90% 0 0);
-    --fg-1: oklch(60% 0 0);
+    --highlight: #fff;
+    --fg: #ddd;
+    --fg-1: #666;
 
     --br: 0rem;
 
