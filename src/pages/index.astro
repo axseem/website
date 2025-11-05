@@ -14,47 +14,54 @@ const linksToShow = links.slice(0, 9);
 <BaseLayout title="axseem">
     <div class="page">
         <main class="mono">
-            <Image
-                src={profileImage}
-                alt="axseem's profile picture"
-                class="avatar"
-            />
-            <div class="meta">
-                <Box label="greetings">
-                    <div class="greetings">
-                        <h1>Hello! I'm Max</h1>
-                        <p class="muted">aka @axseem or Maksym&nbspBohdan</p>
-                    </div>
-                </Box>
-                <Box label="links">
-                    <ul>
-                        {
-                            linksToShow.map((link) => (
-                                <li>
-                                    <a href={link.href} class="flex">
-                                        <span class="muted">!</span>
-                                        {link.label}
+            <div class="horizontal">
+                <Image
+                    src={profileImage}
+                    alt="axseem's profile picture"
+                    class="avatar"
+                />
+                <div class="meta">
+                    <Box label="greetings">
+                        <div class="greetings">
+                            <h1>Hello! I'm Max</h1>
+                            <p class="muted">aka @axseem or Maksym&nbspBohdan</p>
+                        </div>
+                    </Box>
+                    <Box label="links">
+                        <ul>
+                            {
+                                linksToShow.map((link) => (
+                                    <li>
+                                        <a href={link.href} class="flex">
+                                            <span class="muted">!</span>
+                                            {link.label}
+                                        </a>
+                                    </li>
+                                ))
+                            }
+                        </ul>
+                    </Box>
+                    <Box label="navigate">
+                        <nav>
+                            {
+                                nav.map((path) => (
+                                    <a href={"/" + path} class="flex">
+                                        <span class="muted">/</span>
+                                        {path}
                                     </a>
-                                </li>
-                            ))
-                        }
-                    </ul>
-                </Box>
-                <Box label="navigate">
-                    <nav>
-                        {
-                            nav.map((path) => (
-                                <a href={"/" + path} class="flex">
-                                    <span class="muted">/</span>
-                                    {path}
-                                </a>
-                            ))
-                        }
-                        <a class="pages-link" href="/navigate">
-                            <span class="muted">more...</span>
-                        </a>
-                    </nav>
-                </Box>
+                                ))
+                            }
+                            <a class="pages-link" href="/navigate">
+                                <span class="muted">more...</span>
+                            </a>
+                        </nav>
+                    </Box>
+                </div>
+            </div>
+            <div class="recommended">
+            <Box label="recommended">
+                <p><span class="muted">[2025-11-05]</span> recent: <a href="/books" class="pages-link"><span class="muted">/</span>books</a></p>
+            </Box>
             </div>
         </main>
     </div>
@@ -85,10 +92,21 @@ const linksToShow = links.slice(0, 9);
     }
     main {
         display: flex;
+        flex-direction: column;
+        place-items: center;
+        justify-content: center;
+        padding: 2ch;
+        gap: 1ch;
+    }
+    .horizontal {
+        display: flex;
         place-items: center;
         justify-content: center;
         gap: 2ch;
-        padding: 2ch;
+    }
+    .recommended {
+        width: 100%;
+        max-width: 100%;
     }
     .meta {
         width: 21.125rem;
@@ -99,6 +117,12 @@ const linksToShow = links.slice(0, 9);
     h1,
     p {
         margin: 0;
+    }
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
     }
     .avatar {
         width: 21.125rem;
@@ -125,12 +149,17 @@ const linksToShow = links.slice(0, 9);
         margin: 0;
     }
     @media (width < 56rem) {
+        .horizontal {
+            flex-direction: column;
+            align-items: stretch;
+            width: 100%;
+        }
         .avatar {
             width: 8rem;
             height: 8rem;
         }
         .meta {
-            width: auto;
+            width: 100%;
         }
         header,
         main {
@@ -140,12 +169,8 @@ const linksToShow = links.slice(0, 9);
         main {
             gap: 2ch;
         }
-    }
-    @media (width < 24rem) {
-        ul,
-        nav {
-            grid-template-columns: repeat(2, auto);
-            column-gap: 4ch;
+        .recommended {
+            width: 100%;
         }
     }
 </style>
