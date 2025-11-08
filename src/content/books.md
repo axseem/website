@@ -47,6 +47,12 @@ Books are ranked by preference within each tier. The list is dynamic and will be
 
 None for now
 
+## Currently Reading
+
+### **Can't Hurt Me** _by David Goggins_
+
+- **Started:** 2025-11-06
+
 ## Chronology 
 
 ### **The Courage to Be Disliked** _by Ichiro Kishimi and Fumitake Koga_
