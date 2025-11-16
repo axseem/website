@@ -14,6 +14,9 @@ const sortedPosts = allPosts.sort(
 <BaseLayout title="axseem's blog">
     <PageLayout>
         <h1 class="mono"># blog</h1>
+        <p class="mono rss-links">
+            <a href="/rss.xml">rss</a> · <a href="/atom.xml">atom</a> · <a href="/feed.json">json</a>
+        </p>
         <ul>
             {
                 sortedPosts.map((post) => (
@@ -32,6 +35,15 @@ const sortedPosts = allPosts.sort(
 </BaseLayout>
 
 <style>
+    .rss-links {
+        margin: 0.5rem 0;
+    }
+    .rss-links a {
+        text-decoration: none;
+    }
+    .rss-links a:hover {
+        text-decoration: underline;
+    }
     ul {
         list-style: none;
         padding: 0;

@@ -4,6 +4,7 @@ import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
 
 export default defineConfig({
+  site: "https://axseem.me",
   markdown: {
     shikiConfig: {
       theme: "vesper",
@@ -15,4 +16,3 @@ export default defineConfig({
 
   integrations: [mdx()],
 });
-
