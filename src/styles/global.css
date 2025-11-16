@@ -192,3 +192,7 @@ li {
 .flex {
     display: flex;
 }
+
+img {
+	border: var(--bd) 2px solid;
+}

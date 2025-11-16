@@ -59,8 +59,13 @@ const linksToShow = links.slice(0, 9);
                 </div>
             </div>
             <div class="recommended">
-            <Box label="recommended">
-                <p><span class="muted">[2025-11-08]</span> recent: <a href="/books" class="pages-link"><span class="muted">/</span>books</a></p>
+            <Box label="latest">
+							<p>
+							<span class="muted">[2025-11-16]</span> <a href="/blog/fail-in-public" class="pages-link">post: fail in public</a>
+							</p>
+							<p>
+							<span class="muted">[2025-11-08]</span> <a href="/books" class="pages-link">update: <span class="muted">/</span>books</a>
+							</p>
             </Box>
             </div>
         </main>
@@ -91,8 +96,7 @@ const linksToShow = links.slice(0, 9);
         text-decoration-color: var(--fg-1);
     }
     main {
-        display: flex;
-        flex-direction: column;
+        display: flex;        flex-direction: column;
         place-items: center;
         justify-content: center;
         padding: 2ch;
@@ -128,7 +132,8 @@ const linksToShow = links.slice(0, 9);
         width: 21.125rem;
         height: 21.125rem;
         background-color: var(--bg-1);
-        flex-shrink: 0;
+				flex-shrink: 0;
+				border: none;
     }
     .greetings {
         display: flex;
