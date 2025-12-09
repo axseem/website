@@ -1,0 +1,1 @@
+import{f as m,a as r}from"./DdGMFoDP.js";import"./DEBi4ttB.js";import{n}from"./CB05SAkb.js";var t=m('<h1 id="smoking"># smoking</h1> <p>I’m really glad I never had a habit of smoking.</p>',1);function p(a){var o=t();n(2),r(a,o)}export{p as default};

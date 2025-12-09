@@ -1,1 +1,0 @@
-import{f as t,a}from"./MiJVDxC7.js";import"./ChPdQX2d.js";import{n as r}from"./Cjzxz1ku.js";var f=t('<h1 id="feed"># feed</h1> <p>Here you can easily see follow the changes</p> <blockquote><p>Not done yet</p></blockquote>',1);function d(e){var o=f();r(4),a(e,o)}export{d as default};
