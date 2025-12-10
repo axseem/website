@@ -6,6 +6,8 @@ summary: "Knowledge that allows to thrive in every facet of life"
 
 # Embrace The Range
 
+\`2025 March 15\` \`2 minutes to read\`
+
 ![Embrace The Range](./embrace-the-range/embrace-the-range.svg)
 
 I've just finished reading [Range: Why Generalists Triumph in a Specialized World](https://davidepstein.com/range/). It's an awesome piece of knowledge, and a lot of things have clicked after going through it. As I suspected, having a broad understanding of various fields is far superior to deep specialization in a narrow area. Being able to thrive in "wicked" environments, as David Epstein calls them, is something humans excel at.

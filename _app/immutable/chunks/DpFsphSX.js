@@ -6,6 +6,8 @@ summary: "Honestly can't believe this"
 
 # How Crazy Politics Cost Me $1,500
 
+\`2025 April 08\` \`3 minutes to read\`
+
 I just lost about $1,500.
 
 At the beginning of Fall 2024, my mom gave me some money to help cover rent while I study in Prague. I'm incredibly grateful for her support, but I knew I didn't want that money just sitting there, losing value to inflation. I needed to find a way to invest it, hoping to at least compensate for inflation and maybe even earn a little extra.

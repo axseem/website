@@ -5,6 +5,8 @@ date: 2024-12-30
 
 # One Year - Sixteen Books
 
+\`2025 December 30\` \`3 minutes to read\`
+
 I was never into books. For me, reading seemed boring and unproductive. I thought books were useless considering all the various novel ways to consume the information.
 
 I was so wrong.

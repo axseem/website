@@ -5,6 +5,8 @@ date: 2025-11-16
 
 # fail in public
 
+\`2025 November 16\` \`4 minutes to read\`
+
 ![moving light dot](./keep-failing/keep-failing.svg)
 
 Way too often I catch myself thinking about how many things I didn't do. It's often followed by another thought: "If I could go back, I would definitely do it". Well, guess what? Right at that very moment, when I have the ability to actually change things, I dwell on how I should've solved them back then.

@@ -6,6 +6,8 @@ summary: 'The great idea of becoming a writer'
 
 # The great idea of becoming a writer
 
+\`2025 January 16\` \`2 minutes to read\`
+
 I love to write. There is some charm in writing down your thoughts. The only problem, I struggle to write pretty texts. It's not like I can't do them, it's just requires a lot of effort. Nevertheless writing is a valuable skill, which can additionally grow into something bigger.
 
 To be completely honest, my main motivation is in fact much more ambitious than just learn to a new skill. I want to become a writer. It is so fascinating how much impact ideas can make. And ever more astonishing how those ideas refines when they are shared. I have a lot to tell, and ever more to learn.
