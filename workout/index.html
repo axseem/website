@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Workout - axseem</title>
+	<meta name="title" content="Workout - axseem">
+	<meta name="description" content="Workout - Personal website">
+	<meta name="author" content="axseem">
+	<meta name="keywords" content="axseem, Max Bohdan, Maksym Bohdan, code, ideas, blog, journal, engineer, free, creator, public, live, projects, software, programming, books, contact">
+	<link rel="canonical" href="https://axseem.me/workout">
+	<link rel="icon" type="image/x-icon" href="/static/favicon.svg">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="https://axseem.me/workout">
+	<meta property="og:title" content="Workout - axseem">
+	<meta property="og:description" content="Workout - Personal website">
+	<meta property="og:image" content="https://axseem.me/avatar1024.webp">
+	<meta property="og:site_name" content="axseem">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://axseem.me/workout">
+	<meta name="twitter:title" content="Workout - axseem">
+	<meta name="twitter:description" content="Workout - Personal website">
+	<meta name="twitter:image" content="https://axseem.me/avatar1024.webp">
+	
+	
+	<script defer src="https://cloud.umami.is/script.js" data-website-id="67df3bdb-d0ff-492a-9842-a106af7945f0"></script>
+	<style> 
+@font-face {
+	font-family: 'IBM Plex Sans';
+	src: url('/fonts/IBMPlexSans-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'IBM Plex Sans';
+	src: url('/fonts/IBMPlexSans-Text.woff2') format('woff2');
+	font-weight: 450;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'IBM Plex Sans';
+	src: url('/fonts/IBMPlexSans-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'IBM Plex Mono';
+	src: url('/fonts/IBMPlexMono-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'IBM Plex Mono';
+	src: url('/fonts/IBMPlexMono-SemiBold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'IBM Plex Mono';
+	src: url('/fonts/IBMPlexMono-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'IBM Plex Serif';
+	src: url('/fonts/IBMPlexSerif-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'IBM Plex Serif';
+	src: url('/fonts/IBMPlexSerif-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+:root {
+	--surface: #000;
+	--surface-raised: #111;
+	--border: #222;
+	--underline: #444;
+	--muted: #888;
+	--text: #ddd;
+	--highlight: #fff;
+	--font-mono: 'IBM Plex Mono', monospace;
+	--font-serif: 'IBM Plex Serif', serif;
+	--font-sans: 'IBM Plex Sans', sans-serif;
+	--line-height: 1.5;
+	--space: 1.5rem;
+	--content-width: 40rem;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	min-height: 100%;
+	background: var(--surface);
+	color: var(--text);
+	font: 400 1rem/var(--line-height) var(--font-sans);
+	-webkit-font-smoothing: antialiased;
+}
+
+ 
+* {
+	scrollbar-width: thin;
+	scrollbar-color: var(--border) transparent;
+}
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--underline); }
+::-webkit-scrollbar-corner { background: var(--surface); }
+
+ 
+h1, h2, h3 {
+	font-family: var(--font-mono);
+	font-weight: 700;
+	color: var(--highlight);
+	margin-block: calc(var(--space) * 2) var(--space);
+	line-height: 1.25;
+}
+h1 { font-size: 1.75rem; }
+h2 { font-size: 1.25rem; }
+h3 { font-size: 1rem; }
+
+ 
+p {
+	font-family: var(--font-sans);
+	margin-block: var(--space);
+}
+strong { color: var(--highlight); }
+a {
+	font-weight: 450;
+	color: var(--highlight);
+	text-underline-offset: 2px;
+	text-decoration: underline;
+	text-decoration-color: var(--underline);
+}
+a:hover { text-decoration: underline; }
+
+ 
+code {
+	font-family: var(--font-mono);
+	font-size: 0.875rem;
+	background: var(--border);
+	color: var(--highlight);
+	padding: 0.1rem 0.3rem;
+}
+pre {
+	background: var(--surface-raised);
+	padding: 1rem 1.25rem;
+	margin-block: var(--space);
+	overflow-x: auto;
+	line-height: 1.5;
+}
+pre code { background: none; padding: 0; color: var(--text); }
+
+ 
+ul, ol {
+	padding-left: 1.5em;
+	margin-block: var(--space);
+}
+li + li { margin-top: 0.25em; }
+li > ul, li > ol { margin-block: 0.25em 0; }
+
+ 
+blockquote { color: var(--muted); }
+blockquote code { color: var(--muted); }
+blockquote ul, blockquote ol { list-style: none; padding-left: 0; }
+hr { border: none; border-top: 1px solid var(--border); margin-block: var(--space); }
+img {
+	display: block;
+	max-width: 100%;
+	border: 1px solid var(--border);
+	image-rendering: pixelated;
+}
+article > :first-child { margin-top: 0; }
+article > :last-child { margin-bottom: 0; }
+
+ 
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-block: var(--space);
+	font-variant-numeric: tabular-nums;
+	table-layout: fixed;
+}
+th, td {
+	padding: 0.5rem 1rem 0.5rem 0;
+	text-align: left;
+	vertical-align: top;
+	border-bottom: 1px solid var(--border);
+}
+th {
+	font-family: var(--font-mono);
+	font-weight: 600;
+	font-size: 0.875rem;
+	color: var(--highlight);
+}
+tr:last-child td { border-bottom: none; }
+
+ 
+:is(p, blockquote, pre)[id],
+.linkable-block { position: relative; }
+.anchor-link {
+	position: absolute;
+	right: 100%;
+	top: 0;
+	padding-right: 0.4rem;
+	opacity: 0;
+	text-decoration: none;
+	color: var(--muted);
+	font-size: 0.85em;
+	font-weight: 400;
+	line-height: var(--line-height);
+	user-select: none;
+}
+@media (hover: hover) {
+	:is(p, blockquote, pre)[id]:hover > .anchor-link,
+	.linkable-block:hover > .anchor-link { opacity: 0.6; }
+	.anchor-link:hover { opacity: 1 !important; color: var(--highlight); }
+}
+@media (hover: none) {
+	.anchor-link.visible { opacity: 0.6; }
+}
+
+ 
+.layout {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100dvh;
+	padding-block: 4rem;
+}
+.col-left,
+.col-right {
+	flex: 1;
+	min-width: 0;
+}
+.col-left {
+	display: flex;
+	justify-content: flex-end;
+}
+aside {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 8rem;
+	background-color: var(--surface);
+}
+.brand {
+	display: block;
+	font-weight: 700;
+	margin-bottom: 2rem;
+	text-decoration: none;
+	color: var(--highlight);
+}
+.browse {
+	font-size: 0.875rem;
+}
+aside nav {
+	display: flex;
+	flex-direction: column;
+}
+aside nav a {
+	text-decoration: none;
+	color: var(--muted);
+}
+aside nav a:hover,
+aside nav a.active {
+	color: var(--highlight);
+}
+aside nav a.active {
+	font-weight: 500;
+}
+main {
+	width: 100%;
+	max-width: var(--content-width);
+}
+.content-wrapper {
+	display: contents;
+}
+.mobile-bar {
+	display: none;
+}
+@media (width < 1024px) {
+	.layout {
+		padding: 4rem 2rem 6rem 2rem;
+	}
+	aside {
+		display: none;
+	}
+	.mobile-bar {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 1rem 2rem;
+		background-color: var(--surface);
+		border-top: 1px solid #222;
+		z-index: 100;
+	}
+	.mobile-bar .brand {
+		margin-bottom: 0;
+	}
+}
+@media (max-width: 704px) {
+	.layout {
+		padding: 2rem 2rem 6rem 2rem;
+	}
+}
+</style>
+</head>
+<body>
+	<div class="layout">
+		<div class="col-left">
+			<aside>
+				<a class="brand" href="/">axseem</a>
+				<nav>
+					<a href="/browse" >/browse</a><a href="/essays" >/essays</a><a href="/gallery" >/gallery</a><a href="/journal" >/journal</a><a href="/projects" >/projects</a>
+				</nav>
+			</aside>
+		</div>
+		<main>
+			<article class="content-wrapper">
+				<html><head></head><body><h1>Workout</h1>
+<p id="fa2bf8e7"><a href="#fa2bf8e7" class="anchor-link" aria-label="Link to this block">#</a>This program was designed to build my general strength, enhance body look, develop cardiovascular health and increase mental resilience. The structure prioritizes efficiency and sustainability: short sessions, minimal equipment, fully home-based so I can work out regardless of season or schedule.</p>
+<p id="e22f4326"><a href="#e22f4326" class="anchor-link" aria-label="Link to this block">#</a>The core ideas I follow are consistency over intensity and progressive overload. It&#39;s okay if I have trouble performing the exercises with perfect technique or reach muscle failure before completing the set. The main goals are to simply start the workout and push myself to do the best I can.</p>
+<h2>Routine</h2>
+<p id="3c361803"><a href="#3c361803" class="anchor-link" aria-label="Link to this block">#</a><strong>The pattern:</strong> 3 different workouts (A, B, C), each repeated twice per week. Each session ~30-40 minutes total. minimal rest between exercises, 60-90 sec rest between rounds.</p>
+<table>
+<thead>
+<tr>
+<th>Day</th>
+<th>Workout</th>
+<th>Focus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mon</td>
+<td>A</td>
+<td>Push + Core</td>
+</tr>
+<tr>
+<td>Tue</td>
+<td>B</td>
+<td>Pull + Legs</td>
+</tr>
+<tr>
+<td>Wed</td>
+<td>C</td>
+<td>Full Body + Conditioning</td>
+</tr>
+<tr>
+<td>Thu</td>
+<td>A</td>
+<td>Push + Core</td>
+</tr>
+<tr>
+<td>Fri</td>
+<td>B</td>
+<td>Pull + Legs</td>
+</tr>
+<tr>
+<td>Sat</td>
+<td>C</td>
+<td>Full Body + Conditioning</td>
+</tr>
+<tr>
+<td>Sun</td>
+<td>Rest</td>
+<td>Recovery</td>
+</tr>
+</tbody>
+</table>
+<h3>Workout A - Push + Core</h3>
+<p id="7923dc33"><a href="#7923dc33" class="anchor-link" aria-label="Link to this block">#</a><strong>Warm-up (5 min):</strong><br/>
+Arm circles, wrist circles, cat-cow, push-up position shoulder taps</p>
+<p id="192d0328"><a href="#192d0328" class="anchor-link" aria-label="Link to this block">#</a><strong>Circuit 1 - 3 rounds</strong></p>
+<table>
+<thead>
+<tr>
+<th>Exercise</th>
+<th>Reps</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Diamond push-ups</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Pike push-ups</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Ab wheel rollouts</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<p id="322e19be"><a href="#322e19be" class="anchor-link" aria-label="Link to this block">#</a><strong>Circuit 2 - 3 rounds</strong></p>
+<table>
+<thead>
+<tr>
+<th>Exercise</th>
+<th>Reps</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Archer push-ups</td>
+<td>4 each side</td>
+</tr>
+<tr>
+<td>Tricep push-ups</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Dead bug</td>
+<td>10 each side</td>
+</tr>
+</tbody>
+</table>
+<p id="607f49ff"><a href="#607f49ff" class="anchor-link" aria-label="Link to this block">#</a><strong>Finisher:</strong> Max time Plank</p>
+<h3>Workout B - Pull + Legs</h3>
+<p id="37e823a0"><a href="#37e823a0" class="anchor-link" aria-label="Link to this block">#</a><strong>Warm-up (5 min):</strong><br/>
+Leg swings, hip circles, glute bridges, band pull-aparts</p>
+<p id="d76d7487"><a href="#d76d7487" class="anchor-link" aria-label="Link to this block">#</a><strong>Circuit 1 - 3 rounds:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Exercise</th>
+<th>Reps</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Band pulldowns</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Bulgarian split squats</td>
+<td>16 each leg</td>
+</tr>
+<tr>
+<td>Band face pulls</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+<p id="8b725349"><a href="#8b725349" class="anchor-link" aria-label="Link to this block">#</a><strong>Circuit 2 - 3 rounds:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Exercise</th>
+<th>Reps</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Table/door rows OR band rows</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Romanian single-leg deadlift</td>
+<td>10 each leg</td>
+</tr>
+<tr>
+<td>Reverse lunges</td>
+<td>12 each leg</td>
+</tr>
+</tbody>
+</table>
+<p id="0aeabb6a"><a href="#0aeabb6a" class="anchor-link" aria-label="Link to this block">#</a><strong>Finisher:</strong> Max time Wall Sit.</p>
+<h3>Workout C - Full Body + Conditioning</h3>
+<p id="8df3fee0"><a href="#8df3fee0" class="anchor-link" aria-label="Link to this block">#</a><strong>Warm-up (5 min):</strong><br/>
+Jumping jacks, arm circles, bodyweight squats, mountain climbers</p>
+<p id="c02175c2"><a href="#c02175c2" class="anchor-link" aria-label="Link to this block">#</a><strong>Circuit - 5 rounds</strong></p>
+<table>
+<thead>
+<tr>
+<th>Exercise</th>
+<th>Reps</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Burpees (no push-up)</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Band pulldowns</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Jump lunges</td>
+<td>8 each leg</td>
+</tr>
+<tr>
+<td>Push-ups</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Mountain climbers</td>
+<td>20 total</td>
+</tr>
+<tr>
+<td>Ab wheel</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<p id="ec0aa6e0"><a href="#ec0aa6e0" class="anchor-link" aria-label="Link to this block">#</a>The goal is to keep moving despite the urge to stop.</p>
+<hr/>
+<h2>Progression</h2>
+<p id="39e4f36f"><a href="#39e4f36f" class="anchor-link" aria-label="Link to this block">#</a><strong>Progress by:</strong></p>
+<ol>
+<li>Adding 2 reps per exercise</li>
+<li>Slowing the eccentric (lowering) phase to 3 seconds</li>
+<li>Reducing rest periods by 10-15 seconds</li>
+</ol>
+<h2>Alternatives</h2>
+<p id="af16d019"><a href="#af16d019" class="anchor-link" aria-label="Link to this block">#</a>I don&#39;t have any equipment as for now, so I use following exercise alternatives:</p>
+<h3>Workout A</h3>
+<table>
+<thead>
+<tr>
+<th>Original</th>
+<th>No-equipment alternative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ab wheel rollouts</td>
+<td><strong>Walkouts</strong> - 10 reps</td>
+</tr>
+</tbody>
+</table>
+<h3>Workout B</h3>
+<table>
+<thead>
+<tr>
+<th>Original</th>
+<th>No-equipment alternative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Band pulldowns</td>
+<td><strong>Prone Y-T-W raises</strong> - 10 reps per position</td>
+</tr>
+<tr>
+<td>Band face pulls</td>
+<td><strong>Reverse snow angels</strong> - 20 reps</td>
+</tr>
+<tr>
+<td>Table/door rows</td>
+<td><strong>Doorframe rows</strong> - 16 reps</td>
+</tr>
+</tbody>
+</table>
+<h3>Workout C</h3>
+<table>
+<thead>
+<tr>
+<th>Original</th>
+<th>No-equipment alternative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Band pulldowns</td>
+<td><strong>Superman pulls</strong> - 16 reps</td>
+</tr>
+<tr>
+<td>Ab wheel</td>
+<td><strong>Plank shoulder taps</strong> - 20 reps</td>
+</tr>
+</tbody>
+</table>
+</body></html>
+			</article>
+		</main>
+		<div class="col-right"></div>
+	</div>
+	<div class="mobile-bar">
+		<a class="brand" href="/">axseem</a>
+		<a class="browse" href="/browse">/browse</a>
+	</div>
+	<script>
+(function() {
+	if (window.matchMedia('(hover: hover)').matches) return;
+	
+	let activeAnchor = null;
+	
+	document.addEventListener('click', function(e) {
+		const target = e.target;
+		
+		
+		if (target.closest('.anchor-link')) return;
+		
+		
+		const block = target.closest('[id]:is(p, blockquote, pre), .linkable-block');
+		if (!block) {
+			
+			if (activeAnchor) activeAnchor.classList.remove('visible');
+			activeAnchor = null;
+			return;
+		}
+		
+		const anchor = block.querySelector(':scope > .anchor-link');
+		if (!anchor) return;
+		
+		if (anchor === activeAnchor) {
+			
+			anchor.classList.remove('visible');
+			activeAnchor = null;
+		} else {
+			
+			if (activeAnchor) activeAnchor.classList.remove('visible');
+			anchor.classList.add('visible');
+			activeAnchor = anchor;
+		}
+	});
+})();
+</script>
+</body>
+</html>
