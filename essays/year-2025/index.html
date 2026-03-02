@@ -29,37 +29,30 @@
     <style>
        
 @font-face {
-  font-family: "IBM Plex Sans";
-  src: url("/fonts/IBMPlexSans.woff2") format("woff2-variations");
-  font-weight: 100 700;
+  font-family: "Inter";
+  src: url("/fonts/Inter.woff2") format("woff2-variations");
+  font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "IBM Plex Serif";
-  src: url("/fonts/IBMPlexSerif.woff2") format("woff2-variations");
-  font-weight: 100 700;
+  font-family: "Inter";
+  src: url("/fonts/Inter-Italic.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/fonts/SpaceGrotesk.woff2") format("woff2-variations");
+  font-weight: 300 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "IBM Plex Mono";
-  src: url("/fonts/IBMPlexMono-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("/fonts/IBMPlexMono-SemiBold.woff2") format("woff2");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("/fonts/IBMPlexMono-Bold.woff2") format("woff2");
-  font-weight: 700;
+  font-family: "JetBrains Mono";
+  src: url("/fonts/JetBrainsMono.woff2") format("woff2-variations");
+  font-weight: 100 800;
   font-style: normal;
   font-display: swap;
 }
@@ -67,17 +60,16 @@
 :root {
   --surface: #000;
   --surface-raised: #111;
-  --border: #222;
-  --underline: #444;
+  --underline: #555;
   --muted: #888;
-  --text: #ddd;
+  --text: #ccc;
   --highlight: #fff;
-  --font-mono: "IBM Plex Mono", monospace;
-  --font-serif: "IBM Plex Serif", serif;
-  --font-sans: "IBM Plex Sans", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
   --line-height: 1.5;
   --space: 1.5rem;
-  --content-width: 40rem;
+  --content-width: 36rem;
 }
 
 *,
@@ -99,7 +91,7 @@ html {
  
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--border) transparent;
+  scrollbar-color: var(--surface-raised) transparent;
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -109,7 +101,7 @@ html {
   background: var(--surface);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--border);
+  background: var(--surface-raised);
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -123,20 +115,22 @@ html {
 h1,
 h2,
 h3 {
-  font-family: var(--font-mono);
+  font-family: var(--font-heading);
   font-weight: 700;
   color: var(--highlight);
-  margin-block: calc(var(--space) * 2) var(--space);
   line-height: 1.25;
 }
 h1 {
   font-size: 1.75rem;
+  margin-block: calc(var(--space) * 2) var(--space);
 }
 h2 {
-  font-size: 1.25rem;
+  font-size: 1.375rem;
+  margin-block: calc(var(--space) * 1.5) calc(var(--space) * 0.75);
 }
 h3 {
-  font-size: 1rem;
+  font-size: 1.125rem;
+  margin-block: var(--space) calc(var(--space) * 0.5);
 }
 
  
@@ -161,8 +155,8 @@ a:hover {
  
 code {
   font-family: var(--font-mono);
-  font-size: 0.875rem;
-  background: var(--border);
+  font-size: 0.75rem;
+  background: var(--surface-raised);
   color: var(--highlight);
   padding: 0.1rem 0.3rem;
 }
@@ -207,13 +201,13 @@ blockquote ol {
 }
 hr {
   border: none;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--surface-raised);
   margin-block: var(--space);
 }
 img {
   display: block;
   max-width: 100%;
-  border: 1px solid var(--border);
+  border: 1px solid var(--surface-raised);
   image-rendering: pixelated;
 }
 article > :first-child {
@@ -236,7 +230,7 @@ td {
   padding: 0.5rem 1rem 0.5rem 0;
   text-align: left;
   vertical-align: top;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--surface-raised);
 }
 th {
   font-family: var(--font-mono);
@@ -281,7 +275,7 @@ tr:last-child td {
   justify-content: center;
   align-items: center;
   min-height: 100dvh;
-  padding-block: 4rem;
+  padding: 4rem 2rem;
 }
 .col-left,
 .col-right {
@@ -335,11 +329,11 @@ main {
   display: none;
 }
 @media (width < 1024px) {
-  .layout {
-    padding: 4rem 2rem 6rem 2rem;
-  }
   aside {
     display: none;
+  }
+  main {
+    padding-bottom: 4rem;
   }
   .mobile-bar {
     position: fixed;
@@ -358,11 +352,6 @@ main {
     margin-bottom: 0;
   }
 }
-@media (max-width: 704px) {
-  .layout {
-    padding: 2rem 2rem 6rem 2rem;
-  }
-}
 
     </style>
   </head>
@@ -377,6 +366,10 @@ main {
               href="/browse"
               
               >/browse</a
+            ><a
+              href="/contact"
+              
+              >/contact</a
             ><a
               href="/essays"
               
@@ -405,7 +398,7 @@ main {
 </blockquote>
 <p id="ac11339f"><a href="#ac11339f" class="anchor-link" aria-label="Link to this block">#</a><img src="/essays/year-2025/year-2025.svg" alt="2025"/></p>
 <p id="730f062f"><a href="#730f062f" class="anchor-link" aria-label="Link to this block">#</a>This was an awesome year, probably the best one I&#39;ve ever had. There were a lot of ups and downs, and I&#39;m impressed by how much I went through.</p>
-<p id="029a4cc8"><a href="#029a4cc8" class="anchor-link" aria-label="Link to this block">#</a>The most impactful thing I did is probably creating and systematically writing to my <a href="../journal">personal journal</a>. I started it because of the deep hurt, despair and all sorts of other painful emotions that were eating me from inside. Everything felt so messy and scattered, and I felt a need to do something towards solving that. I had no people around to whom I could talk. To me it was clear that everyone I knew would not understand my struggle or would disregard my feelings. Creating a journal was my escape hatch. I heard a lot about the benefits of writing thoughts down, so I decided to give it a try, and to give it a little bit of charm and create some sense of importance, I decided to do it publicly.</p>
+<p id="029a4cc8"><a href="#029a4cc8" class="anchor-link" aria-label="Link to this block">#</a>The most impactful thing I did is probably creating and systematically writing to my <a href="/journal">personal journal</a>. I started it because of the deep hurt, despair and all sorts of other painful emotions that were eating me from inside. Everything felt so messy and scattered, and I felt a need to do something towards solving that. I had no people around to whom I could talk. To me it was clear that everyone I knew would not understand my struggle or would disregard my feelings. Creating a journal was my escape hatch. I heard a lot about the benefits of writing thoughts down, so I decided to give it a try, and to give it a little bit of charm and create some sense of importance, I decided to do it publicly.</p>
 <p id="7ce6fe7d"><a href="#7ce6fe7d" class="anchor-link" aria-label="Link to this block">#</a>It seems like the pain of shame, guilt, loneliness, inferiority and the feeling of inadequacy was always the primary fuel for me.</p>
 <p id="fcb8c79e"><a href="#fcb8c79e" class="anchor-link" aria-label="Link to this block">#</a>A lot has changed. I believe I managed to almost fully switch to more sustainable and fulfilling fuel. I want to increase my understanding of everything I observe. I crave answers for all the questions that I have, and at the same time I want to be useful to others. Curiosity is probably the best all-in-one word which explains the desires I have right now.</p>
 <p id="e57cb2f7"><a href="#e57cb2f7" class="anchor-link" aria-label="Link to this block">#</a>My most successful project so far was born this year. I got into the ergonomic keyboards hobby last year, and it was an amazing journey. I started with <a href="https://github.com/foostan/crkbd">Corne</a>, switched to <a href="https://github.com/pashutk/chocofi">Chocofi</a> and ended up building my own keyboard called <a href="https://github.com/anywhy-io/flake">Anywhy Flake</a>. There always were some flaws I could notice in other designs, and I was always half satisfied. I wanted to get a simple, versatile and clean experience, and I simply couldn&#39;t find it. Out of pure curiosity I decided to figure out how difficult it would be to create my own PCB design. I&#39;d been playing around during the previous year and created several simple designs like <a href="https://github.com/axseem/folderlike">this one</a>. At some point the process felt fluent, I had enough knowledge and experience to come up with a design which would solve most of the problems I&#39;d had with other keyboards. I <a href="https://www.reddit.com/r/ErgoMechKeyboards/comments/1h7lf72/anywhy_flake_slim_design_wired_and_wireless/">posted a prototype</a> on Reddit during December 2024, and then <a href="https://www.reddit.com/r/ErgoMechKeyboards/comments/1hyxu77/meet_the_anywhy_flake_v10/">released version 1.0</a> in January 2025. The original design was improved so much during this year, to the point that I <a href="https://www.reddit.com/r/ErgoMechKeyboards/comments/1nm1s6r/anywhy_flake_v2_an_opensource_wireless_split/">released a reworked version 2.0</a>. There were a lot of people who absolutely loved what I&#39;d made, and I liked how warm and friendly the community felt.</p>
@@ -428,6 +421,5 @@ main {
       <a class="brand" href="/">axseem</a>
       <a class="browse" href="/browse">/browse</a>
     </div>
-
   </body>
 </html>
