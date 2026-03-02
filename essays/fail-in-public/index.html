@@ -1,349 +1,424 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<title>fail in public - axseem</title>
-	<meta name="title" content="fail in public - axseem">
-	<meta name="description" content="fail in public - Personal website">
-	<meta name="author" content="axseem">
-	<meta name="keywords" content="axseem, Max Bohdan, Maksym Bohdan, code, ideas, blog, journal, engineer, free, creator, public, live, projects, software, programming, books, contact">
-	<link rel="canonical" href="https://axseem.me/essays/fail-in-public">
-	<link rel="icon" type="image/x-icon" href="/static/favicon.svg">
-	<meta property="og:type" content="article">
-	<meta property="og:url" content="https://axseem.me/essays/fail-in-public">
-	<meta property="og:title" content="fail in public - axseem">
-	<meta property="og:description" content="fail in public - Personal website">
-	<meta property="og:image" content="https://axseem.me/avatar1024.webp">
-	<meta property="og:site_name" content="axseem">
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:url" content="https://axseem.me/essays/fail-in-public">
-	<meta name="twitter:title" content="fail in public - axseem">
-	<meta name="twitter:description" content="fail in public - Personal website">
-	<meta name="twitter:image" content="https://axseem.me/avatar1024.webp">
-	<meta property="article:published_time" content="2025-11-16">
-	<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"fail in public","description":"fail in public - Personal website","author":{"@type":"Person","name":"axseem","url":"https://axseem.me"},"datePublished":"2025-11-16","url":"https:\/\/axseem.me\/essays\/fail-in-public","image":"https:\/\/axseem.me\/avatar1024.webp"}</script>
-	<script defer src="https://cloud.umami.is/script.js" data-website-id="67df3bdb-d0ff-492a-9842-a106af7945f0"></script>
-	<style> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>fail in public - axseem</title>
+    <meta name="title" content="fail in public - axseem" />
+    <meta name="description" content="fail in public - Personal website" />
+    <meta name="author" content="axseem" />
+    <meta
+      name="keywords"
+      content="axseem, Max Bohdan, Maksym Bohdan, code, ideas, blog, journal, engineer, free, creator, public, live, projects, software, programming, books, contact"
+    />
+    <link rel="canonical" href="https://axseem.me/essays/fail-in-public" />
+    <link rel="icon" type="image/x-icon" href="/static/favicon.svg" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://axseem.me/essays/fail-in-public" />
+    <meta property="og:title" content="fail in public - axseem" />
+    <meta property="og:description" content="fail in public - Personal website" />
+    <meta property="og:image" content="https://axseem.me/avatar1024.webp" />
+    <meta property="og:site_name" content="axseem" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://axseem.me/essays/fail-in-public" />
+    <meta name="twitter:title" content="fail in public - axseem" />
+    <meta name="twitter:description" content="fail in public - Personal website" />
+    <meta name="twitter:image" content="https://axseem.me/avatar1024.webp" />
+    
+    <meta property="article:published_time" content="2025-11-16" />
+     
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "fail in public",
+        "description": "fail in public - Personal website",
+        "author": {
+          "@type": "Person",
+          "name": "axseem",
+          "url": "https://axseem.me"
+        },
+        "datePublished": "2025-11-16",
+        "url": "https:\/\/axseem.me\/essays\/fail-in-public",
+        "image": "https:\/\/axseem.me\/avatar1024.webp"
+      }
+    </script>
+     
+    <style>
+       
 @font-face {
-	font-family: 'IBM Plex Sans';
-	src: url('/fonts/IBMPlexSans-Regular.woff2') format('woff2');
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/IBMPlexSans.woff2") format("woff2-variations");
+  font-weight: 100 700;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-	font-family: 'IBM Plex Sans';
-	src: url('/fonts/IBMPlexSans-Text.woff2') format('woff2');
-	font-weight: 450;
-	font-style: normal;
-	font-display: swap;
+  font-family: "IBM Plex Serif";
+  src: url("/fonts/IBMPlexSerif.woff2") format("woff2-variations");
+  font-weight: 100 700;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-	font-family: 'IBM Plex Sans';
-	src: url('/fonts/IBMPlexSans-Bold.woff2') format('woff2');
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
+  font-family: "IBM Plex Mono";
+  src: url("/fonts/IBMPlexMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-	font-family: 'IBM Plex Mono';
-	src: url('/fonts/IBMPlexMono-Regular.woff2') format('woff2');
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
+  font-family: "IBM Plex Mono";
+  src: url("/fonts/IBMPlexMono-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-	font-family: 'IBM Plex Mono';
-	src: url('/fonts/IBMPlexMono-SemiBold.woff2') format('woff2');
-	font-weight: 600;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: 'IBM Plex Mono';
-	src: url('/fonts/IBMPlexMono-Bold.woff2') format('woff2');
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: 'IBM Plex Serif';
-	src: url('/fonts/IBMPlexSerif-Regular.woff2') format('woff2');
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: 'IBM Plex Serif';
-	src: url('/fonts/IBMPlexSerif-Bold.woff2') format('woff2');
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
+  font-family: "IBM Plex Mono";
+  src: url("/fonts/IBMPlexMono-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
-	--surface: #000;
-	--surface-raised: #111;
-	--border: #222;
-	--underline: #444;
-	--muted: #888;
-	--text: #ddd;
-	--highlight: #fff;
-	--font-mono: 'IBM Plex Mono', monospace;
-	--font-serif: 'IBM Plex Serif', serif;
-	--font-sans: 'IBM Plex Sans', sans-serif;
-	--line-height: 1.5;
-	--space: 1.5rem;
-	--content-width: 40rem;
+  --surface: #000;
+  --surface-raised: #111;
+  --border: #222;
+  --underline: #444;
+  --muted: #888;
+  --text: #ddd;
+  --highlight: #fff;
+  --font-mono: "IBM Plex Mono", monospace;
+  --font-serif: "IBM Plex Serif", serif;
+  --font-sans: "IBM Plex Sans", sans-serif;
+  --line-height: 1.5;
+  --space: 1.5rem;
+  --content-width: 40rem;
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-	min-height: 100%;
-	background: var(--surface);
-	color: var(--text);
-	font: 400 1rem/var(--line-height) var(--font-sans);
-	-webkit-font-smoothing: antialiased;
+  min-height: 100%;
+  background: var(--surface);
+  color: var(--text);
+  font: 400 1rem / var(--line-height) var(--font-sans);
+  -webkit-font-smoothing: antialiased;
 }
 
  
 * {
-	scrollbar-width: thin;
-	scrollbar-color: var(--border) transparent;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
 }
-::-webkit-scrollbar { width: 8px; height: 8px; }
-::-webkit-scrollbar-track { background: var(--surface); }
-::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
-::-webkit-scrollbar-thumb:hover { background: var(--underline); }
-::-webkit-scrollbar-corner { background: var(--surface); }
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--surface);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--underline);
+}
+::-webkit-scrollbar-corner {
+  background: var(--surface);
+}
 
  
-h1, h2, h3 {
-	font-family: var(--font-mono);
-	font-weight: 700;
-	color: var(--highlight);
-	margin-block: calc(var(--space) * 2) var(--space);
-	line-height: 1.25;
+h1,
+h2,
+h3 {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--highlight);
+  margin-block: calc(var(--space) * 2) var(--space);
+  line-height: 1.25;
 }
-h1 { font-size: 1.75rem; }
-h2 { font-size: 1.25rem; }
-h3 { font-size: 1rem; }
+h1 {
+  font-size: 1.75rem;
+}
+h2 {
+  font-size: 1.25rem;
+}
+h3 {
+  font-size: 1rem;
+}
 
  
 p {
-	font-family: var(--font-sans);
-	margin-block: var(--space);
+  font-family: var(--font-sans);
+  margin-block: var(--space);
 }
-strong { color: var(--highlight); }
+strong {
+  color: var(--highlight);
+}
 a {
-	font-weight: 450;
-	color: var(--highlight);
-	text-underline-offset: 2px;
-	text-decoration: underline;
-	text-decoration-color: var(--underline);
+  font-weight: 450;
+  color: var(--highlight);
+  text-underline-offset: 2px;
+  text-decoration: underline;
+  text-decoration-color: var(--underline);
 }
-a:hover { text-decoration: underline; }
+a:hover {
+  text-decoration: underline;
+}
 
  
 code {
-	font-family: var(--font-mono);
-	font-size: 0.875rem;
-	background: var(--border);
-	color: var(--highlight);
-	padding: 0.1rem 0.3rem;
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  background: var(--border);
+  color: var(--highlight);
+  padding: 0.1rem 0.3rem;
 }
 pre {
-	background: var(--surface-raised);
-	padding: 1rem 1.25rem;
-	margin-block: var(--space);
-	overflow-x: auto;
-	line-height: 1.5;
+  background: var(--surface-raised);
+  padding: 1rem 1.25rem;
+  margin-block: var(--space);
+  overflow-x: auto;
+  line-height: 1.5;
 }
-pre code { background: none; padding: 0; color: var(--text); }
+pre code {
+  background: none;
+  padding: 0;
+  color: var(--text);
+}
 
  
-ul, ol {
-	padding-left: 1.5em;
-	margin-block: var(--space);
+ul,
+ol {
+  padding-left: 1.5em;
+  margin-block: var(--space);
 }
-li + li { margin-top: 0.25em; }
-li > ul, li > ol { margin-block: 0.25em 0; }
+li + li {
+  margin-top: 0.25em;
+}
+li > ul,
+li > ol {
+  margin-block: 0.25em 0;
+}
 
  
-blockquote { color: var(--muted); }
-blockquote code { color: var(--muted); }
-blockquote ul, blockquote ol { list-style: none; padding-left: 0; }
-hr { border: none; border-top: 1px solid var(--border); margin-block: var(--space); }
+blockquote {
+  color: var(--muted);
+}
+blockquote code {
+  color: var(--muted);
+}
+blockquote ul,
+blockquote ol {
+  list-style: none;
+  padding-left: 0;
+}
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin-block: var(--space);
+}
 img {
-	display: block;
-	max-width: 100%;
-	border: 1px solid var(--border);
-	image-rendering: pixelated;
+  display: block;
+  max-width: 100%;
+  border: 1px solid var(--border);
+  image-rendering: pixelated;
 }
-article > :first-child { margin-top: 0; }
-article > :last-child { margin-bottom: 0; }
+article > :first-child {
+  margin-top: 0;
+}
+article > :last-child {
+  margin-bottom: 0;
+}
 
  
 table {
-	width: 100%;
-	border-collapse: collapse;
-	margin-block: var(--space);
-	font-variant-numeric: tabular-nums;
-	table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  margin-block: var(--space);
+  font-variant-numeric: tabular-nums;
+  table-layout: fixed;
 }
-th, td {
-	padding: 0.5rem 1rem 0.5rem 0;
-	text-align: left;
-	vertical-align: top;
-	border-bottom: 1px solid var(--border);
+th,
+td {
+  padding: 0.5rem 1rem 0.5rem 0;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
 }
 th {
-	font-family: var(--font-mono);
-	font-weight: 600;
-	font-size: 0.875rem;
-	color: var(--highlight);
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--highlight);
 }
-tr:last-child td { border-bottom: none; }
+tr:last-child td {
+  border-bottom: none;
+}
 
  
 :is(p, blockquote, pre)[id],
-.linkable-block { position: relative; }
+.linkable-block {
+  position: relative;
+}
 .anchor-link {
-	position: absolute;
-	right: 100%;
-	top: 0;
-	padding-right: 0.4rem;
-	opacity: 0;
-	text-decoration: none;
-	color: var(--muted);
-	font-size: 0.85em;
-	font-weight: 400;
-	line-height: var(--line-height);
-	user-select: none;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  padding-right: 0.4rem;
+  opacity: 0;
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 0.85em;
+  font-weight: 400;
+  line-height: var(--line-height);
+  user-select: none;
 }
-@media (hover: hover) {
-	:is(p, blockquote, pre)[id]:hover > .anchor-link,
-	.linkable-block:hover > .anchor-link { opacity: 0.6; }
-	.anchor-link:hover { opacity: 1 !important; color: var(--highlight); }
+:is(p, blockquote, pre)[id]:hover > .anchor-link,
+.linkable-block:hover > .anchor-link {
+  opacity: 0.6;
 }
-@media (hover: none) {
-	.anchor-link.visible { opacity: 0.6; }
+.anchor-link:hover {
+  opacity: 1 !important;
+  color: var(--highlight);
 }
 
  
 .layout {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100dvh;
-	padding-block: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  padding-block: 4rem;
 }
 .col-left,
 .col-right {
-	flex: 1;
-	min-width: 0;
+  flex: 1;
+  min-width: 0;
 }
 .col-left {
-	display: flex;
-	justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 aside {
-	position: fixed;
-	top: 50%;
-	transform: translateY(-50%);
-	width: 8rem;
-	background-color: var(--surface);
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8rem;
+  background-color: var(--surface);
 }
 .brand {
-	display: block;
-	font-weight: 700;
-	margin-bottom: 2rem;
-	text-decoration: none;
-	color: var(--highlight);
+  display: block;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  color: var(--highlight);
 }
 .browse {
-	font-size: 0.875rem;
+  font-size: 0.875rem;
 }
 aside nav {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 aside nav a {
-	text-decoration: none;
-	color: var(--muted);
+  text-decoration: none;
+  color: var(--muted);
 }
 aside nav a:hover,
 aside nav a.active {
-	color: var(--highlight);
+  color: var(--highlight);
 }
 aside nav a.active {
-	font-weight: 500;
+  font-weight: 500;
 }
 main {
-	width: 100%;
-	max-width: var(--content-width);
+  width: 100%;
+  max-width: var(--content-width);
 }
 .content-wrapper {
-	display: contents;
+  display: contents;
 }
 .mobile-bar {
-	display: none;
+  display: none;
 }
 @media (width < 1024px) {
-	.layout {
-		padding: 4rem 2rem 6rem 2rem;
-	}
-	aside {
-		display: none;
-	}
-	.mobile-bar {
-		position: fixed;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		padding: 1rem 2rem;
-		background-color: var(--surface);
-		border-top: 1px solid #222;
-		z-index: 100;
-	}
-	.mobile-bar .brand {
-		margin-bottom: 0;
-	}
+  .layout {
+    padding: 4rem 2rem 6rem 2rem;
+  }
+  aside {
+    display: none;
+  }
+  .mobile-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: var(--surface);
+    border-top: 1px solid #222;
+    z-index: 100;
+  }
+  .mobile-bar .brand {
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 704px) {
-	.layout {
-		padding: 2rem 2rem 6rem 2rem;
-	}
+  .layout {
+    padding: 2rem 2rem 6rem 2rem;
+  }
 }
-</style>
-</head>
-<body>
-	
-	<div class="layout">
-		<div class="col-left">
-			<aside>
-				<a class="brand" href="/">axseem</a>
-				<nav>
-					<a href="/browse" >/browse</a><a href="/essays" >/essays</a><a href="/gallery" >/gallery</a><a href="/journal" >/journal</a><a href="/projects" >/projects</a>
-				</nav>
-			</aside>
-		</div>
-		<main>
-			<article class="content-wrapper">
-				
-				<html><head></head><body><h1>fail in public</h1>
+
+    </style>
+  </head>
+  <body>
+    
+    <div class="layout">
+      <div class="col-left">
+        <aside>
+          <a class="brand" href="/">axseem</a>
+          <nav>
+            <a
+              href="/browse"
+              
+              >/browse</a
+            ><a
+              href="/essays"
+              
+              >/essays</a
+            ><a
+              href="/gallery"
+              
+              >/gallery</a
+            ><a
+              href="/journal"
+              
+              >/journal</a
+            ><a
+              href="/projects"
+              
+              >/projects</a
+            >
+          </nav>
+        </aside>
+      </div>
+      <main>
+        <article class="content-wrapper">
+           <html><head></head><body><h1>fail in public</h1>
 <blockquote id="f2dada38"><a href="#f2dada38" class="anchor-link" aria-label="Link to this block">#</a>
 <p id="cbe50260"><a href="#cbe50260" class="anchor-link" aria-label="Link to this block">#</a><code>2025 November 16</code> <code>4 minutes to read</code></p>
 </blockquote>
@@ -364,52 +439,15 @@ main {
 <p id="553ee61e"><a href="#553ee61e" class="anchor-link" aria-label="Link to this block">#</a>Still, I&#39;m posting it. I&#39;m embracing the possibility of embarrassment, or what might be worse, a real chance of irrelevance.</p>
 <p id="a0dd5e5f"><a href="#a0dd5e5f" class="anchor-link" aria-label="Link to this block">#</a>I remember a few months ago I recorded a TikTok on a similar topic. Recently I checked it once again, and it was hard to watch. I looked awkward, word choice felt off, and my voice intonations were driving me nuts.</p>
 <p id="897b7aa2"><a href="#897b7aa2" class="anchor-link" aria-label="Link to this block">#</a>But you know what, it absolutely doesn&#39;t matter. I was acting according to my values, and fear didn&#39;t stop me. I&#39;m actually more than glad that I posted it, because it was yet another small, compounding step towards the person I want to be - someone who shows up no matter what.</p>
-</body></html>
-				
-			</article>
-		</main>
-		<div class="col-right"></div>
-	</div>
-	<div class="mobile-bar">
-		<a class="brand" href="/">axseem</a>
-		<a class="browse" href="/browse">/browse</a>
-	</div>
-	<script>
-(function() {
-	if (window.matchMedia('(hover: hover)').matches) return;
-	
-	let activeAnchor = null;
-	
-	document.addEventListener('click', function(e) {
-		const target = e.target;
-		
-		
-		if (target.closest('.anchor-link')) return;
-		
-		
-		const block = target.closest('[id]:is(p, blockquote, pre), .linkable-block');
-		if (!block) {
-			
-			if (activeAnchor) activeAnchor.classList.remove('visible');
-			activeAnchor = null;
-			return;
-		}
-		
-		const anchor = block.querySelector(':scope > .anchor-link');
-		if (!anchor) return;
-		
-		if (anchor === activeAnchor) {
-			
-			anchor.classList.remove('visible');
-			activeAnchor = null;
-		} else {
-			
-			if (activeAnchor) activeAnchor.classList.remove('visible');
-			anchor.classList.add('visible');
-			activeAnchor = anchor;
-		}
-	});
-})();
-</script>
-</body>
+</body></html> 
+        </article>
+      </main>
+      <div class="col-right"></div>
+    </div>
+    <div class="mobile-bar">
+      <a class="brand" href="/">axseem</a>
+      <a class="browse" href="/browse">/browse</a>
+    </div>
+
+  </body>
 </html>
