@@ -269,26 +269,6 @@ tr:last-child td {
 }
 
  
-body::before,
-body::after {
-  content: "";
-  position: fixed;
-  left: 0;
-  right: 0;
-  height: 4rem;
-  pointer-events: none;
-  z-index: 50;
-}
-body::before {
-  top: 0;
-  background: linear-gradient(to bottom, var(--surface), transparent);
-}
-body::after {
-  bottom: 0;
-  background: linear-gradient(to top, var(--surface), transparent);
-}
-
- 
 .layout {
   display: flex;
   justify-content: center;
@@ -344,60 +324,28 @@ main {
 .content-wrapper {
   display: contents;
 }
-.scroll-area {
-  display: contents;
-}
 .mobile-bar {
   display: none;
 }
 @media (width < 1024px) {
-  body {
-    display: flex;
-    flex-direction: column;
-    height: 100dvh;
-  }
-  body::before,
-  body::after {
-    display: none;
-  }
   aside {
     display: none;
   }
-  .scroll-area {
-    display: block;
-    flex: 1;
-    overflow-y: auto;
-  }
-  .scroll-area::before,
-  .scroll-area::after {
-    content: "";
-    display: block;
-    position: sticky;
-    left: 0;
-    right: 0;
-    height: 4rem;
-    pointer-events: none;
-    z-index: 50;
-  }
-  .scroll-area::before {
-    top: 0;
-    margin-bottom: -4rem;
-    background: linear-gradient(to bottom, var(--surface), transparent);
-  }
-  .scroll-area::after {
-    bottom: 0;
-    margin-top: -4rem;
-    background: linear-gradient(to top, var(--surface), transparent);
-  }
   main {
-    padding-bottom: var(--space);
+    padding-bottom: 4rem;
   }
   .mobile-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
     background-color: var(--surface);
+    border-top: 1px solid #222;
+    z-index: 100;
   }
   .mobile-bar .brand {
     margin-bottom: 0;
@@ -408,7 +356,6 @@ main {
   </head>
   <body>
     
-    <div class="scroll-area">
     <div class="layout">
       <div class="col-left">
         <aside>
@@ -451,7 +398,6 @@ main {
         </article>
       </main>
       <div class="col-right"></div>
-    </div>
     </div>
     <div class="mobile-bar">
       <a class="brand" href="/">axseem</a>
