@@ -40,7 +40,7 @@
   --font-mono: "JetBrains Mono", monospace;
   --line-height: 1.5;
   --space: 1.5rem;
-  --content-width: 36rem;
+  --content-width: 40rem;
 }
 
 *,
@@ -178,7 +178,7 @@ hr {
 img {
   display: block;
   max-width: 100%;
-  border: 1px solid var(--surface-raised);
+  outline: 1px solid var(--surface-raised);
   image-rendering: pixelated;
 }
 article > :first-child {
