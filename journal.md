@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-03-16 18:29` `Prague`
+
+I've forgot to write an entry in the morning. Yesterday I've assembled a 3D printer and had a stream, where I was drawing. Surprisingly an old friend of mine Artem has come although I didn't tell him I'll start streaming again. Now I'm just about to start another stream, where I'll be drawing and then likely playing Titanfall 2 with Artem.
+
+---
+
 `2026-03-15 07:15` `Prague`
 
 I woke up at 6:30. The plan for to day is to assemble 3D printer and make a live stream. Perhaps I'll also move my website build files from GitHub Pages to VPS and create an automatic deployment on git push.
