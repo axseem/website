@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-03-17 08:37` `Prague`
+
+I think I'll start streaming daily again. I feel like I don't have enough time in the day again though. Bu I think it's fine, I'll also start making videos. I'll also publish all the half-baked projects and ideas I'm working on. I'm glad I feel like I can have a lot of opportunities again. It's purely emotional, but I think that's how it works.
+
+---
+
 `2026-03-16 18:29` `Prague`
 
 I've forgot to write an entry in the morning. Yesterday I've assembled a 3D printer and had a stream, where I was drawing. Surprisingly an old friend of mine Artem has come although I didn't tell him I'll start streaming again. Now I'm just about to start another stream, where I'll be drawing and then likely playing Titanfall 2 with Artem.
