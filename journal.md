@@ -9,6 +9,14 @@ sidebar: true
 
 ---
 
+`2026-03-18 20:19` `Prague`
+
+I didn't write an entry this morning, partially because I had an appointment for visa renewal and partially because I decided to procrastinate before leaving the home instead of writing the journal. But anyway. I don't feel like I have much to say in the recent days. Life started to feel "slowly but surely", where most of my free time is spent either as a meditative grind, or psychological fight with procrastination. I kind like it this way though.
+
+Somehow I have the sense of direction, and I guess I learned to reduce the FOMO a little bit, and increased the tolerance for slow, steady progress instead of wanting huge jumps in a day. At least it happened on intellectual level. I already had such moment after reading the Atomic Habits book, but at some point I forget the importance of small, accumulative improvement. I think the huge reason is an environment we all live in, where technological progress goes so fast, no matter what I do, I always feel behind. The main problem with that feeling is that it's highly demotivating and thus unproductive, so I guess it's easier to abstract my goals way from the race of brining as much value to this world. It's a complicated feeling, and I don't feel like I'm putting it into quite right words, but I guess it's good enough for now.
+
+---
+
 `2026-03-17 08:37` `Prague`
 
 I think I'll start streaming daily again. I feel like I don't have enough time in the day again though. Bu I think it's fine, I'll also start making videos. I'll also publish all the half-baked projects and ideas I'm working on. I'm glad I feel like I can have a lot of opportunities again. It's purely emotional, but I think that's how it works.
