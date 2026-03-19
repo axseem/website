@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-03-19 09:43` `Prague`
+
+My sleep schedule it a bit broken, most because of revenge bedtime procrastination. Also because I spend to much time with feeds, and it always feels like I'm not getting enough. I've been wrestling with the idea of fully going away from addictive media platforms like Reddit or YouTube because I still felt like I was getting some good value from particular content there, but the ratio of total time spent to the received value is honestly upsetting. I think I might make this platforms write only for me, or perhaps remove any infinite feeds using browser extensions or something similar. 
+
+---
+
 `2026-03-18 20:19` `Prague`
 
 I didn't write an entry this morning, partially because I had an appointment for visa renewal and partially because I decided to procrastinate before leaving the home instead of writing the journal. But anyway. I don't feel like I have much to say in the recent days. Life started to feel "slowly but surely", where most of my free time is spent either as a meditative grind, or psychological fight with procrastination. I kind like it this way though.
