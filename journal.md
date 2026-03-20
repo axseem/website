@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-03-20 08:27` `Prague`
+
+I've been working on Tailscale like network yesterday evening. It's pretty valuable to be able to access any of my systems from my other systems. It should also increase the security of my VPS, as the local network is going to be the only way to access it. I simply asked GLM-5 in OpenCode to update my Nix config to include VPS configuration in it and add Nebula to my laptop and VPS, and then I did another session asking to review the code, and did that several times in the loop. It's crazy how simple some things are nowadays. I hope this idea won't lead to my configuration having a vulnerability and my devices being accessible by anyone in the world. That will not be pretty.
+
+---
+
 `2026-03-19 09:43` `Prague`
 
 My sleep schedule it a bit broken, most because of revenge bedtime procrastination. Also because I spend to much time with feeds, and it always feels like I'm not getting enough. I've been wrestling with the idea of fully going away from addictive media platforms like Reddit or YouTube because I still felt like I was getting some good value from particular content there, but the ratio of total time spent to the received value is honestly upsetting. I think I might make this platforms write only for me, or perhaps remove any infinite feeds using browser extensions or something similar. 
