@@ -9,6 +9,20 @@ sidebar: true
 
 ---
 
+`2026-03-21 20:52` `Prague`
+
+Surprise surprise, I've got a new keyboard request. The person wrote me in Signal saying that his colleague ordered a Flake v1 keyboard from me, and that they want to order a Flake v2. Not going to lie, I was really glad to see the message, but at the same time it provoked a mix of other emotions.
+
+Mainly I started feeling silly. I got so used to my keyboard, I started to perceive the project as less valuable, so the ideas of expanding it to a business lost its appealing. As a result I've been putting off the creating of e-shop and improving the documentation.
+
+But now, considering that people keep coming and are willing to find and pay me so I can build a keyboard for them, I got this impression that there are a lot of people who are more than glad to buy the keyboard, and I'm just straight up refuse and keep telling myself that no, there is actually no demand.
+
+The truth is I don't really know if there is a demand, but there are a lot of cues that signal me that there might be a demand. Ideally I would have to test it even without this cues by simply launching the e-shop and seeing the result, but I'm not doing that even with all the positive signals lol.
+
+Right now I feel like it's my highest priority for the next few weeks. Hopefully lesson learned.
+
+---
+
 `2026-03-20 08:27` `Prague`
 
 I've been working on Tailscale like network yesterday evening. It's pretty valuable to be able to access any of my systems from my other systems. It should also increase the security of my VPS, as the local network is going to be the only way to access it. I simply asked GLM-5 in OpenCode to update my Nix config to include VPS configuration in it and add Nebula to my laptop and VPS, and then I did another session asking to review the code, and did that several times in the loop. It's crazy how simple some things are nowadays. I hope this idea won't lead to my configuration having a vulnerability and my devices being accessible by anyone in the world. That will not be pretty.
