@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-03-22 11:10` `Prague`
+
+I've been learning to draw everyday, while also streaming the process for a week already. I like it so far. On one of the stream I've pointed out that it's likely not kind of content I would watch, and that made me wonder if it makes sense to stream it then. However I figured out that clicking the "go live" button acts as a commitment mechanism which makes me fully focused on one particular task.
+
+---
+
 `2026-03-21 20:52` `Prague`
 
 Surprise surprise, I've got a new keyboard request. The person wrote me in Signal saying that his colleague ordered a Flake v1 keyboard from me, and that they want to order a Flake v2. Not going to lie, I was really glad to see the message, but at the same time it provoked a mix of other emotions.
