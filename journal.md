@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-03-23 08:24` `Prague`
+
+Yesterday I was on a date with a pretty nice girl. We've been mostly walking around and talking for hours, and I quite enjoyed it. We agreed to meet today another time. Because of that I'm not sure if I'll stream today. I would try my best, perhaps in the late evening because I don't want to loose the streak of my learning to draw practice.
+
+---
+
 `2026-03-22 11:10` `Prague`
 
 I've been learning to draw everyday, while also streaming the process for a week already. I like it so far. On one of the stream I've pointed out that it's likely not kind of content I would watch, and that made me wonder if it makes sense to stream it then. However I figured out that clicking the "go live" button acts as a commitment mechanism which makes me fully focused on one particular task.
