@@ -9,6 +9,14 @@ sidebar: true
 
 ---
 
+`2026-03-24 10:03` `Prague`
+
+I didn't manage to stream yesterday. The yesterday's date was going a bit too well, so we've been hanging around for much longer than I originally expected, and I came back home at ~02:00 in the morning. Today I'll definitely stream after the work.
+
+It also seems like I'm getting more and more busy in the recent time, which I would say is a good problem to have, but my time management is lagging behind a little bit. I feel like creating a more rigid schedule might help.
+
+---
+
 `2026-03-23 08:24` `Prague`
 
 Yesterday I was on a date with a pretty nice girl. We've been mostly walking around and talking for hours, and I quite enjoyed it. We agreed to meet today another time. Because of that I'm not sure if I'll stream today. I would try my best, perhaps in the late evening because I don't want to loose the streak of my learning to draw practice.
