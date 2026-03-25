@@ -9,6 +9,20 @@ sidebar: true
 
 ---
 
+`2026-03-25 23:58` `Prague`
+
+I lied. I didn't stream neither yesterday or today. I have so much happening in my life, I just can't handle everything. I've thought about that, and it seems like streaming, as well as drawing is pretty far from being a priority for me as for now.
+
+I've just come home from a dinner with a few of my coworkers. I've been chatting with one of them at the office several times - he's the one who invited me - and we had some really nice and interesting conversations. It was pleasant to be invited. I enjoyed the evening, everyone was so nice and I feel grateful to all of them.
+
+There is another important thing that happened to me. The girl I've been seeing last few days - we've went on another date yesterday evening. She is so nice, sweet and smart, it was a wonderful feeling to just be there with here. We've been talking a lot about all sorts of topics, including the feelings between us, and at some point we've decided that we are together now. It felt a tiny bit awkward, but also pretty charming.
+
+I have a lot of thoughts and emotions about our relationships but a lot of them are so difficult for me to understand. It's one of these moments when I try to deconstruct my feelings to figure out what exactly I'm going through, and I can only barely explain it. I think that I really like here, but I also struggle to express that properly, due to what seems to be the fear that it's going to be too much I guess. On top of that I feel a bit guilty about this whole rumination process, and that I act disrespectfully to her and her feelings.
+
+That's probably the most heavy thoughts I've had, but generally I like how things go, and to be frank I feel incredibly lucky :)
+
+---
+
 `2026-03-24 10:03` `Prague`
 
 I didn't manage to stream yesterday. The yesterday's date was going a bit too well, so we've been hanging around for much longer than I originally expected, and I came back home at ~02:00 in the morning. Today I'll definitely stream after the work.
