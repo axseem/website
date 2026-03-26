@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-03-26 12:37` `Prague`
+
+Finishing Anywhy brand and website is my first priority as for now. I think I'll be able to open pre-orders in the next month. I'm a bit too obsessed about doing everything perfectly though. If everything goes well, I already have an idea for several keyboard designs and other custom hardware tools for the future.
+
+---
+
 `2026-03-25 23:58` `Prague`
 
 I lied. I didn't stream neither yesterday or today. I have so much happening in my life, I just can't handle everything. I've thought about that, and it seems like streaming, as well as drawing is pretty far from being a priority for me as for now.
