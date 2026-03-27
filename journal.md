@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-03-27 11:49` `Prague`
+
+I've finally updated my visa and my official address. It's always so boring and tedious to this kind of docs work. But the most important part was done, what's left is to also update the address attached to my self-employment docs.
+
+---
+
 `2026-03-26 12:37` `Prague`
 
 Finishing Anywhy brand and website is my first priority as for now. I think I'll be able to open pre-orders in the next month. I'm a bit too obsessed about doing everything perfectly though. If everything goes well, I already have an idea for several keyboard designs and other custom hardware tools for the future.
