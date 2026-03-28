@@ -9,6 +9,14 @@ sidebar: true
 
 ---
 
+`2026-03-28 15:25` `Prague`
+
+I'm writing my journal for a decent period of time already. Although it is public and literally anyone have an access to everything I write here, I rarely truly feel that. The publicity of my writings surely influenced the way I write, but the fact of someone reading my entries always felt mostly hypothetical. Things change a little bit. There are several close to me people who seem to actively check what I write here, and a fair amount of people who seem to like occasionally checking new entries in the bulk.
+
+Honestly, I actually rather appreciate it, and is definitely not something I'm complaining about. However at the same time I've noticed that writing my entries became a bit more challenging and consume more time. I started thinking twice before writing something down. It's really far from me filtering everything I say here, but occasionally there are thoughts that I decide to omit. I'm still not quite sure what do I think about it. Being bold enough to say anything I think is genuinely useful and valuable, but believing that always doing so is a good choice started to feel a bit naive to me.
+
+---
+
 `2026-03-27 11:49` `Prague`
 
 I've finally updated my visa and my official address. It's always so boring and tedious to this kind of docs work. But the most important part was done, what's left is to also update the address attached to my self-employment docs.
