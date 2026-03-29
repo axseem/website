@@ -9,6 +9,14 @@ sidebar: true
 
 ---
 
+`2026-03-29 19:05` `Prague`
+
+This weekend, majority of the time I've been hanging out with Aray. I've invited her over and we've been really enjoying each other. When we are chatting, often several hours fly by a single instance for me. I'm actually quite impressed by how well things go, and how well we are able to communicate everything through, including intimate topics, as well as conflict of interests and beliefs.
+
+It's hard for me to write this entry, because all I think about is how lucky I am, and how happy I am about her appearing in my life. The interesting thing is that I try to not sugarcoat things and be realistic about what I feel and think, and still everything feels so "right" I guess.
+
+---
+
 `2026-03-28 15:25` `Prague`
 
 I'm writing my journal for a decent period of time already. Although it is public and literally anyone have an access to everything I write here, I rarely truly feel that. The publicity of my writings surely influenced the way I write, but the fact of someone reading my entries always felt mostly hypothetical. Things change a little bit. There are several close to me people who seem to actively check what I write here, and a fair amount of people who seem to like occasionally checking new entries in the bulk.
