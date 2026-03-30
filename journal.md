@@ -9,6 +9,16 @@ sidebar: true
 
 ---
 
+`2026-03-30 20:12` `Prague`
+
+I got sick. I woke up with a pain in the throat making it hard to swallow. I went to work and it drank 3 cups of warm coffee to ease the pain a bit, but it helped only for some moment. After the noon I started getting drastically tired, that ensured me that I'm definitely sick.
+
+The interesting thing is that I've kinda noticed that last few days I've felt just a tiny bit more tired and less focused than usual, so I think it could be that it was possible for me to catch it back then. I'm not quite sure how actually realistic is the fact of such factors predicting illness before I actually get ill, but I think the previous time I was sick, there was a similar pattern.
+
+Now the plan is to get a lot of sleep, drink a lot of water, and reduce physical activity.
+
+---
+
 `2026-03-29 19:05` `Prague`
 
 This weekend, majority of the time I've been hanging out with Aray. I've invited her over and we've been really enjoying each other. When we are chatting, often several hours fly by a single instance for me. I'm actually quite impressed by how well things go, and how well we are able to communicate everything through, including intimate topics, as well as conflict of interests and beliefs.
