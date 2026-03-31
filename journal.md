@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-03-31 15:07` `Prague`
+
+It's actually quite hard for me to rest properly. Even when I try to do nothing I tend to sing to tracks I listen to or search something to read or explore. Interestingly, I still hardly have any desire to complete unfinished things that I actually has to do, and I'll likely benefit the most from doing them.
+
+---
+
 `2026-03-30 20:12` `Prague`
 
 I got sick. I woke up with a pain in the throat making it hard to swallow. I went to work and it drank 3 cups of warm coffee to ease the pain a bit, but it helped only for some moment. After the noon I started getting drastically tired, that ensured me that I'm definitely sick.
