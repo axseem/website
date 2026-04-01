@@ -9,6 +9,14 @@ sidebar: true
 
 ---
 
+`2026-04-01 22:05` `Prague`
+
+I'm still sick. Don't feel terribly bad but the headache and pain in the upper throat are highly annoying. I'm still in pretty functional state though, although I can see a noticeable decline in my focusing abilities. I think I'm too active and not resting enough which is a bit irresponsible of me.
+
+Aray came to me early this morning with some amount of personal stuff. We are going to live together. I feel quite happy about it. It's new and a pretty fun experience for me I have to say. 
+
+---
+
 `2026-03-31 15:07` `Prague`
 
 It's actually quite hard for me to rest properly. Even when I try to do nothing I tend to sing to tracks I listen to or search something to read or explore. Interestingly, I still hardly have any desire to complete unfinished things that I actually has to do, and I'll likely benefit the most from doing them.
