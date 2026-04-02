@@ -9,6 +9,24 @@ sidebar: true
 
 ---
 
+`2026-04-02 19:48` `Prague`
+
+I feel like only consuming content and similar stuff. I did a decent amount of work for my job, but my personal tasks and projects are lacking the progress a bit. Me having cold contributing to this problem, but I don't feel like it's the cause of it.
+
+I think I'm getting to much pleasure lately. I'm doing great at my job, got an awesome girlfriend, can afford the majority of the stuff previously I was only dreaming of, plus have a decent amount of daily free time to read through all the latest tech news. Life gets too comfortable lately and I don't like it.
+
+I'm not satisfied with the way I write my journal. Looking at the current and previous entries - they do seem quite performative. The procrastination pattern is not new to me. Instead of finding concrete moments and scenarios when I fail and where I can improve, I love to write an appealing narrative about how hard it is for me to do the "right" thing.
+
+I think I can enforce some rules on the way I write my journal to ensure it enables my growth and is not simply an another way of procrastination. 
+
+1. Describe more, conclude less. Prioritize what I did and what happened instead of what I think about it. Keep it boring.
+2. Write entries early in the morning - right after waking up.
+3. Start each entry with what I managed to finish yesterday and end with at least one, well defined thing I aim to finish by the end of the day.
+
+By the end of today I'm going to blacklist Reddit, YouTube, Hackernews and Instagram in the config of laptop and settings of my phone. I'm not allowed to revert this until the morning of the April 10.
+
+---
+
 `2026-04-01 22:05` `Prague`
 
 I'm still sick. Don't feel terribly bad but the headache and pain in the upper throat are highly annoying. I'm still in pretty functional state though, although I can see a noticeable decline in my focusing abilities. I think I'm too active and not resting enough which is a bit irresponsible of me.
