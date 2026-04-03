@@ -9,6 +9,18 @@ sidebar: true
 
 ---
 
+`2026-04-03 10:02` `Prague`
+
+I did block Reddit, YouTube and Instagram on both laptop and phone. The exception is Hackernews - I blocked it only on the laptop. The problem is that I'm using GrapheneOS, and thus Vanadium browser that comes with it, and it seems there is simply no way to restrict some pages from being displayed. I managed to restrict other platforms by disabling JS execution for them. Too bad Hackernews is build different and doesn't require JS to work. I've looked for possible solutions like custom DNS or installing a different browser, but I don't like any of them. I think I'll leave thing as is, and I'll deliberately chose not to open this single feed instead.
+
+I don't remember much productive stuff I did yesterday except working on job. I've spent a fair amount high quality time hanging out with Aray and her friend in the evening.
+
+I want to do a lot today. But as a hard requirement I think I'll start with Anywhy website. I'll pick a tech stack (I'm mostly picking between SvelteKit and Go + Vanila) and initialize the project. By the end of the day I should have a functional navigation and page structure. As a soft requirement I'll also transfer my Figma design and properly configure Stripe. If I'll get bored I think I may also sort our the photo archive I have on my laptop, that I started converting to JXL but didn't finish.
+
+That could be a bit too much, but I think it's mostly a motivational problem, as time wise all of the above could be easily done in several hours.
+
+---
+
 `2026-04-02 19:48` `Prague`
 
 I feel like only consuming content and similar stuff. I did a decent amount of work for my job, but my personal tasks and projects are lacking the progress a bit. Me having cold contributing to this problem, but I don't feel like it's the cause of it.
