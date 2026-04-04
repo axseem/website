@@ -9,6 +9,16 @@ sidebar: true
 
 ---
 
+`2026-04-04 09:50` `Prague`
+
+I started working on Anywhy website. I've landed on Go + Vanilla. I've created two template files for product and wiki pages by feeding Figma designs to LLM.
+
+That's everything I did yesterday out of what was planned, and even that I've completed in the evening just an hour before I've fallen asleep. The main problem is that I've been putting it off again and again during the day when I had a free time to start doing it. To be fair I've slept only a bit more than 6 hours yesterday and as a result I felt pretty sluggish throughout the day. I successfully didn't open any feed though.
+
+Today I want to create proper fundamentals for the frontend specifying universal design language and data structures for each of the pages. By the end of the day I would like to have a semi-functional frontend that allows the purchase items (once Stripe is set up) and read through the docs. 
+
+---
+
 `2026-04-03 10:02` `Prague`
 
 I did block Reddit, YouTube and Instagram on both laptop and phone. The exception is Hackernews - I blocked it only on the laptop. The problem is that I'm using GrapheneOS, and thus Vanadium browser that comes with it, and it seems there is simply no way to restrict some pages from being displayed. I managed to restrict other platforms by disabling JS execution for them. Too bad Hackernews is build different and doesn't require JS to work. I've looked for possible solutions like custom DNS or installing a different browser, but I don't like any of them. I think I'll leave thing as is, and I'll deliberately chose not to open this single feed instead.
