@@ -9,6 +9,20 @@ sidebar: true
 
 ---
 
+`2026-04-05 18:34` `Prague`
+
+I did not create a proper fundamentals for the frontend yesterday nor today. I've instructed LLM to write a good portion of app, but I feel like my personal contribution and level of the attention to details is not there yet. Once again I've spend enormous amount of time watching at Figma designs observing all the sub-optimal decisions, trying to find a solution them all,instead of getting good enough solution working.
+
+I'm writing this entry quite late, considering I'm intended to consistently write my journal early in the morning. After waking up I've been mostly cuddling and spending time with Aray this morning. Then we've felt really chill and I personally didn't feel like doing anything huge. We've cleaned up the flat a little bit, I bought food in the supermarket and we cooked some food. I did enjoy the day quite a lot, but also I feel like I sill could write a small entry in the morning without losing anything, which makes me feel a bit guilty.
+
+It seems like the plans for the day I create at the end of each entry are too ambitious. I don't manage to complete them. At the same time, I feel bad defining my plan for a day as some small, five minute task, so this all feels a bit counter-intuitive to me. I think I just need to go with it anyway, and reduce the scope of the tasks I enforce on myself, and then let things unfold by themself.
+
+On a positive note, I'm successfully avoiding any feeds and media platforms while vividly observe the urge and control my actions. A lot of common hobbies/work I do still feel pretty boring, but I think it's about to change, as I already had similar experience in the past.
+
+Today I'm going to make the product purchase page look like the Figma prototype.
+
+---
+
 `2026-04-04 09:50` `Prague`
 
 I started working on Anywhy website. I've landed on Go + Vanilla. I've created two template files for product and wiki pages by feeding Figma designs to LLM.
