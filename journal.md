@@ -9,6 +9,22 @@ sidebar: true
 
 ---
 
+`2026-04-06 10:17` `Prague`
+
+I have not finished the product purchase page.
+
+So far I fail to do the work I play for myself. I've been making me busy with  a lot of other stuff like doing laundry, organizing my table, 3D printing with a new for me TPU filament, testing my first filament dryer and reading about compact, budget, ESP based e-ink reading device. I've been basically doing everything urgent and interesting to avoid the important and boring.
+
+I'm writing this entry in the notes of my phone sitting in the tram. I forgot to write and publish the entry on my laptop while I was at home, and now I'm heading towards the office. This means I'll probably publish this entry in the evening once I get back home.
+
+I think it's mostly the problem of a habit. It is still in development process. Another thing that seems to have a decent impact is a subjective sense of deadline. I aim to finish the task or write an entry by the end of the day, which allows me to simply put it off to the other part of the day again and again until it's a late evening and I rush trying to do at least something out of what I planned.
+
+Writing this part after getting to the office, noticing that I'm the only person here and realizing that today is the Easter and it's and official holiday. I took some snacks for Aray and already heading home. This means I'll have a plenty of personal time to try to actually start working on what's important, specifically Anywhy website.
+
+Today I aim to actually finish implementing the purchase page design by the 13:00. I'll try to resist any urge to rethink and perfect the design, and will focus on actually getting it done first.
+
+---
+
 `2026-04-05 18:34` `Prague`
 
 I did not create a proper fundamentals for the frontend yesterday nor today. I've instructed LLM to write a good portion of app, but I feel like my personal contribution and level of the attention to details is not there yet. Once again I've spend enormous amount of time watching at Figma designs observing all the sub-optimal decisions, trying to find a solution them all,instead of getting good enough solution working.
