@@ -13,7 +13,7 @@ sidebar: true
 
 I have not finished the product purchase page.
 
-So far I fail to do the work I play for myself. I've been making me busy with  a lot of other stuff like doing laundry, organizing my table, 3D printing with a new for me TPU filament, testing my first filament dryer and reading about compact, budget, ESP based e-ink reading device. I've been basically doing everything urgent and interesting to avoid the important and boring.
+So far I fail to do the work I plan for myself. I've been making me busy with  a lot of other stuff like doing laundry, organizing my table, 3D printing with a new for me TPU filament, testing my first filament dryer and reading about compact, budget, ESP based e-ink reading device. I've been basically doing everything urgent and interesting to avoid the important and boring.
 
 I'm writing this entry in the notes of my phone sitting in the tram. I forgot to write and publish the entry on my laptop while I was at home, and now I'm heading towards the office. This means I'll probably publish this entry in the evening once I get back home.
 
