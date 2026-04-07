@@ -9,6 +9,14 @@ sidebar: true
 
 ---
 
+I managed to complete yesterday's plan. I've completed the purchase page - it's not perfect one to one with the design but it looks similar enough and it would work for production. After 13:00 I felt free to do what ever I want, so I went to play with the design again and I came up with even better one. Luckily it's going to be an upgrade on the current one, so there is no need to rewrite anything.
+
+The trick with an artificial deadline did actually help. Today however I'm going to the office, and I don't think I'm lucky enough to get two holidays I'm not aware of in a row.
+
+Today I think I'll try to figure out the page structure and how navigation is going to work. Originally I wanted everything to be on wiki subdomain, and it's basically going to be a typical markdown files rendered as documentation, but I'm no longer sure that I want to do that for all the pages. At the same time I don't want to introduce two viewers of the static information, make website less consistent and coherent. Website structure is the main thing I'll work on this evening, aiming to have the good enough structure by the 21:00.
+
+---
+
 `2026-04-06 10:17` `Prague`
 
 I have not finished the product purchase page.
