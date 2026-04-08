@@ -9,6 +9,18 @@ sidebar: true
 
 ---
 
+`2026-04-08 18:42` `Prague`
+
+I've not even started yesterday task. It was a long day yesterday, so I came home, and was mostly resting. At the evening Aray brought her Kindle, so I spent evening enjoy the show of GLM 5.1 executing the jailbreak pretty much on its own (with the instructions of well known method obviously). It was cool, I didn't expect it to do the debugging, handling of unexpected situations and pivoting of the plan that well.
+
+Today was a long day too. We've basically had a day long brainstorming session on various product features. On top of that I slept about an hour less than usual, so I feel pretty tired now. However I forgot to write a journal in the morning, and for that I don't have excuses. I'll try better tomorrow.
+
+Now I don't think I'm in the mood or in the condition to do any meaningful work. I mean I can, I just don't want to, and I think this is one of the times when I can allow myself not to.
+
+---
+
+`2026-04-07 09:05` `Prague`
+
 I managed to complete yesterday's plan. I've completed the purchase page - it's not perfect one to one with the design but it looks similar enough and it would work for production. After 13:00 I felt free to do what ever I want, so I went to play with the design again and I came up with even better one. Luckily it's going to be an upgrade on the current one, so there is no need to rewrite anything.
 
 The trick with an artificial deadline did actually help. Today however I'm going to the office, and I don't think I'm lucky enough to get two holidays I'm not aware of in a row.
