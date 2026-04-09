@@ -9,6 +9,14 @@ sidebar: true
 
 ---
 
+`2026-04-09 08:17` `Prague`
+
+I've just woke up and took a shower. I'm going to write this entry and go to the office. I've been thinking if I should shift my schedule so I wake up as earlier as ~03:00 and move my personal projects to the newly emerged morning window, when I feel the most energized and motivated to do ever the boring stuff.
+
+Anyway, for today I'll take the same task, as I didn't complete it, and that's defining the page structure for Anywhy website. Yesterday I've been thinking about speedruning the whole thing and releasing everything in a week, but I really want the final product to be absolutely awesome, and not half-baked. It clashes with the idea of validating the demand first though. 
+
+---
+
 `2026-04-08 18:42` `Prague`
 
 I've not even started yesterday task. It was a long day yesterday, so I came home, and was mostly resting. At the evening Aray brought her Kindle, so I spent evening enjoy the show of GLM 5.1 executing the jailbreak pretty much on its own (with the instructions of well known method obviously). It was cool, I didn't expect it to do the debugging, handling of unexpected situations and pivoting of the plan that well.
