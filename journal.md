@@ -9,6 +9,18 @@ sidebar: true
 
 ---
 
+`2026-04-10 07:12` `Prague`
+
+I did finish yesterday's task, I figured out the good enough page structure. I did even a little more, and decided to extend and reuse the `sprinkler` SSG that I've created for my personal website. Still I was procrastinating a lot right after getting home from the office, like researching modern speech to text setups for Linux and 3D printing a case for measure tape, but at some point in the evening I've managed to start a minimal possible work with LLM, and then it gradually snowballed into a flow state.
+
+For most of the tasks I've been using opencode + GLM 5.1 and surprisingly it's probably one of the best agentic coding experiences I had. Everything in opencode seems to be done in a thoughtful and simple way, and the new GLM 5.1 for some reason feels quite better than GLM 5, but it's hard for me to catch why it feels this way.
+
+By the way, it's the morning of April 10, and that means that I successfully avoided any feeds for seven days. I feel a lot better now, as I mostly lost that urge to continuously scroll something and my motivation to do anything had a significant increase too. Additionally I've started reading books again, and now I willingly read longer and longer each day, and sometimes get an urge to read a book instead of going through feed. I love this feeling.
+
+Today I'll migrate to `sprinkler`, updating it to make it a bit more general purpose, while also making sure that I keep it simple and do not bloat with highly specialized features. By the end of the day I think 
+
+---
+
 `2026-04-09 08:17` `Prague`
 
 I've just woke up and took a shower. I'm going to write this entry and go to the office. I've been thinking if I should shift my schedule so I wake up as earlier as ~03:00 and move my personal projects to the newly emerged morning window, when I feel the most energized and motivated to do ever the boring stuff.
