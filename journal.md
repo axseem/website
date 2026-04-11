@@ -9,6 +9,16 @@ sidebar: true
 
 ---
 
+`2026-04-11 21:53` `Prague`
+
+Yesterday was tough. It's about personal relationships and is probably something that would not be nice for me to share and might me disrespectful in relation to others. I've been thinking more and more about creating personal journal for such stuff. Luckily everything is great already, but the point is that I couldn't finish what I've planned for yesterday. I'm not upset about it though. After getting of the feeds I feel so much more motivated to work on personal stuff, even when it's boring, and has a lot more confidence in doing stable, accumulative progress, which is perhaps the most crucial thing.
+
+Toady I've spend morning laying lying around and chilling with Aray. Than we've went to the store and I've restocked ingredients I need for my meal in the morning. During the rest of the day I've been doing mostly chore and meta work. I've made a small research on the DIY e-ink cyberdeck hardware, then I've tried to fix voxtype on my system, but it required me to start rebuilding CUDA twice which literally took me about a quarter of the day. Out of productive stuff, I've improved my opencode setup a little bit and created an orchestrator agent and high-signal-speech skill. I feel like I'm underinvesting in it, as there are a lot of patterns I naturally learned to follow with agentic workflows, but I always miss an opportunity to partially automate them.
+
+I think that's something that I would also spent time on tomorrow. I've like to create a small list of custom agents and skills and then checking out how do they change my experience. Ideally I would want to create some sort of evaluation environment where I can compare old and new approaches and see measure the difference. Another thing I lack is web search. I got so used to in claude code, and it's incredibly handy for doing any kind of research and context gathering.
+
+---
+
 `2026-04-10 07:12` `Prague`
 
 I did finish yesterday's task, I figured out the good enough page structure. I did even a little more, and decided to extend and reuse the `sprinkler` SSG that I've created for my personal website. Still I was procrastinating a lot right after getting home from the office, like researching modern speech to text setups for Linux and 3D printing a case for measure tape, but at some point in the evening I've managed to start a minimal possible work with LLM, and then it gradually snowballed into a flow state.
