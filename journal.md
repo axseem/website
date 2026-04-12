@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-04-12 11:39` `Prague`
+
+Today I'll play around with opencode setup as I planned, and will migrate anywhy website to sprinkler. The end goal is annywhy website built fully with sprinkler and without any extra specialized code.
+
+---
+
 `2026-04-11 21:53` `Prague`
 
 Yesterday was tough. It's about personal relationships and is probably something that would not be nice for me to share and might me disrespectful in relation to others. I've been thinking more and more about creating personal journal for such stuff. Luckily everything is great already, but the point is that I couldn't finish what I've planned for yesterday. I'm not upset about it though. After getting of the feeds I feel so much more motivated to work on personal stuff, even when it's boring, and has a lot more confidence in doing stable, accumulative progress, which is perhaps the most crucial thing.
