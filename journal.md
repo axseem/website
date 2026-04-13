@@ -9,6 +9,14 @@ sidebar: true
 
 ---
 
+`2026-04-13 09:10` `Prague`
+
+I did migrate anywhy website to sprinkler. I've tested the output and everything looks awesome. I have yet to verify that garden builds fine with this SSG update. That's actually something I'm going to do right now when I'll finish and start publishing this entry.
+
+Today I'm going update the CAD model of the keyboard, as FreeCAD v1.1 was released, and it seems like it broke the model. Once it's done I'll update the model to add MagSafe support and print the end result, as I got almost all the components for the keyboard that customer ordered a few weeks ago, and I would like to not have any downtimes, considering it already takes a decent amount of time with all the components being on their way to me.
+
+---
+
 `2026-04-12 11:39` `Prague`
 
 Today I'll play around with opencode setup as I planned, and will migrate anywhy website to sprinkler. The end goal is annywhy website built fully with sprinkler and without any extra specialized code.
