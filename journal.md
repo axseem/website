@@ -9,6 +9,14 @@ sidebar: true
 
 ---
 
+`2026-04-14 12:37` `Prague`
+
+Oops, just remembered to write the entry. I've updated the enclosure CAD model and successfully printed it. It's a bit painful to revisit my old work though, because all I see is quirks and thus opportunities for improvement. I decided not to procrastinate on it though and aiming to get the feedback loop working first, so I know if the project has a potential for growth.
+
+Today I'm going to finish the landing page of the website. Yesterday evening I've come up with an interesting design, which although not as good as I would want it to be, still seems pretty cool and better than anything I've come up with before.
+
+---
+
 `2026-04-13 09:10` `Prague`
 
 I did migrate anywhy website to sprinkler. I've tested the output and everything looks awesome. I have yet to verify that garden builds fine with this SSG update. That's actually something I'm going to do right now when I'll finish and start publishing this entry.
