@@ -9,6 +9,14 @@ sidebar: true
 
 ---
 
+`2026-04-15 08:44` `Prague`
+
+I didn't finish the landing page. I've been mostly doing a lot of small stuff like tweaking keyboard's enclosure model, restoring slicer settings after it claiming that all the configurations were corrupted and printing enclosure for the keyboard I'm going to ship ASAP.
+
+Today is going to be the long day. I'm about to leave to the office and in the evening I'm going to the bar with my colleagues to celebrate the new joiner to our team. I'm won't plan anything for today, as I'll be back at home quite late.
+
+---
+
 `2026-04-14 12:37` `Prague`
 
 Oops, just remembered to write the entry. I've updated the enclosure CAD model and successfully printed it. It's a bit painful to revisit my old work though, because all I see is quirks and thus opportunities for improvement. I decided not to procrastinate on it though and aiming to get the feedback loop working first, so I know if the project has a potential for growth.
