@@ -9,6 +9,14 @@ sidebar: true
 
 ---
 
+`2026-04-16 10:59` `Prague`
+
+Yesterday was awesome. I've had a bunch of wonderful conversations with my colleagues who usually work remotely.
+
+Today I'm going to solder and assemble the keyboard for the customer.
+
+---
+
 `2026-04-15 08:44` `Prague`
 
 I didn't finish the landing page. I've been mostly doing a lot of small stuff like tweaking keyboard's enclosure model, restoring slicer settings after it claiming that all the configurations were corrupted and printing enclosure for the keyboard I'm going to ship ASAP.
