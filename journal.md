@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-04-17 22:18` `Prague`
+
+Yesterday and today were hard. I'm going through the relationships problem. Don't think there is much I can share unfortunately. The keyboard is move to tomorrow.
+
+---
+
 `2026-04-16 10:59` `Prague`
 
 Yesterday was awesome. I've had a bunch of wonderful conversations with my colleagues who usually work remotely.
