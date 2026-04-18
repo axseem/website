@@ -9,6 +9,10 @@ sidebar: true
 
 ---
 
+I'm doing better today. The keyboard is done. I'm going to send it tomorrow.
+
+---
+
 `2026-04-17 22:18` `Prague`
 
 Yesterday and today were hard. I'm going through the relationships problem. Don't think there is much I can share unfortunately. The keyboard is move to tomorrow.
