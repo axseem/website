@@ -9,6 +9,14 @@ sidebar: true
 
 ---
 
+`2026-04-19 18:20` `Prague`
+
+I missed the fact that post I was going to use doesn't work on Sunday, so I'm going to do it tomorrow. Today I'm going to play with Qwen 3.6 35B and perhaps do some work on the anywhy website.
+
+---
+
+`2026-04-18 21:58` `Prague`
+
 I'm doing better today. The keyboard is done. I'm going to send it tomorrow.
 
 ---
