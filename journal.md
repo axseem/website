@@ -9,6 +9,17 @@ sidebar: true
 
 ---
 
+`2026-04-20 08:34` `Prague`
+
+Next few weeks I'll probably will invest more into doing work on my job. I don't think I can disclose that, but
+ I'm likely on my way to get a really nice boost on the career ladder and to increase my inner visibility.
+
+I'm still going to keep working on anywhy. I'm going to send the keyboard today and I'll keep working on the website. I'm thinking more and more about releasing it in the half-baked state, because of the thought that I'm over-investing in something that might easily fail.
+
+Today I'll implement the landing page for the website.
+
+---
+
 `2026-04-19 18:20` `Prague`
 
 I missed the fact that post I was going to use doesn't work on Sunday, so I'm going to do it tomorrow. Today I'm going to play with Qwen 3.6 35B and perhaps do some work on the anywhy website.
