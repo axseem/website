@@ -9,6 +9,20 @@ sidebar: true
 
 ---
 
+`2026-04-21 23:32` `Prague`
+
+I've send the keyboard. I did not implement the landing page. I'm having hard time on my job, as I feel I put on my shoulders slightly more than I can manage, and now I'm trying to quickly close all the tickets and stabilize. It's also additionally hard considering that I changed the teams as a part of the proposition to me, and I spend a decent amount of time to simply adapt.
+
+Sadly yesterday evening I've noticed that I got a digital letter saying that my self-employment was canceled. There were no reason and now warnings, which is highly odd, but the letter is official. I already planed to come tomorrow to the place where I registered this self-employment status and will try to figure things out. It seems like some sort of error, but it's such a bad timing, I feel frustrated and absolutely have no desire to bother with that considering all the other stuff I have in my life.
+
+I'm basically in survival mode right now. The instinct is to procrastinate the moment I get home and have a free minute, but I'm actually convinced that it's the harmful way to react, so I'm pushing myself to actually do more work and in some sense outpace responsibility ** cumulation speeds until I feel like I got the control over it. It's hard, I skip personal tasks, I'm stressed and scattered, I sleep on average half and hour less than usual, but zooming out I think it's okay and something I'll surely manage. In some sense that's actually quite close to what I think my idealized life looks like for me.
+
+I spend quite little time on the personal projects right now, but I'm also decently invested in my relationships with Aray. I'm trying to keep balance everywhere and pick right priorities. Perhaps I'm repeating myself here a bit.
+
+I want to pivot personal time from hardware projects more towards creation of media content and any sort of content in general like essays, or even music and photos. I guess that's something I want the most but also something that I'm really afraid to do and thus underinvesting into it. I don't think it's a good idea to start new things right now though, but I should keep it as a highest priority for the case when I get a decent amount of free time back.
+
+---
+
 `2026-04-20 08:34` `Prague`
 
 Next few weeks I'll probably will invest more into doing work on my job. I don't think I can disclose that, but
