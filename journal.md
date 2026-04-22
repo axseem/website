@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-04-22 10:06` `Prague`
+
+Today I'm invested into finishing tasks on my job. After that I'll go check what happened to my self-employment. Perhaps in the evening I'll work on the anywhy website.
+
+---
+
 `2026-04-21 23:32` `Prague`
 
 I've send the keyboard. I did not implement the landing page. I'm having hard time on my job, as I feel I put on my shoulders slightly more than I can manage, and now I'm trying to quickly close all the tickets and stabilize. It's also additionally hard considering that I changed the teams as a part of the proposition to me, and I spend a decent amount of time to simply adapt.
