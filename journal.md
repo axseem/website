@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-04-24 19:28` `Prague`
+
+Today I was mostly busy at my work. Wasn't doing much for my personal projects. Oh, I've updated the enclosure of the flake this evening, specifically the backplate, making it thinner. I've swapped it for the left half, and it's to flexible, so I'll need to redo or revet it. Otherwise I plan to watch some movie with Aray for the rest of the evening.
+
+---
+
 `2026-04-23 21:00` `Prague`
 
 The situation is pretty much the same. I think I may feel a bit better now. Mostly doing tasks for my job and try not to procrastinate in my free time. Yesterday I've slightly refactored my dots and today I've been installing NixOS to the friend of Aray who expressed the desire to learn programming. I've spent a few hours explaining all the possible tech related knowledge about programming about OSes about Unix, Linux, Distros, Nix, LLMs, Hardware and anything related. It's quite fun in the moment, and I feel like I can do it forever, but afterwards I usually feel a bit drained. Now I'm preparing to slowly wind down.
