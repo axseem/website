@@ -9,6 +9,18 @@ sidebar: true
 
 ---
 
+`2026-04-26 22:41` `Prague`
+
+Today is the birthday of my friend Artem. Together with Maks he came to Prague, so we can celebrate together. We've been walking around the Prague and talking about everything. It was such a joy to talk with them. We've had a lot of wonderful conversations, starting from life related stuff, and ending with abstract philosophical questions. It was a great day.
+
+---
+
+`2026-04-25 12:14` `Prague`
+
+I'm going to IKEA and my bank to update the address. After that I'll try to invest several hours of high focus work into anywhy website. It's already frustrating how long I'm working on it considering how mechanically easy it it for me to create such a website. I think at some point it was perfectionism problem, and now it's a procrastination and laziness.
+
+---
+
 `2026-04-24 19:28` `Prague`
 
 Today I was mostly busy at my work. Wasn't doing much for my personal projects. Oh, I've updated the enclosure of the flake this evening, specifically the backplate, making it thinner. I've swapped it for the left half, and it's to flexible, so I'll need to redo or revet it. Otherwise I plan to watch some movie with Aray for the rest of the evening.
