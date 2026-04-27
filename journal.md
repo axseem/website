@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-04-27 09:10` `Prague`
+
+Plan for today is to finish the landing page for anywhy website.
+
+---
+
 `2026-04-26 22:41` `Prague`
 
 Today is the birthday of my friend Artem. Together with Maks he came to Prague, so we can celebrate together. We've been walking around the Prague and talking about everything. It was such a joy to talk with them. We've had a lot of wonderful conversations, starting from life related stuff, and ending with abstract philosophical questions. It was a great day.
