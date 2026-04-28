@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+I've finished landing pages yesterday. This morning I was fighting with my modem, as I was getting no internet on my laptop. It's so wonderful when you get shitty Zyxel modem pre-installed in the apartment and locked to the single shitty ISP. It's second time I'm having similar problems with my router, and based on all the evidence, it seems like there is some memory leak accumulation happening, and physically restarting it solves the problem for some amount of time.
+
+Anyway, today I'm going to finish purchase page and configure Stripe.
+
+---
+
 `2026-04-27 09:10` `Prague`
 
 Plan for today is to finish the landing page for anywhy website.
