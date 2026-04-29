@@ -9,6 +9,18 @@ sidebar: true
 
 ---
 
+`2026-04-29 09:45` `Prague`
+
+I almost finished the store page. I didn't touch the Stripe though.
+
+I've also crafted a message to O2 (my ISP) explaining that the router they provide has a maximum 5GHz throughput of 867 Mbit/s When I pay for 1 Gbit/s, it doesn't work as expected, and runs on Boa - software that is deprecated and unmaintained since 2005 and has a don of 9+ severity vulnerabilities. In answer I've got a phone call from person who simply ignored 90% of what I've just wrote and made it look like I simply want a better router, which I can get if I'll pay extra few thousands Czech korunas.
+
+When I said "Hello" she answered in Czech, so I had to switch to Czech too, but to be frank, my Czech is pretty poor, and is nowhere near the level where I can explain of everything stated above in a tactful way, so I asked her to write me an email and I'll think and respond. The whole situation gets only more upsetting, but now I'm curious how far I can get defending my consumer rights.
+
+Other than that, today I'm going to set up Stripe.
+
+---
+
 `2026-04-28 12:22` `Prague`
 
 I've finished landing pages yesterday. This morning I was fighting with my modem, as I was getting no internet on my laptop. It's so wonderful when you get shitty Zyxel modem pre-installed in the apartment and locked to the single shitty ISP. It's second time I'm having similar problems with my router, and based on all the evidence, it seems like there is some memory leak accumulation happening, and physically restarting it solves the problem for some amount of time.
