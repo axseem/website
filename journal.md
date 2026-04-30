@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-04-30 08:51` `Prague`
+
+I didn't set up Stripe. I'm leaving that's for today.
+
+---
+
 `2026-04-29 09:45` `Prague`
 
 I almost finished the store page. I didn't touch the Stripe though.
