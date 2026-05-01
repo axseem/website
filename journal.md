@@ -9,6 +9,18 @@ sidebar: true
 
 ---
 
+`2026-05-01 11:00` `Prague`
+
+I did not set up Stripe yesterday either. I was mostly procrastinating. When I got back from work I felt like doomscrolling YouTube.
+
+At the evening I've been playing around with Qwen 3.6 but this time running inference on my work macbook. I've got 60-45 tok/s on Qwen 3.6 35B. I also keep experimenting with harnesses which is quite fun.
+
+Configuring Stripe should not be that hard, I don't know why I put it off that hard. I guess I'm just following the path of least friction which is consuming content. Last time when I committed to block all the feeds and media platforms for a week, it was great, but then after the week has passed the FOMO prompted me to start occasionally check Reddit again.
+
+That's kind of the problem, I want to be in control of my attention, but I also want to be aware of the latest changes in the world and the tech industry. I think I would need to think more about it. I think committing to one month without feeds would be great for me, but don't want to fully isolate myself from news.
+
+---
+
 `2026-04-30 08:51` `Prague`
 
 I didn't set up Stripe. I'm leaving that's for today.
