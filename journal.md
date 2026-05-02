@@ -9,6 +9,18 @@ sidebar: true
 
 ---
 
+`2026-05-02 08:03` `Prague`
+
+I woke up at 06:30. I've been laying in the sofa with the phone going through Hackernews, updating apps and exploring LLM inference for Android, trying to not fall asleep. I did manage to stake awake. Now I'm going to take a shower and go for a walk, plus buy some food.
+
+From today I'm going to stop using content feeds. I've already blocked all of them on my laptop config again. I cannot visit them until the June 1. To fix the problem of missing out, I'm leaving a single escape hatch - RSS feeds. They have limited amount of content so doomscrolling is no longer a problem. Additionally I can carefully pick RRS feeds ensuring only the good quality and high usefulness content.
+
+I've never been using RSS consistently, but it looks like a perfect solution for me right now. I've already got a few blog saved that I ran into while being on Hackernews.
+
+For today task is to create an RSS reading setup and finally configure Stripe.
+
+---
+
 `2026-05-01 11:00` `Prague`
 
 I did not set up Stripe yesterday either. I was mostly procrastinating. When I got back from work I felt like doomscrolling YouTube.
