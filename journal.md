@@ -9,6 +9,22 @@ sidebar: true
 
 ---
 
+`2026-05-03 22:00` `Prague`
+
+I didn't do anything what I planed yesterday. Nothing feels really fulfilling. I don't want to do things I need to, I only do things I want to with a loud, constant feeling of guilt in the process.
+
+I've had a tough time resisting the urge to doomscroll. I partially managed, as I opened Hackernews on my phone several times today. I've also spend a huge portion of the day researching hardware that would run Linux and last for weeks on single battery change and eink display. Basically procrastinating exploring new projects instead of finishing the old ones and doing my daily responsibilities.
+
+I've also read [Weathering Software Winter](https://100r.co/site/weathering_software_winter.html) from Hundredrabbits about the creation of `uxn` VM. It made me again go into the rabbit hole of the uxn, VMs, hardware bootstrapablitiy and the creation of my own programming language. Basically pretty much the same procrastination pattern as with my cyberdeck idea but in the software realm.
+
+I'm also becoming increasingly upset using LLMs for personal stuff of moderate difficulty. Every time when I do something quality of what I care about, results that LLMs provide feel uncanny valley. It's almost always working but never the way I want it to. Then I have to instruct LLM again and again, change by change to things properly and avoid shortcuts, but it rarely works. I honestly feels quite foolish in such moments.
+
+The sad thing is that because of how easy it became to do a lot of work with LLMs, the motivation to do basically anything manually by hands died. When I was running into tasks or ideas that push my skills or knowledge, I used to start reading through forums, wikis, docs, books, watch videos, learn about the topic, try stuff and improve myself. Now the first instinct is to ask LLM to do it. The truth is it's probably has been happening for some time already, but I was blindly ignoring it. That realization of real time stagnation is what makes this moment feel so bad.
+
+I have a lot to say, but I'm also quite tired. I'm considering dropping LLMs from my life completely for some time, but I'm not sure yet. I would love to take some time, sit, and simply think about all of that.
+
+---
+
 `2026-05-02 08:03` `Prague`
 
 I woke up at 06:30. I've been laying in the sofa with the phone going through Hackernews, updating apps and exploring LLM inference for Android, trying to not fall asleep. I did manage to stake awake. Now I'm going to take a shower and go for a walk, plus buy some food.
