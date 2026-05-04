@@ -9,6 +9,16 @@ sidebar: true
 
 ---
 
+`2026-05-04 08:56` `Prague`
+
+This morning I've been working on installing Linux for the friend of Aray, who showed a desire to become a SWE. I should have done a week ago, but I've been putting it off every day again and again. Now it's 95% done, in just a few morning hours. I've also created a guide with all the great CS/SWE/NixOS/Linux/Programming guides I found. I'm really satisfied with the end result.
+
+I've been trying to do progress on personal projects by introducing the goal I have to achieve by the end of the day in each journal entry. It doesn't seem to work that well for me. I want to try to switch to zero expectations, time window based work instead. I'll start small while I'm also restricting myself from any cheap pleasure, so I don't relapse into doomscrolling. With time I'll progressively grow the time window, which I feel should work well.
+
+Let's start with a 30 min window. From 17:30 to 18:00 I'll spend time only working on anywhy website, ignoring any urges or distractions. In all the other time I'm free to follow my curiosity and explore all the ideas and knowledge I'm interested in.
+
+---
+
 `2026-05-03 22:00` `Prague`
 
 I didn't do anything what I planed yesterday. Nothing feels really fulfilling. I don't want to do things I need to, I only do things I want to with a loud, constant feeling of guilt in the process.
