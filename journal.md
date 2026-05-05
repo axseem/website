@@ -9,6 +9,14 @@ sidebar: true
 
 ---
 
+`2026-05-05 07:44` `Prague`
+
+I've worked yesterday for more than 30 minutes. After I started at some point I got into a flow state, so I managed to work for about 2 hours. I'm really great with how it turn out, and I think today I'll repeat it with the same time window.
+
+I've also been using only local Qwen 3.6 35B during development. I think I may stop using any private cloud LLMs, and use only local ones. They are smart enough to efficiently do routine work, while also dumb enough that I do not offload all the decision making to them.
+
+---
+
 `2026-05-04 08:56` `Prague`
 
 This morning I've been working on installing Linux for the friend of Aray, who showed a desire to become a SWE. I should have done a week ago, but I've been putting it off every day again and again. Now it's 95% done, in just a few morning hours. I've also created a guide with all the great CS/SWE/NixOS/Linux/Programming guides I found. I'm really satisfied with the end result.
