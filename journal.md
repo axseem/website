@@ -9,6 +9,28 @@ sidebar: true
 
 ---
 
+`2026-05-07 05:58` `Prague`
+
+I've woke up at 5:00. I slept ~ 7 hours 30 minutes. It feels good to wake up that early. Like I have so much time to do anything, and after that day is still only starting.
+
+I got really excited about permacompute. The idea of writing minimal software that can run on MCU level chips and still satisfy modern world tasks excites me. It all started with me running into [uxn](https://100r.co/site/uxn.html) one day. Its ideas and successful execution inspired me a lot.
+
+I'll focus on two stream now. The first priority is finishing anywhy e-shop, and then trying to write software (and perhaps create hardware) in the permacompute style.
+
+---
+
+`2026-05-06 20:54` `Prague`
+
+I've failed the commitment. I've been watching YouTube for few hours yesterday and today. It all started with a generous, knowledgeable person who took a look at my PCB to point out if there are any EMI issues and shared a 2h video that would help me understand why such issues happen and what are the ways to mitigate them. I glimpsed through the video, realized that I want to watch it a lot, but I because it was already evening, I could dedicate 2 continuous hours of time for it at that moment. So I started watching Veritasium instead.
+
+I do not give up though. I feel like the frustration only motivates me more to try harder. It also makes me stop and reflect on what actually am I doing. It feels quite sobering. The truth is, I'm quite far from doing my best. That hurts me, it makes me feel guilty and I love that it is this way.
+
+I'm too scattered, doing only explorational kind of stuff, consume so much more than I produce, and doing everything to avoid deep work. I'm to afraid to commit to anything that I can't benefit from right away, and as a result stopped learning actually difficult, time consuming skills and knowledge like electrical engineering or entrepreneurship.
+
+I can keep ranting for a long time, and get into more details of where I fail and do not meet my expectations, but I'm afraid it may become yet another way of procrastination. I want to fall asleep early today, finally get 8 hours sleep and try to do better tomorrow.
+
+---
+
 `2026-05-05 07:44` `Prague`
 
 I've worked yesterday for more than 30 minutes. After I started at some point I got into a flow state, so I managed to work for about 2 hours. I'm really great with how it turn out, and I think today I'll repeat it with the same time window.
