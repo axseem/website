@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-08 10:33` `Prague`
+
+I've been reading about VMs this morning. I also went out for a walk after I woke up. It was a bit cold, but I enjoyed it. Today I guess I want to do a bit more reading about VMs, ISAs and hardware. Additionally I'll explore the possible designs for chip, portable Linux-capable device. As a requirement, I'll work on Anywhy project from 12:00 to 13:00
+
+---
+
 `2026-05-07 05:58` `Prague`
 
 I've woke up at 5:00. I slept ~ 7 hours 30 minutes. It feels good to wake up that early. Like I have so much time to do anything, and after that day is still only starting.
