@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-09 13:17` `Prague`
+
+I've been mostly reading and exploring yesterday. Today I'll rest a bit and play Minecraft with Aray. I also want to start writing a simple s-expression parser and then interpreter.
+
+---
+
 `2026-05-08 10:33` `Prague`
 
 I've been reading about VMs this morning. I also went out for a walk after I woke up. It was a bit cold, but I enjoyed it. Today I guess I want to do a bit more reading about VMs, ISAs and hardware. Additionally I'll explore the possible designs for chip, portable Linux-capable device. As a requirement, I'll work on Anywhy project from 12:00 to 13:00
