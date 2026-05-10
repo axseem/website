@@ -9,6 +9,14 @@ sidebar: true
 
 ---
 
+`2026-05-10 22:09` `Prague`
+
+This weekend I've been mostly playing Minecraft with Aray, reading articles and did a tiny bit of programming. I planned to program more than I did though. I keep repeatedly preparing before doing anything, much more than I should. Especially after spending so much time on preparation, it feels like I'm already so invested, that I can't simply let this one go or land on suboptimal result, which causes even more unproductive preparing and procrastination.
+
+Nevertheless I still feel like it's better than it was few days ago. At least I created a C file and started sketching S-expressions parser. Yeah, I didn't finish it, but that's the progress that matters.
+
+---
+
 `2026-05-09 13:17` `Prague`
 
 I've been mostly reading and exploring yesterday. Today I'll rest a bit and play Minecraft with Aray. I also want to start writing a simple s-expression parser and then interpreter.
