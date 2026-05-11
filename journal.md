@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-11 22:57` `Prague`
+
+I'm playing around with C. I did some progress on the lisp evaluator. I was also exploring differences between C standards like C89, C99 and C11. I also tried a bit M2-Planet to see how much it lacks from the full C.
+
+---
+
 `2026-05-10 22:09` `Prague`
 
 This weekend I've been mostly playing Minecraft with Aray, reading articles and did a tiny bit of programming. I planned to program more than I did though. I keep repeatedly preparing before doing anything, much more than I should. Especially after spending so much time on preparation, it feels like I'm already so invested, that I can't simply let this one go or land on suboptimal result, which causes even more unproductive preparing and procrastination.
