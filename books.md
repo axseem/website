@@ -29,7 +29,7 @@ Books are ranked by preference within each tier. The list is dynamic and will be
 - [**Models**](#models-by-mark-manson) _by Mark Manson_
 - [**The WEIRDest People in the World**](#the-weirdest-people-in-the-world-by-joseph-henrich) _by Joseph Henrich_
 - [**Fahrenheit 451**](#fahrenheit-451-by-ray-bradbury) _by Ray Bradbury_
-- [**Thinking In Systems**](#thinking-in-systems-by-donella-h-meadows)
+- [**Thinking In Systems**](#thinking-in-systems-by-donella-h-meadows) _by Donella H. Meadows_
 - [**Factfulness**](#factfulness-by-hans-rosling-with-anna-rosling-rönnlund--ola-rosling) _by Hans Rosling with Anna Rosling Rönnlund & Ola Rosling_
 - [**Stumbling on Happiness**](#stumbling-on-happiness-by-daniel-gilbert) _by Daniel Gilbert_
 - [**Science Fictions**](#science-fictions-by-stuart-ritchie) _by Stuart Ritchie_
