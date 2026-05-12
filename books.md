@@ -29,6 +29,7 @@ Books are ranked by preference within each tier. The list is dynamic and will be
 - [**Models**](#models-by-mark-manson) _by Mark Manson_
 - [**The WEIRDest People in the World**](#the-weirdest-people-in-the-world-by-joseph-henrich) _by Joseph Henrich_
 - [**Fahrenheit 451**](#fahrenheit-451-by-ray-bradbury) _by Ray Bradbury_
+- [**Thinking In Systems**](#thinking-in-systems-by-donella-h-meadows)
 - [**Factfulness**](#factfulness-by-hans-rosling-with-anna-rosling-rönnlund--ola-rosling) _by Hans Rosling with Anna Rosling Rönnlund & Ola Rosling_
 - [**Stumbling on Happiness**](#stumbling-on-happiness-by-daniel-gilbert) _by Daniel Gilbert_
 - [**Science Fictions**](#science-fictions-by-stuart-ritchie) _by Stuart Ritchie_
@@ -55,11 +56,25 @@ None for now
 
 ## Currently Reading
 
+None for now
+
+## Didn't finish
+
 ### [**Crime and Punishment** _by _Fyodor Dostoevsky_](https://en.wikipedia.org/wiki/Crime_and_Punishment)
 
 - **Started:** 2025 December 11
+- **Abandoned:** 2025 December 25
+
 
 ## Chronology 
+
+### [**Thinking In Systems** _by Donella H. Meadows_](https://en.wikipedia.org/wiki/Thinking_In_Systems:_A_Primer)
+
+Presents a pretty handful way to reason about how various complex (and simple) structures work. Explains why a lot of things happen and what could be done about them. Shows how to abstract a lot of real world systems into a simplified, easy to reason about structure, with command pitfalls and the most efficient points of leverage. Honest about its limitations and the fallacy of looking for silver bullet rules/strategies/frameworks. At some moments teaches moral and ethic rules, that seems to be pretty simplistic and naive which feels a bit off for this type of book.
+
+- **Rating:** 4/5
+- **Started:** 2026 January 26
+- **Finished:** 2026 May 12
 
 ### [**Fahrenheit 451** _by Ray Bradbury_](https://en.wikipedia.org/wiki/Fahrenheit_451)
 

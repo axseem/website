@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-12 21:26` `Prague`
+
+I've been mostly doing the work at my job and playing around with the design of programming language. At some point I got too frustrated with fighting C and doing all the work, so I asked Claude Opus 4.7 to do all the work. We've created a spec and then it was trying to implement it. The result is 5000 LoC C file that looks awful and works, but only with the most simple code snippets possible. I'm honestly not surprised, and thus not disappointed, but I can't get rid of the feeling of the wasted time, and lost opportunity to tinker and learn.
+
+---
+
 `2026-05-11 22:57` `Prague`
 
 I'm playing around with C. I did some progress on the lisp evaluator. I was also exploring differences between C standards like C89, C99 and C11. I also tried a bit M2-Planet to see how much it lacks from the full C.
