@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-13 06:40` `Prague`
+
+I feel unmotivated to do anything meaningful. I guess today I'll try to work on my programming language. I'll also dedicate a 17:00-18:00 time frame for the work on anywhy website.
+
+---
+
 `2026-05-12 21:26` `Prague`
 
 I've been mostly doing the work at my job and playing around with the design of programming language. At some point I got too frustrated with fighting C and doing all the work, so I asked Claude Opus 4.7 to do all the work. We've created a spec and then it was trying to implement it. The result is 5000 LoC C file that looks awful and works, but only with the most simple code snippets possible. I'm honestly not surprised, and thus not disappointed, but I can't get rid of the feeling of the wasted time, and lost opportunity to tinker and learn.
