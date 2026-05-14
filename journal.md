@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-14 21:33` `Prague`
+
+I've cleaned up files and my dot files a little bit. I got rid of numerous LLM harnesses I had and stopped on opencode which seems to be in the goldilocks zone of sane defaults, reliability and extendability for me.
+
+---
+
 `2026-05-13 06:40` `Prague`
 
 I feel unmotivated to do anything meaningful. I guess today I'll try to work on my programming language. I'll also dedicate a 17:00-18:00 time frame for the work on anywhy website.
