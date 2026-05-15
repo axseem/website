@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-15 07:11` `Prague`
+
+I've been neglecting my sleep and getting into bad too late for I guess more than a week now. I don't like the resulting feeling. I kinda feel like I'm surviving through the days.
+
+---
+
 `2026-05-14 21:33` `Prague`
 
 I've cleaned up files and my dot files a little bit. I got rid of numerous LLM harnesses I had and stopped on opencode which seems to be in the goldilocks zone of sane defaults, reliability and extendability for me.
