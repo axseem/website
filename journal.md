@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-16 10:10` `Prague`
+
+I feel a bit more motivated to actually do some stuff. I've created a Mentor agent for opencode that would help learn instead of doing work for me. The result was mediocre so far. Its questions feel biased, like it tries to pivot me toward the approach they prefer, and unfortunately LLMs tend to prefer most popular, not most fundamentally better solutions. Otherwise I feel like I slowly regain desire to write and reason about code. I think I've been hitting flow state more often in the recent week. Love to see the progress.
+
+---
+
 `2026-05-15 07:11` `Prague`
 
 I've been neglecting my sleep and getting into bad too late for I guess more than a week now. I don't like the resulting feeling. I kinda feel like I'm surviving through the days.
