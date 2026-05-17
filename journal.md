@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-17 11:50` `Prague`
+
+Yesterday [PR introducing MTP support to llama.cpp](https://github.com/ggml-org/llama.cpp/pull/22673) was merged. I was following it a few days and patiently waiting until it lands. I've been trying to build CUDA parts of it half of the day, as it takes forever and it was failing for me a few times due to some web ui issues. During that time I was also reading about single-pass compilers and playing Minecraft FFA PVP in the rest times. I think today is going to be somewhat similar.
+
+---
+
 `2026-05-16 10:10` `Prague`
 
 I feel a bit more motivated to actually do some stuff. I've created a Mentor agent for opencode that would help learn instead of doing work for me. The result was mediocre so far. Its questions feel biased, like it tries to pivot me toward the approach they prefer, and unfortunately LLMs tend to prefer most popular, not most fundamentally better solutions. Otherwise I feel like I slowly regain desire to write and reason about code. I think I've been hitting flow state more often in the recent week. Love to see the progress.
