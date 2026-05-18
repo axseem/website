@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-18 22:15` `Prague`
+
+Forgot to write an entry this morning. I've been mostly working for the whole day. I've been finishing keyboard I've build for Aray yesterday evening and I've been fixing Bluetooth which suddenly broke after me updating my packages. Now I'm going to brush my teeth and go sleep.
+
+---
+
 `2026-05-17 11:50` `Prague`
 
 Yesterday [PR introducing MTP support to llama.cpp](https://github.com/ggml-org/llama.cpp/pull/22673) was merged. I was following it a few days and patiently waiting until it lands. I've been trying to build CUDA parts of it half of the day, as it takes forever and it was failing for me a few times due to some web ui issues. During that time I was also reading about single-pass compilers and playing Minecraft FFA PVP in the rest times. I think today is going to be somewhat similar.
