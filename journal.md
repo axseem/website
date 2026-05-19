@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-19 09:43` `Prague`
+
+Today from 17:00 to 17:30 I'll work on anywhy website. Additionally I would like to finish my bitmap font and play with ideas for my programming language.
+
+---
+
 `2026-05-18 22:15` `Prague`
 
 Forgot to write an entry this morning. I've been mostly working for the whole day. I've been finishing keyboard I've build for Aray yesterday evening and I've been fixing Bluetooth which suddenly broke after me updating my packages. Now I'm going to brush my teeth and go sleep.
