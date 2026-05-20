@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-20 08:42` `Prague`
+
+I did nothing of what I planned yesterday. I've been doing job work for most of the day, and then I started scrolling through hacker news in the evening. There I ran into a [Show HN: Number Gacha game](https://news.ycombinator.com/item?id=48123359). I tried it, and it fully consumed me. At the end it felt so addictive that I spent 3 hours beating it. I felt pretty empty afterwards.
+
+---
+
 `2026-05-19 09:43` `Prague`
 
 Today from 17:00 to 17:30 I'll work on anywhy website. Additionally I would like to finish my bitmap font and play with ideas for my programming language.
