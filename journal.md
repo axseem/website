@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-21 12:47` `Prague`
+
+I crave deep work flow. It also feels pretty hard to want to start doing anything. I read a lot but create almost nothing, or usually ask LLMs to create things for me and then get upset with the result. Wrote this in the morning, but then forgot to post. I'll spend time from 17:30 to 18:00 writing simple s-expressions parser in C.
+
+---
+
 `2026-05-20 08:42` `Prague`
 
 I did nothing of what I planned yesterday. I've been doing job work for most of the day, and then I started scrolling through hacker news in the evening. There I ran into a [Show HN: Number Gacha game](https://news.ycombinator.com/item?id=48123359). I tried it, and it fully consumed me. At the end it felt so addictive that I spent 3 hours beating it. I felt pretty empty afterwards.
