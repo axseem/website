@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-22 21:37` `Prague`
+
+I did not start writing s-expression parser. I forgot that I agreed to go for a walk with Artem at 17:00 yesterday when I was scheduling the time. I planned to do it today, but I was mostly working for job, recording and editing the video of the small feature I've been working on at work, and then doomscrolling and procrastinating most of the spare time.
+
+---
+
 `2026-05-21 12:47` `Prague`
 
 I crave deep work flow. It also feels pretty hard to want to start doing anything. I read a lot but create almost nothing, or usually ask LLMs to create things for me and then get upset with the result. Wrote this in the morning, but then forgot to post. I'll spend time from 17:30 to 18:00 writing simple s-expressions parser in C.
