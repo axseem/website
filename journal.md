@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-23 08:41` `Prague`
+
+It's finally weekend. I've got a decent sleep thin night. I took a shower and I'm about to go for a walk. Yesterday evening I've created a research agent, but instead of prompting LLM to create instructions I was carefully picking and thinking through words and phrases manually. It was quite enjoyable, and then end result actually feels sane. I tried it with local Qwen 3.6 35B yesterday, and it was relatively good, definitely better then without it. I would like to spend a bit more time today testing it. I also want to program in C a bit and get s-expressions parser done. It should not be that hard.
+
+---
+
 `2026-05-22 21:37` `Prague`
 
 I did not start writing s-expression parser. I forgot that I agreed to go for a walk with Artem at 17:00 yesterday when I was scheduling the time. I planned to do it today, but I was mostly working for job, recording and editing the video of the small feature I've been working on at work, and then doomscrolling and procrastinating most of the spare time.
