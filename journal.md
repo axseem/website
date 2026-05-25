@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-25 10:40` `Prague`
+
+I forgot to write an entry yesterday. Majority of the time I've been spending with Aray, plus a bit of programming and watching the DOAC interview with Jiang Xueqin. We are going to the Poland tomorrow for a mini vacation initiated by my mom.
+
+---
+
 `2026-05-23 08:41` `Prague`
 
 It's finally weekend. I've got a decent sleep thin night. I took a shower and I'm about to go for a walk. Yesterday evening I've created a research agent, but instead of prompting LLM to create instructions I was carefully picking and thinking through words and phrases manually. It was quite enjoyable, and then end result actually feels sane. I tried it with local Qwen 3.6 35B yesterday, and it was relatively good, definitely better then without it. I would like to spend a bit more time today testing it. I also want to program in C a bit and get s-expressions parser done. It should not be that hard.
