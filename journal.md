@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-26 23:59` `Prague`
+
+I'm in Zakopane. Was on the road all the day.
+
+---
+
 `2026-05-25 10:40` `Prague`
 
 I forgot to write an entry yesterday. Majority of the time I've been spending with Aray, plus a bit of programming and watching the DOAC interview with Jiang Xueqin. We are going to the Poland tomorrow for a mini vacation initiated by my mom.
