@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-27 21:26` `Prague`
+
+Today we've been walking to in the mountains. I took several hours to get up on the mountain and then come back. It was tiring in a satisfying way.
+
+---
+
 `2026-05-26 23:59` `Prague`
 
 I'm in Zakopane. Was on the road all the day.
