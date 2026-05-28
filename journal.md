@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-28 19:28` `Prague`
+
+We've just came from aquapark. It was okay, but it feels like too much resting for me. I also feel a bit emotionally tired due to being too long with my relatives. I don't know, I just can't relate to so much they share, and I hardly see them being engaged into trying to talk about anything not superficial. 
+
+---
+
 `2026-05-27 21:26` `Prague`
 
 Today we've been walking to in the mountains. I took several hours to get up on the mountain and then come back. It was tiring in a satisfying way.
