@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-05-30 23:11` `Prague`
+
+We are back home. We've unpacked bags, cleaned up the flat and cooked dinner. I feel moderately tired. I have a big desire to program, write essays and record videos. I'm afraid that it may be just an urge, but I will put effort to do these stuff anyway even if my motivation will disappear. I'm really excited for tomorrow. Perhaps I'll finish anywhy website? It's 90% done for weeks now.
+
+---
+
 `2026-05-29 22:50` `Prague`
 
 Today we've been walking in the mountains again. I've also spent a wonderful evening talking with Aray. Tomorrow we are getting home. I've spent these days mostly without distraction, except occasional hackernews reading.
