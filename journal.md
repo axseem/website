@@ -9,6 +9,14 @@ sidebar: true
 
 ---
 
+`2026-05-31 22:05` `Prague`
+
+Okay, so I was consuming more than producing again today. It's quite sad honestly, I think I don't grand as much importance to the problem as I should, otherwise it wouldn't happen. For some reason I had this idea that carefully restricting access to various stuff I'm doing to procrastinate would be too much, but also it seems like I can't balance it on my own otherwise. 
+
+I agreed with Aray to get a gym membership, and tomorrow in the morning we will go to gym, so I want to get to bed earlier today.
+
+---
+
 `2026-05-30 23:11` `Prague`
 
 We are back home. We've unpacked bags, cleaned up the flat and cooked dinner. I feel moderately tired. I have a big desire to program, write essays and record videos. I'm afraid that it may be just an urge, but I will put effort to do these stuff anyway even if my motivation will disappear. I'm really excited for tomorrow. Perhaps I'll finish anywhy website? It's 90% done for weeks now.
