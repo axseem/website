@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-06-01 21:39` `Prague`
+
+It was a decent day. I have to say, I felt more motivated to do stuff and it was generally easier to switch into "working" mindset after the gym. Every time I get surprised how much regular physical activities make day to day life better.
+
+---
+
 `2026-05-31 22:05` `Prague`
 
 Okay, so I was consuming more than producing again today. It's quite sad honestly, I think I don't grand as much importance to the problem as I should, otherwise it wouldn't happen. For some reason I had this idea that carefully restricting access to various stuff I'm doing to procrastinate would be too much, but also it seems like I can't balance it on my own otherwise. 
