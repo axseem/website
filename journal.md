@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-06-02 23:31` `Prague`
+
+I got too consumed by the process of creating a tiny thumb keyboard on micro switches. I also disassembled one switch to get a snap dome from it. That's so much fun, but I have to go sleep now.
+
+---
+
 `2026-06-01 21:39` `Prague`
 
 It was a decent day. I have to say, I felt more motivated to do stuff and it was generally easier to switch into "working" mindset after the gym. Every time I get surprised how much regular physical activities make day to day life better.
