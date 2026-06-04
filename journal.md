@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-06-04 07:37` `Prague`
+
+I just recently came home after morning run. I feel a bit confused about what I want or should do next. Yesterday I've got an idea to create a strict schedule again, so maybe that's what I'll focus on now.
+
+---
+
 `2026-06-03 21:45` `Prague`
 
 I have fallen into a deep rabbit hole of programming languages theory. I think I want to learn Forth. I feel like it would make so much sense if I'll be able to implement other languages with defined design before doing my own. I want to write Forth in RISC-V assembly and than lisp in Forth. At the same time it all feels like such a scope creep problem, it's insane. It's weird because it was really exciting searching and reading through all of this, but now I feel overwhelmed and a bit upset. I think the root cause is the realization of how hard it is for me to engage in deep, hard work today. Like I'm hardly in control over my attention and my choice of what to do. Basically I didn't stop doomscrolling, I just changed the content.
