@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-06-05 06:46` `Prague`
+
+I've created a schedule for today. I should have had a run but it's rainy, so I decided to skip that one. I took a shower and now eating my breakfast. After that I dedicated several hours for focused work on anywhy, then job and playing around with Forth and programming languages.
+
+---
+
 `2026-06-04 07:37` `Prague`
 
 I just recently came home after morning run. I feel a bit confused about what I want or should do next. Yesterday I've got an idea to create a strict schedule again, so maybe that's what I'll focus on now.
