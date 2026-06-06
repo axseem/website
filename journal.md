@@ -9,6 +9,14 @@ sidebar: true
 
 ---
 
+`2026-06-06 11:58` `Prague`
+
+I've quite Keto diet yesterday. I've lost 4 kilos in the last 3 months. That happened while I was not working out, and now when I do, I afraid situation may worsen.
+
+Today I'm taking a rest. I have a e-ink display I ordered a month ago, and I'd like to play with it a bit.
+
+---
+
 `2026-06-05 06:46` `Prague`
 
 I've created a schedule for today. I should have had a run but it's rainy, so I decided to skip that one. I took a shower and now eating my breakfast. After that I dedicated several hours for focused work on anywhy, then job and playing around with Forth and programming languages.
