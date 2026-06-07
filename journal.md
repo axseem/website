@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-06-07 05:23` `Prague`
+
+Today I'm going to Bratislava to celebrate Maksym's birthday. Will be back home in the late evening.
+
+---
+
 `2026-06-06 11:58` `Prague`
 
 I've quite Keto diet yesterday. I've lost 4 kilos in the last 3 months. That happened while I was not working out, and now when I do, I afraid situation may worsen.
