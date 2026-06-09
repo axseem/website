@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-06-09 09:20` `Prague`
+
+Yesterday was really busy, I forgot to write an entry. 
+
+---
+
 `2026-06-07 05:23` `Prague`
 
 Today I'm going to Bratislava to celebrate Maksym's birthday. Will be back home in the late evening.
