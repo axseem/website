@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-06-10 21:31` `Prague`
+
+I've been playing around with Claude Fable 5 on my job. I had tried it for only a little, because of how expensive it is, but so far I'm not impressed, and was actually expecting more. The way it speaks is so annoying, the same goes for the other latest models of Anthropic. It's so unnecessary verbose, I have a feeling like every time I need to find a small, one sentence needle of essential idea inside of huge haystack of hallow text.
+
+---
+
 `2026-06-09 09:20` `Prague`
 
 Yesterday was really busy, I forgot to write an entry. 
