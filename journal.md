@@ -9,6 +9,12 @@ sidebar: true
 
 ---
 
+`2026-06-11 11:17` `Prague`
+
+I'm renaming the "anywhy" brand. For now I landed on "puremade studio", but it still feels suboptimal. Still it's the most appealing option I could come up with. 
+
+---
+
 `2026-06-10 21:31` `Prague`
 
 I've been playing around with Claude Fable 5 on my job. I had tried it for only a little, because of how expensive it is, but so far I'm not impressed, and was actually expecting more. The way it speaks is so annoying, the same goes for the other latest models of Anthropic. It's so unnecessary verbose, I have a feeling like every time I need to find a small, one sentence needle of essential idea inside of huge haystack of hallow text.
