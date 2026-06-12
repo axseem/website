@@ -9,6 +9,14 @@ sidebar: true
 
 ---
 
+`2026-06-12 22:30` `Prague`
+
+I've woke up after a several hours of nap. Today I've updated sprinkler, the SSG I use for my website and puremade. On top of that I've been playing around with the design of my language and exploring if it's possible to both have computable stack depth and runtime function pointers for things like vtables or C interop. Computable stack depth comes from banning recursions, but runtime function pointers allow recursions that could not be analyzed and detected at runtime.
+
+Feels fun to do these stuff, but I wish I've been creating more, and not spend time mostly learning and exploring.
+
+---
+
 `2026-06-11 11:17` `Prague`
 
 I'm renaming the "anywhy" brand. For now I landed on "puremade studio", but it still feels suboptimal. Still it's the most appealing option I could come up with. 
