@@ -1,6 +1,7 @@
 ---
 title: "digital garden"
-hashLinks: false
+published_at: 2026-03-12
+url: https://axseem.me
 ---
 
 # Hi! I’m Max
@@ -8,4 +9,3 @@ hashLinks: false
 ![Max winking](./profile.avif)
 
 I'm a Software Engineer and Digital Creator. Writing code and building hardware are my primary ways of bringing ideas to life. Curious about almost _everything_, I can't live a day without learning something new.
-

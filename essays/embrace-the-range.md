@@ -1,6 +1,6 @@
 ---
 title: "Embrace The Range"
-date: 2025-03-15
+published_at: 2025-03-15
 summary: "Knowledge that allows to thrive in every facet of life"
 ---
 
@@ -17,4 +17,3 @@ It was particularly interesting to think about this in the context of the tremen
 The book gave me the valuable insight into the direction I want move. Specifically, it became clear that it's more beneficial not to follow a single trajectory but rather to explore a range of seemingly unrelated fields. Paradoxically, this diverse set of experiences can enable one to surpass those who are extremely knowledgeable in just one specialization.
 
 Clearly, creativity is key to the value a person can create. Creative people excel at solving problems in unexpectedly unique ways. They are more capable of finding connections that others overlook. The more disparate the concepts, the less likely it is that anyone has thought of combining them into a single idea - and that's exactly where inventions emerge.
-

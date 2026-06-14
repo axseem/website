@@ -1,5 +1,6 @@
 ---
 title: "drinking"
+published_at: 2026-03-12
 ---
 
 # drinking

@@ -1,7 +1,8 @@
 ---
 title: "essays"
 sidebar: true
-hashLinks: false
+published_at: 2026-03-12
+feed: pages
 ---
 
 # essays

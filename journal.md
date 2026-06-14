@@ -1,6 +1,7 @@
 ---
 title: "journal"
 sidebar: true
+published_at: 2026-03-12
 ---
 
 # journal
@@ -9,17 +10,9 @@ sidebar: true
 
 ---
 
-`2026-06-13 23:08` `Prague`
+`2026-06-14 23:40` `Prague`
 
-I've been resting for the majority of the day. I've did a bit of research on clinics, as I want to make a health check up. I've also been reading about bicycle, as I'd like to learn how to maintain one.
-
----
-
-`2026-06-12 22:30` `Prague`
-
-I've woke up after a several hours of nap. Today I've updated sprinkler, the SSG I use for my website and puremade. On top of that I've been playing around with the design of my language and exploring if it's possible to both have computable stack depth and runtime function pointers for things like vtables or C interop. Computable stack depth comes from banning recursions, but runtime function pointers allow recursions that could not be analyzed and detected at runtime.
-
-Feels fun to do these stuff, but I wish I've been creating more, and not spend time mostly learning and exploring.
+In the morning I've updated journal to support the new version of sprinkler. It should generate RSS now, but I'm yet to test it. After that I've been helping setting up Steam on Aray's laptop, and then we've been playing games together. We've played Lethal Company and Peak. It was a really cool day.
 
 ---
 

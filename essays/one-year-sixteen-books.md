@@ -1,6 +1,6 @@
 ---
 title: "One Year - Sixteen Books"
-date: 2024-12-30
+published_at: 2024-12-30
 ---
 
 # One Year - Sixteen Books
@@ -40,4 +40,3 @@ Looking back, I'm extremely happy with the decisions I made.
 I already have a queue of books that I can't wait to read, and with time it only grows. It's no longer about a funny challenge but an identity. Reading slowly became a part of me, and revealed the person I want to be.
 
 The future looks limitless and I'm extremely excited about it.
-

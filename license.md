@@ -1,5 +1,6 @@
 ---
 title: "license"
+published_at: 2026-03-12
 ---
 
 # license

@@ -1,6 +1,6 @@
 ---
 title: "Share With the World"
-date: 2025-01-16
+published_at: 2025-01-16
 ---
 
 # Share With the World
@@ -18,4 +18,3 @@ Writing has the same effect. Seeing your ideas on the paper, in an organized and
 The benefits are clear for me, and the only way to grasp them is to become good at writing. And to make that happen, as of today, I'm making it a habit to write every day. I'm going to note down anything I have on my mind, and will publish every text I write. The more you do, the faster you learn, so for now, there will be no constraints on length, topic, or even lexical correctness. That way I will maximize the results while still enjoying the process.
 
 So lets begin the journey!
-

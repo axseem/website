@@ -1,6 +1,6 @@
 ---
 title: "fail in public"
-date: 2025-11-16
+published_at: 2025-11-16
 ---
 
 # fail in public

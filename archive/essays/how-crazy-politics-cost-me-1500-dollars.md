@@ -1,6 +1,6 @@
 ---
 title: "How Crazy Politics Cost Me $1,500"
-date: 2025-04-08
+published_at: 2025-04-08
 summary: "Honestly can't believe this"
 ---
 
@@ -23,4 +23,3 @@ This whole situation is really upsetting. It feels so crazy I can barely wrap my
 I really didn't want to do this, but I'm selling all my stocks today. It probably feels safer this way. I just don't feel comfortable having significant money tied up in the US market while its government is acting so unpredictably.
 
 Turns out politics is way more important and connected to everything than I ever expected.
-
