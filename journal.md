@@ -10,6 +10,16 @@ published_at: 2026-03-12
 
 ---
 
+`2026-06-15 23:31` `Prague`
+
+Today I've been doing some stuff on work, and then spent most of them time talking with Aray and then playing Peak and Detroit Become Human with her.
+
+It is also seems that I got urogenital symptoms for a some time, and I'm in the process of getting an appointment to doctor. I'm usually procrastinating on such stuff really hard, but I'm working on changing that.
+
+Lately (probably like last several months) I've been really lazy about doing important personal stuff. Proper sleep schedule is one of them. Another one is website for selling keyboards. I think I got soft, life become to comfortable, and I don't feel the threat of not doing what's not immediately fun.
+
+---
+
 `2026-06-14 23:40` `Prague`
 
 In the morning I've updated journal to support the new version of sprinkler. It should generate RSS now, but I'm yet to test it. After that I've been helping setting up Steam on Aray's laptop, and then we've been playing games together. We've played Lethal Company and Peak. It was a really cool day.
