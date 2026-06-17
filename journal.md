@@ -10,6 +10,12 @@ published_at: 2026-03-12
 
 ---
 
+`2026-06-17 22:23` `Prague`
+
+I've updated my neovim config. I stripped out almost everything that was there leaving it almost fully bare. I also limited the cloors used in the UI to four: black, white, gray and red. I like how minimalistic it looks. I'd like to simplify all of my setup to a degree where I can comprehend all the behaviours while still having the ergonomics and versatility.
+
+---
+
 `2026-06-16 23:58` `Prague`
 
 It was a pretty chill day. Once again I've been doing a bunch of stuff at work plus playing games with Aray plus procrastinating.
