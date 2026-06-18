@@ -10,6 +10,12 @@ published_at: 2026-03-12
 
 ---
 
+`2026-06-18 22:44` `Prague`
+
+Today I've been designing a general purpose color palette with 256 colors, that has colors evenly distributed based on human's perception. Basically I'm attempting to create a set of 256 colors, where each color tries to be as perceptually different from any other as possible. Then I've been experimenting with various anchor settings (colors that has to be in the palette and are pinned in the space, acting kind of like a seed) and dithering algos. I've spent a lot of time looking at various images quantized using this palette, and then also trying 16 color version of the palette. It was actually super fun.
+
+---
+
 `2026-06-17 22:23` `Prague`
 
 I've updated my neovim config. I stripped out almost everything that was there leaving it almost fully bare. I also limited the cloors used in the UI to four: black, white, gray and red. I like how minimalistic it looks. I'd like to simplify all of my setup to a degree where I can comprehend all the behaviours while still having the ergonomics and versatility.
