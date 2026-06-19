@@ -10,6 +10,12 @@ published_at: 2026-03-12
 
 ---
 
+`2026-06-19 20:53` `Prague`
+
+I'm going to bed right now. I did all the skin care routine, finished laundry with the help of Aray. Tomorrow I plan to wake up at ~5:00. Today I've been mostly continuing experimenting with color palette.
+
+---
+
 `2026-06-18 22:44` `Prague`
 
 Today I've been designing a general purpose color palette with 256 colors, that has colors evenly distributed based on human's perception. Basically I'm attempting to create a set of 256 colors, where each color tries to be as perceptually different from any other as possible. Then I've been experimenting with various anchor settings (colors that has to be in the palette and are pinned in the space, acting kind of like a seed) and dithering algos. I've spent a lot of time looking at various images quantized using this palette, and then also trying 16 color version of the palette. It was actually super fun.
