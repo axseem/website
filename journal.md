@@ -10,6 +10,14 @@ published_at: 2026-03-12
 
 ---
 
+`2026-06-22 22:07` `Prague`
+
+I think I pretty much finished the palette I've been working on. I tried it to be as algorithmically based as possible, without too many variables available to tweak. The main goal was to maximize the perceptual distance of each color in the palette, while making sure each of them is general enough to be used like in UIs, but also blending for image dithering. 256-colors palette, as it has plenty colors to ensure that there will be a decent amount of colors for various purposes. The 16-colors subset was much more tricky though. I've used CAM16-UCS as a perceptual color space and limited the available colors to 3 digit hex, which is 4096 values total. It seems like I managed to get 90% there, and the result is truly great, although unlikely "mathematically proved" to be the best.
+
+I planed to create a repo for it once it's done, but I accidentally fallen into another rabbit hole of image dithering algorithms and compression aware dithering. It would be better to slice the work and ship it as I go, and not just jump from one obsession to another. For tomorrow my goal is to publish the palette family.
+
+---
+
 `2026-06-21 11:59` `Prague`
 
 Today I'm cleaning up the apartment, then I plan hang out with Aray, and perhaps do some programming.
