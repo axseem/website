@@ -10,6 +10,12 @@ published_at: 2026-03-12
 
 ---
 
+`2026-06-23 22:14` `Prague`
+
+Today I had a fair amount of work to do at my job. In the morning I woke up at 5:55, and recently I've managed to wake up by schedule a bit more often. Aray woke up just after me, and together we've went on a morning walk that I enjoyed a lot. I barely manage not to cry as I write this, because it is only a few hours now after we've broke up. There are too many thoughts in my head. One of the reasons I created this journal is to distill these thoughts on paper, and have them publicly out there, practicing authenticity trying to stick to who I'm truly am. Although right now I have an extreme urge to cry out, to be heard and to fill the vacuum inside, I cannot stop thinking of how doing that here may hurt her feelings.
+
+---
+
 `2026-06-22 22:07` `Prague`
 
 I think I pretty much finished the palette I've been working on. I tried it to be as algorithmically based as possible, without too many variables available to tweak. The main goal was to maximize the perceptual distance of each color in the palette, while making sure each of them is general enough to be used like in UIs, but also blending for image dithering. 256-colors palette, as it has plenty colors to ensure that there will be a decent amount of colors for various purposes. The 16-colors subset was much more tricky though. I've used CAM16-UCS as a perceptual color space and limited the available colors to 3 digit hex, which is 4096 values total. It seems like I managed to get 90% there, and the result is truly great, although unlikely "mathematically proved" to be the best.
