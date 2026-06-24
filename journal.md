@@ -10,6 +10,12 @@ published_at: 2026-03-12
 
 ---
 
+`2026-06-24 06:40` `Prague`
+
+I woke up at ~4:30. I took a shower and went for a walk. I've just came back home, put lentils to get boiled in the pressure cooker and sat to write this entry. All I want is to simply sit and think.
+
+---
+
 `2026-06-23 22:14` `Prague`
 
 Today I had a fair amount of work to do at my job. In the morning I woke up at 5:55, and recently I've managed to wake up by schedule a bit more often. Aray woke up just after me, and together we've went on a morning walk that I enjoyed a lot. I barely manage not to cry as I write this, because it is only a few hours now after we've broke up. There are too many thoughts in my head. One of the reasons I created this journal is to distill these thoughts on paper, and have them publicly out there, practicing authenticity trying to stick to who I'm truly am. Although right now I have an extreme urge to cry out, to be heard and to fill the vacuum inside, I cannot stop thinking of how doing that here may hurt her feelings.
