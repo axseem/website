@@ -10,6 +10,12 @@ published_at: 2026-03-12
 
 ---
 
+`2026-06-25 21:24` `Prague`
+
+Everything is fine. We've talked a lot with Aray, and we've made up eventually. Feel guilty for writing the entry about break up without giving things a few days to settle and get clearer. I'd also like to think about what I want to write here and what I don't. I think private journal would be great for me.
+
+---
+
 `2026-06-24 06:40` `Prague`
 
 I woke up at ~4:30. I took a shower and went for a walk. I've just came back home, put lentils to get boiled in the pressure cooker and sat to write this entry. All I want is to simply sit and think.
