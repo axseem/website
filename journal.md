@@ -10,6 +10,12 @@ published_at: 2026-03-12
 
 ---
 
+`2026-06-26 07:29` `Prague`
+
+I've woke up at 5:55. Just got from walk. Cooking lentils. Today I'm going to the office. I got a message that my MultiSport card has arrived, so I'll finally start going to gym soon. In last days I've weaken the total amount of constraints/requirements I put on myself, putting all the effort into consistently following sleep schedule, going on morning walk, and eating enough calories.
+
+---
+
 `2026-06-25 21:24` `Prague`
 
 Everything is fine. We've talked a lot with Aray, and we've made up eventually. Feel guilty for writing the entry about break up without giving things a few days to settle and get clearer. I'd also like to think about what I want to write here and what I don't. I think private journal would be great for me.
