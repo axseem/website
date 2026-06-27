@@ -10,6 +10,8 @@ published_at: 2026-03-12
 
 ---
 
+`2026-06-27 07:59` `Prague`
+
 Yesterday, after coming back from work I cut my hair to 3mm. After growing it out for a year and a half and having it pretty much reaching my chin, it's gone now. It looks okay-ish. It seems like longer hair suits me more, but from practical point of view, it feels really great. The hair doesn't get on my face, I don't need to use hair tie, taking shower and skin care routine is easier, as I don't need to worry about getting hair too wet etc.
 
 I successfully woke up at 5:55 and I'm about to leave to go on a date with Aray. After that I'd like to do manual programming. It's motivationally hard, but it's something I'm convinced would bring back fun and make me want do deep work and drill down complex problems more.
