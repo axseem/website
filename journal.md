@@ -10,6 +10,12 @@ published_at: 2026-03-12
 
 ---
 
+Yesterday, after coming back from work I cut my hair to 3mm. After growing it out for a year and a half and having it pretty much reaching my chin, it's gone now. It looks okay-ish. It seems like longer hair suits me more, but from practical point of view, it feels really great. The hair doesn't get on my face, I don't need to use hair tie, taking shower and skin care routine is easier, as I don't need to worry about getting hair too wet etc.
+
+I successfully woke up at 5:55 and I'm about to leave to go on a date with Aray. After that I'd like to do manual programming. It's motivationally hard, but it's something I'm convinced would bring back fun and make me want do deep work and drill down complex problems more.
+
+---
+
 `2026-06-26 07:29` `Prague`
 
 I've woke up at 5:55. Just got from walk. Cooking lentils. Today I'm going to the office. I got a message that my MultiSport card has arrived, so I'll finally start going to gym soon. In last days I've weaken the total amount of constraints/requirements I put on myself, putting all the effort into consistently following sleep schedule, going on morning walk, and eating enough calories.
