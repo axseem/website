@@ -10,6 +10,12 @@ published_at: 2026-03-12
 
 ---
 
+`2026-06-28 21:37` `Prague`
+
+I've not been programming yesterday nor today. I've been either reading more about dithering and asking LLM to implement my ideas, or setting up Minecraft server and playing with my sis and Aray. I got the motivation to do programming now, at the very end of the day, but it's time to go sleep. Feel guilty for understanding the importance, realizing the likely joy I'll get back and competence I'll start building again with time by doing hard things myself, and yet, still solving most of the problems using LLMs. Not going to rent about it, as I'd like to go sleep now. Today I woke up at 5:55, but didn't went for a walk this time, and I don't mind it that much. Tomorrow morning I'll go to the gym as I finally got my multisport card. After that, when I'm free from job, I'll spend my time actually writing code with hands, while not using LLMs, even for questions or guidelines, and will try to keep doing that until the spark is back.
+
+---
+
 `2026-06-27 07:59` `Prague`
 
 Yesterday, after coming back from work I cut my hair to 3mm. After growing it out for a year and a half and having it pretty much reaching my chin, it's gone now. It looks okay-ish. It seems like longer hair suits me more, but from practical point of view, it feels really great. The hair doesn't get on my face, I don't need to use hair tie, taking shower and skin care routine is easier, as I don't need to worry about getting hair too wet etc.
