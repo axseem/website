@@ -10,6 +10,12 @@ published_at: 2026-03-12
 
 ---
 
+`2026-06-29 22:14` `Prague`
+
+I actually did little to no coding by hands. It's so hard to refuse using LLMs when they can solve the problem so quickly. I've updated my nvim setup to include custom snippets, better telescope UI, and then refined a few things in dots, etc. Although I have to say I was using LLMs less today than usual, for instance I've been reading about C standards on Wikipedia, instead of asking LLM. It's not much but it's a steady movement in the right direction. On top of that I canceled my ChatGPT subscription, so when it expires, I'll completely stop using it, and switch for open model for specific tasks (or stop using LLMs our of my job completely). At the end of the day I've spend a bit time figuring out if I can define a subset of C, that would make it compilable by regular C compilers, but also make it simpler and more Go, Zig like. That's also the reason why I was reading about C standards. I think it sounds fun and should be a promising way to write C. Will figure it out tomorrow.
+
+---
+
 `2026-06-28 21:37` `Prague`
 
 I've not been programming yesterday nor today. I've been either reading more about dithering and asking LLM to implement my ideas, or setting up Minecraft server and playing with my sis and Aray. I got the motivation to do programming now, at the very end of the day, but it's time to go sleep. Feel guilty for understanding the importance, realizing the likely joy I'll get back and competence I'll start building again with time by doing hard things myself, and yet, still solving most of the problems using LLMs. Not going to rent about it, as I'd like to go sleep now. Today I woke up at 5:55, but didn't went for a walk this time, and I don't mind it that much. Tomorrow morning I'll go to the gym as I finally got my multisport card. After that, when I'm free from job, I'll spend my time actually writing code with hands, while not using LLMs, even for questions or guidelines, and will try to keep doing that until the spark is back.
