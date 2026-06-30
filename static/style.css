@@ -40,7 +40,7 @@
   --font-mono: "JetBrains Mono", monospace;
   --line-height: 1.5;
   --space: 1.5rem;
-  --content-width: 40rem;
+  --content-width: 30rem;
 }
 
 *,
@@ -299,7 +299,7 @@ main {
 .mobile-bar {
   display: none;
 }
-@media (width < 1024px) {
+@media (width < 860px) {
   aside {
     display: none;
   }

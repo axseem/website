@@ -2,6 +2,7 @@
 title: "digital garden"
 published_at: 2026-03-12
 url: https://axseem.me
+image_width: 960
 ---
 
 # Hi! I’m Max

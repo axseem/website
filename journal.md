@@ -10,6 +10,12 @@ published_at: 2026-03-12
 
 ---
 
+`2026-06-30 21:35` `Prague`
+
+Today is not a bad day. I've spent a bit more time the previously writing C and figuring out data structures for language representation. Still far from several hours of deep work though. The same goes for LLMs, I've been using them less before. Trend is the important part I believe. 
+
+---
+
 `2026-06-29 22:14` `Prague`
 
 I actually did little to no coding by hands. It's so hard to refuse using LLMs when they can solve the problem so quickly. I've updated my nvim setup to include custom snippets, better telescope UI, and then refined a few things in dots, etc. Although I have to say I was using LLMs less today than usual, for instance I've been reading about C standards on Wikipedia, instead of asking LLM. It's not much but it's a steady movement in the right direction. On top of that I canceled my ChatGPT subscription, so when it expires, I'll completely stop using it, and switch for open model for specific tasks (or stop using LLMs our of my job completely). At the end of the day I've spend a bit time figuring out if I can define a subset of C, that would make it compilable by regular C compilers, but also make it simpler and more Go, Zig like. That's also the reason why I was reading about C standards. I think it sounds fun and should be a promising way to write C. Will figure it out tomorrow.
