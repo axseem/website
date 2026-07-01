@@ -1,6 +1,5 @@
 ---
 title: "contact"
-sidebar: true
 published_at: 2026-03-12
 ---
 
@@ -16,4 +15,4 @@ age1e0gsa2je0me5gnwjnvp3w9mmq22a589z4z0hwjv5az0aw0jhrs6q8ltxfp
 
 ---
 
-> you can also find me on various platforms: [`/links`](./links)
+You can also find me on various platforms: [`/links`](./links)

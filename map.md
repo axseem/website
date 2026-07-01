@@ -1,10 +1,9 @@
 ---
-title: "browse"
-sidebar: true
+title: "map"
 published_at: 2026-03-12
 ---
 
-# browse
+# map
 
 [`/contact`](./contact) [`/essays`](./essays) [`/gallery`](./gallery) [`/journal`](./journal) [`/projects`](./projects)
 

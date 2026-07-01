@@ -5,7 +5,7 @@ published_at: 2025-01-16
 
 # Share With the World
 
-> `2025 January 16` `2 minutes to read`
+`2025 January 16` `2 minutes to read`
 
 I love to write. There is some charm in writing down your thoughts. The only problem, I struggle to write pretty texts. It's not like I can't do them, it's just requires a lot of effort. Nevertheless writing is a valuable skill, which can additionally grow into something bigger.
 

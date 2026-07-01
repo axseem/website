@@ -6,7 +6,7 @@ summary: "Knowledge that allows to thrive in every facet of life"
 
 # Embrace The Range
 
-> `2025 March 15` `2 minutes to read`
+`2025 March 15` `2 minutes to read`
 
 ![Embrace The Range](./embrace-the-range/embrace-the-range.svg)
 

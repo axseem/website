@@ -5,7 +5,7 @@ published_at: 2026-03-12
 
 # books
 
-Here are the books I've read and my opinions on them. Ratings are subjective and based on personal impact.
+_The books I've read and my opinion on them. Ratings are based on subjective, personal impact._
 
 ## Tier List
 

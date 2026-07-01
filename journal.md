@@ -1,12 +1,11 @@
 ---
 title: "journal"
-sidebar: true
 published_at: 2026-03-12
 ---
 
 # journal
 
-> _Putting my thoughts into words on a daily basis_
+_Here I put my thoughts into words, daily_
 
 ---
 

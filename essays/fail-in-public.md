@@ -5,7 +5,7 @@ published_at: 2025-11-16
 
 # fail in public
 
-> `2025 November 16` `4 minutes to read`
+`2025 November 16` `4 minutes to read`
 
 ![moving light dot](./fail-in-public/keep-failing.svg)
 

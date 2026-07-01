@@ -1,7 +1,7 @@
 ---
 title: "gallery"
-sidebar: true
 published_at: 2026-03-12
+optimize_images: true
 ---
 
 # gallery
@@ -77,4 +77,3 @@ published_at: 2026-03-12
 ![img](./gallery/2024-04-01-000000.jpg)
 
 ![img](./gallery/2023-10-08-000000.jpg)
-

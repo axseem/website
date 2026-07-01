@@ -16,4 +16,4 @@ published_at: 2026-03-12
 
 ---
 
-> If you want to get in touch, use [`/contact`](./contact) page
+If you want to get in touch, use [`/contact`](./contact) page
