@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-01 22:26` `Prague`
+
+Today was pretty productive. The biggest thing I've done is I've update my website. I've made it even simpler, I removed the sidebar, made it look identical on all the platform like desktop and mobile, simplified styles, repicked colors limiting them to 4, narrowed the width of content column and improved typography in general. A bunch of improvements that may not be instantly noticeable, but also the ones that build the coherent, polished experience. On top of that I replaced the profile picture that is shown on the main page with dithered, 256 color PNG instead of previous heavy avif. I plan to switch all the photos to dithered PNGs, but I'm still playing with dithering, and creating the best possible quality in the least possible file size.
+
+---
+
 `2026-06-30 21:35` `Prague`
 
 Today is not a bad day. I've spent a bit more time the previously writing C and figuring out data structures for language representation. Still far from several hours of deep work though. The same goes for LLMs, I've been using them less before. Trend is the important part I believe. 
