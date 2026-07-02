@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-02 22:52` `Prague`
+
+Going to the bed now. I've had to write an entry in the morning, but at any moment I managed to find a more interesting task to do. Today was working on dithering, had a decent amount of work to do for the job and in the evening I was experimenting with Qwen 3.6 27B inference on my work laptop and playing Minecraft with Aray. Last few days I'm getting into bed later than usual. I have to fix that. I'm feeling guilty going to bed early, because it seems like I could use this time for more valuable things. This is obviously a fallacy, because I need to sleep at least eight hours anyway, and it doesn't matter if I'll push them forward, and if I sleep less, I feel awful and my general efficiency during the day drops significantly, negating the advantage of additional few free hours I get by reducing sleep window. It would be good to remind myself more often about how stupid it is to feel guilty about going to bed early.
+
+---
+
 `2026-07-01 22:26` `Prague`
 
 Today was pretty productive. The biggest thing I've done is I've update my website. I've made it even simpler, I removed the sidebar, made it look identical on all the platform like desktop and mobile, simplified styles, repicked colors limiting them to 4, narrowed the width of content column and improved typography in general. A bunch of improvements that may not be instantly noticeable, but also the ones that build the coherent, polished experience. On top of that I replaced the profile picture that is shown on the main page with dithered, 256 color PNG instead of previous heavy avif. I plan to switch all the photos to dithered PNGs, but I'm still playing with dithering, and creating the best possible quality in the least possible file size.
