@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-03 07:01` `Prague`
+
+I woke up at 5:55. I washed my face and shaved. Now I forced myself to write this entry to not put it off until the evening as I was doing last few days.
+
+---
+
 `2026-07-02 22:52` `Prague`
 
 Going to the bed now. I've had to write an entry in the morning, but at any moment I managed to find a more interesting task to do. Today was working on dithering, had a decent amount of work to do for the job and in the evening I was experimenting with Qwen 3.6 27B inference on my work laptop and playing Minecraft with Aray. Last few days I'm getting into bed later than usual. I have to fix that. I'm feeling guilty going to bed early, because it seems like I could use this time for more valuable things. This is obviously a fallacy, because I need to sleep at least eight hours anyway, and it doesn't matter if I'll push them forward, and if I sleep less, I feel awful and my general efficiency during the day drops significantly, negating the advantage of additional few free hours I get by reducing sleep window. It would be good to remind myself more often about how stupid it is to feel guilty about going to bed early.
