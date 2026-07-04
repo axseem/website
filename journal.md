@@ -15,6 +15,12 @@ I woke up at 5:55. I washed my face and shaved. Now I forced myself to write thi
 
 ---
 
+`2026-07-04 22:10` `Prague`
+
+Today in the morning I've been teaching Aray python, specifically conditions and discrete logic. After that I've spend some time researching open source LLM harnesses that would satisfy my criteria, but I could find one. I want something lightweight, efficient and modular, with perhaps the closest analogy may be a Linux kernel but for harnesses. I've been going through benchmarks, and Qwen 3.6 27B was a lot better than Qwen 3.6 35B despite I remembered them producing similar results. And generally it was looking quite strong, especially as I recalled the decent usefulness of 35B for some tasks. However after playing for a while, 27B runs with about 12 tok/s speed on my job macbook, with context being only slightly filled, and that feels awfully slow. So I'm still not sure how much time I'd like to invest in it, but I would absolutely love to have even a few generation back like level models running locally without connecting to any servers. I'm still not convinced that spending my money on RTX5090 is any close to justified though.
+
+---
+
 `2026-07-02 22:52` `Prague`
 
 Going to the bed now. I've had to write an entry in the morning, but at any moment I managed to find a more interesting task to do. Today was working on dithering, had a decent amount of work to do for the job and in the evening I was experimenting with Qwen 3.6 27B inference on my work laptop and playing Minecraft with Aray. Last few days I'm getting into bed later than usual. I have to fix that. I'm feeling guilty going to bed early, because it seems like I could use this time for more valuable things. This is obviously a fallacy, because I need to sleep at least eight hours anyway, and it doesn't matter if I'll push them forward, and if I sleep less, I feel awful and my general efficiency during the day drops significantly, negating the advantage of additional few free hours I get by reducing sleep window. It would be good to remind myself more often about how stupid it is to feel guilty about going to bed early.
