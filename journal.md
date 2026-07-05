@@ -9,15 +9,21 @@ _Here I put my thoughts into words, daily_
 
 ---
 
-`2026-07-03 07:01` `Prague`
+`2026-07-05 15:44` `Prague`
 
-I woke up at 5:55. I washed my face and shaved. Now I forced myself to write this entry to not put it off until the evening as I was doing last few days.
+Today I'm mostly chilling. I'm willing to block YouTube and Reddit on my laptop again. I'll do this until the end of the month. 
 
 ---
 
 `2026-07-04 22:10` `Prague`
 
 Today in the morning I've been teaching Aray python, specifically conditions and discrete logic. After that I've spend some time researching open source LLM harnesses that would satisfy my criteria, but I could find one. I want something lightweight, efficient and modular, with perhaps the closest analogy may be a Linux kernel but for harnesses. I've been going through benchmarks, and Qwen 3.6 27B was a lot better than Qwen 3.6 35B despite I remembered them producing similar results. And generally it was looking quite strong, especially as I recalled the decent usefulness of 35B for some tasks. However after playing for a while, 27B runs with about 12 tok/s speed on my job macbook, with context being only slightly filled, and that feels awfully slow. So I'm still not sure how much time I'd like to invest in it, but I would absolutely love to have even a few generation back like level models running locally without connecting to any servers. I'm still not convinced that spending my money on RTX5090 is any close to justified though.
+
+---
+
+`2026-07-03 07:01` `Prague`
+
+I woke up at 5:55. I washed my face and shaved. Now I forced myself to write this entry to not put it off until the evening as I was doing last few days.
 
 ---
 
