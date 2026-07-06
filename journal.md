@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-06 08:57` `Prague`
+
+Today I'm going to work on the compiler for my language. My weekly Codex quota has been depleted and now I can't progress on my dithering app. It was rewritten from full JS to Rust -> WASM + TS, but I'd like to use the language I enjoy during work. Zig is the closest one, but also it's source is huge, and on top it's a great opportunity to finish my own tiny language.
+
+---
+
 `2026-07-05 15:44` `Prague`
 
 Today I'm mostly chilling. I'm willing to block YouTube and Reddit on my laptop again. I'll do this until the end of the month. 
