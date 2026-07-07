@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-07 06:39` `Prague`
+
+Yesterday was cool. I did quite a bit of progress in designing the data structure for syntax representation of my programming language. I believe the inability to use Codex for any other projects contributed a lot to me having a deeper work than usual, although I did use ChatGPT to chat about the syntax representation design. It was tough and even a bit frustrating, but also fun especially during tiny breakthroughs. I got more convinced that using little to no LLMs for my personal projects is beneficial for my growth and for my well-being. Additionally to protect my deep work, I've deleted Minecraft and Steam from my laptop.
+
+---
+
 `2026-07-06 08:57` `Prague`
 
 Today I'm going to work on the compiler for my language. My weekly Codex quota has been depleted and now I can't progress on my dithering app. It was rewritten from full JS to Rust -> WASM + TS, but I'd like to use the language I enjoy during work. Zig is the closest one, but also it's source is huge, and on top it's a great opportunity to finish my own tiny language.
