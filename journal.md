@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-08 10:03` `Prague`
+
+Yesterday was good. I was in the office, and when coming back home, I've spend about half an hour programming. I've felt asleep late that time. Today I plan to keep working on Lever language and check out Puremade website.
+
+---
+
 `2026-07-07 06:39` `Prague`
 
 Yesterday was cool. I did quite a bit of progress in designing the data structure for syntax representation of my programming language. I believe the inability to use Codex for any other projects contributed a lot to me having a deeper work than usual, although I did use ChatGPT to chat about the syntax representation design. It was tough and even a bit frustrating, but also fun especially during tiny breakthroughs. I got more convinced that using little to no LLMs for my personal projects is beneficial for my growth and for my well-being. Additionally to protect my deep work, I've deleted Minecraft and Steam from my laptop.
