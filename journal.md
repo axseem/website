@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-09 09:46` `Prague`
+
+Yesterday was awesome. For several hours I've been non-stop programming. I've been writing parser for my language, and in the process started a tiny standard library in C with hand utilities like Reader and Writer interfaces. For long time I was not experiencing the same kind of thrill and joy. Now I just came back from gym, took a cold shower, as there is no hot water for some reason, and I'm dressing up before I leave to the office.
+
+---
+
 `2026-07-08 10:03` `Prague`
 
 Yesterday was good. I was in the office, and when coming back home, I've spend about half an hour programming. I've felt asleep late that time. Today I plan to keep working on Lever language and check out Puremade website.
