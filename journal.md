@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-10 21:49` `Prague`
+
+Today I learned about [Android Virtualization Framework (AVF)](https://github.com/GrapheneOS/platform_packages_modules_Virtualization). Turns out I can run complete Linux environment with a near native performance and proper GUI directly on my phone without any third party apps. In combination with USB Display Port, my phone literally becomes a pocketable Linux PC. If I knew that it was possible earlier, I think I'd buy phone with 16 GB of RAM instead of 8 GB and would use it as a daily driver.
+
+---
+
 `2026-07-09 09:46` `Prague`
 
 Yesterday was awesome. For several hours I've been non-stop programming. I've been writing parser for my language, and in the process started a tiny standard library in C with hand utilities like Reader and Writer interfaces. For long time I was not experiencing the same kind of thrill and joy. Now I just came back from gym, took a cold shower, as there is no hot water for some reason, and I'm dressing up before I leave to the office.
