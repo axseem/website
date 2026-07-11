@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-11 09:44` `Prague`
+
+Today I'm working on Lever. Additionally I need to start working or Puremade, as I said that I'll spend time on it a few days ago, but I didn't.
+
+---
+
 `2026-07-10 21:49` `Prague`
 
 Today I learned about [Android Virtualization Framework (AVF)](https://github.com/GrapheneOS/platform_packages_modules_Virtualization). Turns out I can run complete Linux environment with a near native performance and proper GUI directly on my phone without any third party apps. In combination with USB Display Port, my phone literally becomes a pocketable Linux PC. If I knew that it was possible earlier, I think I'd buy phone with 16 GB of RAM instead of 8 GB and would use it as a daily driver.
