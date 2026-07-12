@@ -9,6 +9,16 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-12 22:51` `Prague`
+
+In the first half of the day I've been playing around with local LLMs. I've downloaded Q5 version of Qwen 3.6 35B, but then I've also tried its recently released finetune Ornith 1.0 35B. I was hesitant to try, because I read a lot of negative opinions about it on Reddit and Hackernews, but it seems to do a better job then the original Qwen, at least on the surface level. I've also explored the cost of PC I'd need to build to be able to run Qwen 3.6 27B locally. It's too expensive...
+
+In the second half I got an increasing realization of how irrational my priorities are. I've been talking about Puremade for last few days, and that I need to start working on it, but it rather felt like a thing I have to drag to finish. However today for some reason my perspective started to shift. I started feeling like I have an almost successful startup base, with proved demand, growing audience that already brings value to other people, but instead of investing into it I chose to stash it. It's not the first time I get such a realization, but with every time it's a bit more vivid.
+
+So the evening I've spent working on the e-shop. I'm using ChatGPT 5.6 heavily for that. I've been font of puristic ideas of writing it fully by hand, or at least do it with local LLMs, ensuring that each piece of code is needed and at the right place. Not to say that I dropped that direction altogether, but I've been definitely putting too much emphasis on it. I've figured out that my principles are slightly miscalibrated, as I'm increasingly choosing pure and ideological over practical and optimal.
+
+---
+
 `2026-07-11 09:44` `Prague`
 
 Today I'm working on Lever. Additionally I need to start working or Puremade, as I said that I'll spend time on it a few days ago, but I didn't.
