@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-13 11:51` `Prague`
+
+Today I'm working on Puremade. I'm creating an artificial deadline to decrease the risk of procrastination. I'll end all the preparation before launch before the end of this week.
+
+---
+
 `2026-07-12 22:51` `Prague`
 
 In the first half of the day I've been playing around with local LLMs. I've downloaded Q5 version of Qwen 3.6 35B, but then I've also tried its recently released finetune Ornith 1.0 35B. I was hesitant to try, because I read a lot of negative opinions about it on Reddit and Hackernews, but it seems to do a better job then the original Qwen, at least on the surface level. I've also explored the cost of PC I'd need to build to be able to run Qwen 3.6 27B locally. It's too expensive...
