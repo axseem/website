@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-14 11:19` `Prague`
+
+Yesterday evening I've started configuring [pi](https://github.com/earendil-works/pi). That's what I'm still doing now.
+
+---
+
 `2026-07-13 11:51` `Prague`
 
 Today I'm working on Puremade. I'm creating an artificial deadline to decrease the risk of procrastination. I'll end all the preparation before launch before the end of this week.
