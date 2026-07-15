@@ -9,6 +9,14 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-15 22:07` `Prague`
+
+Today I published [pi-config](https://codeberg.org/axseem/pi-config). It's quite minimal, but I think it already has 80% of what I need. However that's all of actually useful personal stuff that I did for today. At the end, I feel like today was not productive.
+
+I try not to spiral, but I'm generally not in the great mood recently. I feel like I'm doing silly, stupid mistakes over and over again. At some point I started questioning myself, if I could possibly loose the ability to learn. Another question I ran into is whether am I even alive? It feels like a personal funeral. Writing it now, I feel overly dramatic, as obviously world is not going to end, live will go on. Possibly tomorrow or in slightly longer period of time I'll feel better. But I'm not sure why does it matter. It does feel like I'm spiraling. But should I resist? The whole day I felt okay, but then for a moment I stopped distracting myself with empty tasks and fun projects. I decided to go to supermarket, and on the road all these thought flooded me. I think I'd like to go sleep.
+
+---
+
 `2026-07-14 11:19` `Prague`
 
 Yesterday evening I've started configuring [pi](https://github.com/earendil-works/pi). That's what I'm still doing now.
