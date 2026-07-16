@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-16 22:15` `Prague`
+
+I would not consider today productive either. I had a fair amount of work to do on my job. I've spend a bit of time to implement MCP and sub-agent functionality in my pi config though. At the same time I've been watching youtube for several hours in the evening, although I suppose not to doomscroll media this month. Although I've got a feeling that I'm likely to hard on myself, I'm not satisfied with my actions, and my life-style. I'm quite certain that the main reason is the feeling of being lost in life, and no understanding of what I want, what's better, what should I sacrifice and what to chaise. I have a feeling that I need to stay strong, and keep doing anything, as it is better than nothing. And although it seems to make sense, the doubts always chasing me. It could be that it's just another clever way to avoid the *hard* with a convenient justification. Almost without a doubt follow a sleep schedule, exercise regularly and read books would make life better in any case, and still I choose not to.
+
+---
+
 `2026-07-15 22:07` `Prague`
 
 Today I published [pi-config](https://codeberg.org/axseem/pi-config). It's quite minimal, but I think it already has 80% of what I need. However that's all of actually useful personal stuff that I did for today. At the end, I feel like today was not productive.
