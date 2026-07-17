@@ -9,6 +9,18 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-17 21:26` `Prague`
+
+Today was good. Yesterday I decided that the only things I'll try to achieve today is to wake at 5:55 and in bed before 22:00. That made me feel a bit easier through the day.
+
+I've started printing M and L sizes of the Flake to make pictures for my e-shops. Then I realized that I have made a modification to the FreeCAD file that adds Magsafe ring recess in the inner side of the backplate, and updated it to be thinner, so it can support GLP switches with MX pin position, while also making sure it stays stiff enough. Although it worked out well, I then realized that I created that modification for S size of the keyboard, without an ability to simply port it to M and L by changing the parametric variable responsible for the size class of the keyboard. It was a bit more than a month ago, and back then I tried to figure out how I would I implement it in a way that would make it scale to all sizes, but it was painful, as each solutions I could come up with guaranteed redoing a bunch of work and spending a few more days on it.
+
+Today while I was printing I thought: "What if I'll provide the FreeCAD files plus all the exported STEP files to ChatGPT 5.6 Sol, and ask LLM to generate an OpenSCAD code that would closely reproduce the original model? I did it out of curiosity and I honestly was convinced that's it's a way too ambitious task for current generation of AI. I turned out to be wrong.
+
+It took a few hours. During that time LLM rendered the enclosure to images with different camera angle (so it can read the images), and extracted coordinates of vertices, lines, parametric variables, and what not from the original FreeCAD file using OpenCASCADE Python library. Not to overstate it, I was really surprised by the result. Except a few quirks like missed chamfers, a few infinitely small walls and thumbed keys, which after first shot were rotated in the opposite direction, it replicated the original model surprisingly well. Fixing those quirks took just a few minutes and was just a matter of asking model to do so. Now as I have the enclosure as a code, I can leverage LLMs and do refactors + prototyping + modification much faster and with less hustle. Truly impressed by how many things I didn't realized were possible already. Makes me ask what else is out there that I simply miss.
+
+---
+
 `2026-07-16 22:15` `Prague`
 
 I would not consider today productive either. I had a fair amount of work to do on my job. I've spend a bit of time to implement MCP and sub-agent functionality in my pi config though. At the same time I've been watching youtube for several hours in the evening, although I suppose not to doomscroll media this month. Although I've got a feeling that I'm likely to hard on myself, I'm not satisfied with my actions, and my life-style. I'm quite certain that the main reason is the feeling of being lost in life, and no understanding of what I want, what's better, what should I sacrifice and what to chaise. I have a feeling that I need to stay strong, and keep doing anything, as it is better than nothing. And although it seems to make sense, the doubts always chasing me. It could be that it's just another clever way to avoid the *hard* with a convenient justification. Almost without a doubt follow a sleep schedule, exercise regularly and read books would make life better in any case, and still I choose not to.
