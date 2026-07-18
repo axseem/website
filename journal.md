@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-18 23:19` `Prague`
+
+Most of this day I've dedicated to Aray. We went on the date in the morning, and in the evening we've started watching [The Imitation Game](https://en.wikipedia.org/wiki/The_Imitation_Game) movie. We've just recently finished, and are preparing for sleep. Not going to lie, I feel guilty for not fall asleep before 22:00, as that's what I thought from yesterday I'm doing now, the single simplest thing and nothing else. I try to no beat up myself to much about that, but I really enjoyed how we've spend the time. Tomorrow I'm still going to wake up at 5:55, as the moment I start delaying the alarms, the problem usually starts to escalate. I'll most likely feel really shitty in the morning, but it is what it is.
+
+---
+
 `2026-07-17 21:26` `Prague`
 
 Today was good. Yesterday I decided that the only things I'll try to achieve today is to wake at 5:55 and in bed before 22:00. That made me feel a bit easier through the day.
