@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-20 08:21` `Prague`
+
+I've just came from a gym. I took a shower and now I'm having a breakfast. I started working on tasks from my job, later I'd like to work on Puremade a bit.
+
+---
+
 `2026-07-19 21:47` `Prague`
 
 Today I've been modifying the enclosure of Flake keyboard with LLM, exploring video and audio codecs, and then playing League of Legends in the evening. I've been not playing League for a long time already. I've decided to install it on the Windows I have installed as dual boot. I've played for several hours, and although I enjoyed it in a moment, I expected more. Nothing new in general. I think I'll delete Windows from my laptop sooner or later. I didn't complete Puremade website this week, and it is Sunday evening already, so it's fair to say that I failed. I've realized that I'm much less tolerant to resistant, and that bothers me. It should be a slow change, but I keep trying to start with ambitious goal. To sum it up, I'll go brush my teeth and fall asleep until it's still before 22:00.
