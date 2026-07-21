@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-21 21:48` `Prague`
+
+I've switches to opencode. I've figured out that there is just so much I miss and need to build on top of pi, that it's much easier to take opencode and redo parts of it. That's what I've been doing today. [I've created opencode-token-trim](https://codeberg.org/axseem/opencode-token-trim) that makes initial context window of empty session being much less polluted with needles tokens.
+
+---
+
 `2026-07-20 08:21` `Prague`
 
 I've just came from a gym. I took a shower and now I'm having a breakfast. I started working on tasks from my job, later I'd like to work on Puremade a bit.
