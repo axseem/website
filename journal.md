@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-22 21:48` `Prague`
+
+Today I've continued working on my opencode config. So far I love how it turns out. At some moments I start overengineering, but then I realize that I'm mostly solving a non-existent problem. I've also read today that Codeberg introduces anti-AI terms of use, so I'll probably need to migrate to some other problem, and I feel crazy lazy to do that.
+
+---
+
 `2026-07-21 21:48` `Prague`
 
 I've switches to opencode. I've figured out that there is just so much I miss and need to build on top of pi, that it's much easier to take opencode and redo parts of it. That's what I've been doing today. [I've created opencode-token-trim](https://codeberg.org/axseem/opencode-token-trim) that makes initial context window of empty session being much less polluted with needles tokens.
