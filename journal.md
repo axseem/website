@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-23 09:24` `Prague`
+
+Working on opencode config right now, then after the work I'd like to try to play with virtualised Linux on my phone, and check if I could make a computer out of it.
+
+---
+
 `2026-07-22 21:48` `Prague`
 
 Today I've continued working on my opencode config. So far I love how it turns out. At some moments I start overengineering, but then I realize that I'm mostly solving a non-existent problem. I've also read today that Codeberg introduces anti-AI terms of use, so I'll probably need to migrate to some other problem, and I feel crazy lazy to do that.
