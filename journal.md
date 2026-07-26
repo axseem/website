@@ -11,7 +11,7 @@ _Here I put my thoughts into words, daily_
 
 `2026-07-26 22:54` `Prague`
 
-I've just published my bitmap font called `abstruct` and TUI I've made and used to create this font called `blyph`. The font is 12x6px font with regular, italic, bold and bold-italic variations. I'm considering making it a family and add other sizes of the font. I've wanted to attach the links to the repos, but they are currently on codeberg, and I plan to move away from codeberg soon, and I don't want the links here to be broken in just a few days/weeks. It's likely that I'll soon add those two projects to the [projects page](./projects.md) on my website.
+I've just published my bitmap font called `abstruct` and TUI I've made and used to create this font called `blyph`. The font is 12x6px font with regular, italic, bold and bold-italic variations. I'm considering making it a family and add other sizes of the font. I've wanted to attach the links to the repos, but they are currently on codeberg, and I plan to move away from codeberg soon, and I don't want the links here to be broken in just a few days/weeks. It's likely that I'll soon add those two projects to the [projects page](./projects) on my website.
 
 ---
 
