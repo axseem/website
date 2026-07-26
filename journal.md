@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-26 22:54` `Prague`
+
+I've just published my bitmap font called `abstruct` and TUI I've made and used to create this font called `blyph`. The font is 12x6px font with regular, italic, bold and bold-italic variations. I'm considering making it a family and add other sizes of the font. I've wanted to attach the links to the repos, but they are currently on codeberg, and I plan to move away from codeberg soon, and I don't want the links here to be broken in just a few days/weeks. It's likely that I'll soon add those two projects to the [projects page](./projects.md) on my website.
+
+---
+
 `2026-07-25 23:58` `Prague`
 
 Today was a long day. In the morning I've been working on TUI bitmap font editor and trying to figure out how to use ChatGPT subscription efficiently, so I take the full advantage of GPT-5.6 Sol while not spending the weekly limit in a few days. Then the next half of the day I've been on a date with Aray, and we've been hanging out, and are preparing for sleep now.          
