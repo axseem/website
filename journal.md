@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-28 07:35` `Prague`
+
+I've woke up at 5:55. Yesterday I've updated initrd, swaylcok and greetd to use my new font and terminal colors. I love the look. There are still a lot of special symbols missing, like borders, boxing and other eye candy. Today I'd want to explore tangled.sh and figure out if I want to migrate to it.
+
+---
+
 `2026-07-27 06:13` `Prague`
 
 I've just woke up. Yesterday I've disabled browser app on my phone, so I don't doomscroll hackernwes, right after waking up. It did work quite well.
