@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-29 23:33` `Prague`
+
+Forgot to write a entry today. Just got a realization before falling asleep. Today majority of time I dedicated to my job, and the rest, my free time I've spend procrastinating (e.g. playing games and watching YouTube).
+
+---
+
 `2026-07-28 07:35` `Prague`
 
 I've woke up at 5:55. Yesterday I've updated initrd, swaylcok and greetd to use my new font and terminal colors. I love the look. There are still a lot of special symbols missing, like borders, boxing and other eye candy. Today I'd want to explore tangled.sh and figure out if I want to migrate to it.
