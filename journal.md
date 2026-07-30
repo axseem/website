@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-30 09:44` `Prague`
+
+Today I want to delete the windows from my laptop, so I have less temptation temptation to play League. After that I'll need to backup all the data from my laptop to SSD, before I'll extend the Linux partition to take the whole disk, hopefully nothing goes wrong there. After that I'd like to figure out tangled git platform, as I understood I'd want to self-host it if I want my own domain to be used as a username there.
+
+---
+
 `2026-07-29 23:33` `Prague`
 
 Forgot to write a entry today. Just got a realization before falling asleep. Today majority of time I dedicated to my job, and the rest, my free time I've spend procrastinating (e.g. playing games and watching YouTube).
