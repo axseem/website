@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-07-31 21:52` `Prague`
+
+I did nothing of what I planned yesterday. Yesterday evening I felt sick, and today after the jab I was mostly watching YouTube, scrolling Twitter or playing with new Deepseek V4 Flash. I have an intuitive reaction to start analyzing what the root cause of the problem, but I have gut feeling that's actually the part of the problem itself. I do not exercise my will and I choose to do what's easiest at the moment, not the correct, and it seems like promises that tomorrow is going to be different never really worked well.
+
+---
+
 `2026-07-30 09:44` `Prague`
 
 Today I want to delete the windows from my laptop, so I have less temptation temptation to play League. After that I'll need to backup all the data from my laptop to SSD, before I'll extend the Linux partition to take the whole disk, hopefully nothing goes wrong there. After that I'd like to figure out tangled git platform, as I understood I'd want to self-host it if I want my own domain to be used as a username there.
