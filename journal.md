@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-01 21:01` `Prague`
+
+I forgot to mention, but 2 days ago I bought a new phone. It was Google Pixel 9 Pro XL 1TB. And it "was", because I've just returned it back. I bought it because it has a crazy good price for a 16GB RAM + 1TB storage device like that, rough 920 EUR. The problem however is that eSIM was broken. I've instantly flashed it with GrapheneOS once I received it and thought that the OS could be the cause. It wasn't. I've spend yesterday night and the whole this day to try various stuff, debug the phone, and do the research. Turns out it's a [know defect](https://issuetracker.google.com/issues/525705741) that a lot of people report happening to them. The scary part is that there is a chance that it's a bug that causes firmware/hardware level damage that is not possible to fix with OTA update. I've connected the phone via USB debug to my laptop and instructed Deepseek V4 Flash and then GPT 5.6 Sol to debug, find the problem and try to come up with a fix. It's impressive to see your phone's UI being manipulated by an LLM that runs adb commands on the PC. There were a lot of various attempts like resetting eSIM, mobile netmwork settings, factory resets, disabling and enabling some magic options that are available only through the specific code you have to enter in phone number dial, reinstalling the GrapheneOS, rooting it, going be to the original frimware, and nothing helped. Once I'll get the refund, I plan to order another one, hopefully discount is not going to end by that time, and it will not have the same kind of problem.
+
+---
+
 `2026-07-31 21:52` `Prague`
 
 I did nothing of what I planned yesterday. Yesterday evening I felt sick, and today after the jab I was mostly watching YouTube, scrolling Twitter or playing with new Deepseek V4 Flash. I have an intuitive reaction to start analyzing what the root cause of the problem, but I have gut feeling that's actually the part of the problem itself. I do not exercise my will and I choose to do what's easiest at the moment, not the correct, and it seems like promises that tomorrow is going to be different never really worked well.
