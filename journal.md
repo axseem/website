@@ -9,6 +9,14 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-03 17:42` `Prague`
+
+I've expected to go to the gym now, but i don't feel great. I feel dizzy, especially when i turn my head around quickly. I got this sensation closer to the evening, and i associate it with crazy hot whether and me not drinking water even when i want to. I wanted to go to gym anyway, but then after trying to walk around in my apartment, i figured out that it would be hard for me to do anything without constantly trying not to throw up outside. I think i better go to bed and just lay doing nothing.
+
+Today was fine. I've watched YouTube for an hour, something i've should not have done. Otherwise i had productive time at jab and then thinking my lifestyle through. I'd like to spend more time without being constantly mentally engaged and entertained though. I also want to allocate at least half an hour every day for reading books.
+
+---
+
 `2026-08-02 20:35` `Prague`
 
 Today was good. I didn't do anything groundbreaking, but I also successfully avoided anything bad. Today I did not scroll any social media, which I believe is the most commendable thing. I had quite a lot urges, but I resisted. I've also just came from a gym. It was a short, pretty pleasant 30 min session. I try to mentally celebrate the fact that I did go there, regardless how long I've being there, or how much reps I did. For the rest of the day I've been experimenting with Deepseek V4 Flash and my Lever programming language. I decided to slowly get my lifestyle fixed starting from this month two days ago. It's a bit mentally easier when I start from the first day of a month. I decided to focus on the idea of making today better than yesterday, without constraining myself to any particular tasks or checkboxes. I do whatever I manage to, while preserving what I managed to do yesterday. Feels easier, and a bit more motivating.
