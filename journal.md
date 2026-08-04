@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-04 17:11` `Prague`
+
+So today I've been setting up my new phone (it's the same Google Pixel 9 Pro XL 1TB). I didn't have enough time to do that fully before and during the work, so that's what I'm doing now. 
+
+---
+
 `2026-08-03 17:42` `Prague`
 
 I've expected to go to the gym now, but i don't feel great. I feel dizzy, especially when i turn my head around quickly. I got this sensation closer to the evening, and i associate it with crazy hot whether and me not drinking water even when i want to. I wanted to go to gym anyway, but then after trying to walk around in my apartment, i figured out that it would be hard for me to do anything without constantly trying not to throw up outside. I think i better go to bed and just lay doing nothing.
