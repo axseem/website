@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-05 06:31` `Prague`
+
+I've woke up at 5:55. Feel pretty awful tbh. Time wise i should have slept about 8 hours, but quality wise the sleep was terrible.
+
+---
+
 `2026-08-04 17:11` `Prague`
 
 So today I've been setting up my new phone (it's the same Google Pixel 9 Pro XL 1TB). I didn't have enough time to do that fully before and during the work, so that's what I'm doing now. 
