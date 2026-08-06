@@ -9,6 +9,18 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-06 09:19` `Prague`
+
+Yesterday i cleaned up my apartment. 
+
+I've also made GPT5.6 Sol modify llama.cpp to support new [G9v3-39A5B](https://huggingface.co/ai9stars/G9v3-39A5B) model and then also quantize the weights so i can actually run it locally. The model is really niche, but it has evals on Artificial Analysis, where it scores amazingly well on everything except coding.
+
+The thing that attracted me the most was the lowest available hallucination rates, but in very first few minutes i managed to get hallucination by simply asking "what is Fil-C", and getting in response that i'm likely talking about a protein of some sort, but no such thing exist after i checked it. It does work better though when I state "you MUST NOT hallucinate" in the system prompt. Perhaps it works better than other models, or perhaps quantization degraded it, i actually was quite disappointed.
+
+Another thing i did yesterday i've downloaded my youtube music playlist locally. I was experimenting with the bitrate, and i'm surprised how awesome Opus codec sounds on low bitrates. Originally i downloaded the best available bitrate from YouTube, which is about 130-160 kbps, and then i re-encoded it with lower bitrates ranging from 16 to 96. To test if i can hear the difference i've vibecoded a blind A/B test web app with Deepseek V4 Flash, and every time i was able to pick the higher bitrate, so degradation was quite noticeable. I figured out that it's likely the fact of double encoding which damages the quality so much. Luckily YouTube provides 3 level of audio quality for Opus, with additional 2 being ~70 kbps and ~50 kbps. After another blind test, my preferences were pretty much random, and i could not spot a difference except in rare occasions, which amazed me. At the end i've downloaded my whole playlist in 50 kpps.
+
+---
+
 `2026-08-05 06:31` `Prague`
 
 I've woke up at 5:55. Feel pretty awful tbh. Time wise i should have slept about 8 hours, but quality wise the sleep was terrible.
