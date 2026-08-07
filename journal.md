@@ -9,6 +9,18 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-07 19:56` `Prague`
+
+Yesterday i've installed tmux. It took me only about 10 minutes to learn the majority of what i need and start using it comfortably. Much easier than i expected. I installed it because i've configured ssh on my laptop so i can connect to it from the Termux on my phone when they are both in the same LAN. It was fun.
+
+Today was mixed, but i managed to make it better by the evening. In the morning i've been updating my opencode config. In the process I've opened Matt Pocock's video about wayfinder skill. And then I've opened his another video, and another one. Although i've updated the config just the way i wanted, after that i started doomscrolling YouTube, primarily watching Diary of a CEO.
+
+Anyway, after i've finished the work on my job i went to the gym. I originally wanted to do that in the morning, but didn't manage to. Closer to the evening, after some time of mental gymnastics reminding myself how important that is, i've successfully headed to the gym. It was a couple of hours since i got back home, and i feel great. Feel satisfied with myself. I felt so good that i even started cleaning up my apartment, organizing staff on my table, sorting out everything on kitchen and bathroom. I didn't finish yet, just jumped to write the entry.
+
+It still hard for me to ignore the urges and keep the focus, but i do feel like i'm moving in the right direction, something i've been lacking recently.
+
+---
+
 `2026-08-06 09:19` `Prague`
 
 Yesterday i cleaned up my apartment. 
