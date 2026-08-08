@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-08 06:29` `Prague`
+
+I've just came from a short little walk. Love how fresh it is outside. Didn't sleep well, as my arms were hurting every time I've been trying to straight them up, after yesterdays exercise. Still feel decently good right now.
+
+---
+
 `2026-08-07 19:56` `Prague`
 
 Yesterday i've installed tmux. It took me only about 10 minutes to learn the majority of what i need and start using it comfortably. Much easier than i expected. I installed it because i've configured ssh on my laptop so i can connect to it from the Termux on my phone when they are both in the same LAN. It was fun.
