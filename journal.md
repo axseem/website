@@ -9,6 +9,14 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-09 06:58` `Prague`
+
+Yesterday wasn't great. I've been doomscrolling YouTube again. By the evening I felt like I achieved nothing that day. Guilt forced me to somehow compensate that, so I went for a 40 min run at ~21:00.
+
+Now I'll go to the supermarket to get bananas, and then I'll work on keyboard shop.
+
+---
+
 `2026-08-08 06:29` `Prague`
 
 I've just came from a short little walk. Love how fresh it is outside. Didn't sleep well, as my arms were hurting every time I've been trying to straight them up, after yesterdays exercise. Still feel decently good right now.
