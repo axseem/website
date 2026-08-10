@@ -9,6 +9,16 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-10 20:31` `Prague`
+
+Yesterday I've been trying to design a new keyboard PCB with ChatGPT 5.6 Sol. Removing the controller and moving all its components to the PCB unlocks PCB Assembly, so I don't need to solder it myself, and provides much more freedom in details like the shape of the board, how charging work etc.
+
+I tried Konnect which is KiCAD MCP and SKiDL which is python based DSL to define circuits. The result was horrible, and I could not understand anything to carry it on from that point. I wasted time, tokens and left hugely disappointed.
+
+Today I've decided to avoid shortcuts. I've wanted to fill the gaps and learn the fundamentals, so I've been learning about what's current, voltage are, what's the magnetic and electric fields, what's the difference, how do they relate, how all of that ever works, which made me dig into how electrons work. It was good. I obviously didn't manage to figure out everything, but I actually felt like things are getting clearer in my head. For instance it makes sense for me to think that electrons jump from orbit to orbit of atoms, and current is the amount of those electrons moving through the plane in conductor per time, but I still quite struggle to understand in the essence what voltage is, even though I can derive it from current and resistance, both of which I supposedly understand  :)
+
+---
+
 `2026-08-09 06:58` `Prague`
 
 Yesterday wasn't great. I've been doomscrolling YouTube again. By the evening I felt like I achieved nothing that day. Guilt forced me to somehow compensate that, so I went for a 40 min run at ~21:00.
