@@ -20,45 +20,15 @@
   font-style: normal;
   font-display: swap;
 }
-@font-face {
-  font-family: "Abstruct";
-  src: url("/static/fonts/Abstruct-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Abstruct";
-  src: url("/static/fonts/Abstruct-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Abstruct";
-  src: url("/static/fonts/Abstruct-Italic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Abstruct";
-  src: url("/static/fonts/Abstruct-BoldItalic.woff2") format("woff2");
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
 
 :root {
   --c0: #000;
   --c1: #222;
   --c2: #ddd;
   --c3: #fff;
-  --font-sans: "Abstruct", "JetBrains Mono", monospace;
-  --font-mono: "Abstruct", "JetBrains Mono", monospace;
-  --font-heading: "Abstruct", var(--font-mono);
-  /* Abstruct is a one-cell font: one line box per em. */
-  --line-height: 1;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --line-height: 1.6;
   --space: 1.5rem;
   --content-width: 30rem;
 }
@@ -83,7 +53,7 @@ html {
   scrollbar-gutter: stable;
   background: var(--c0);
   color: var(--c3);
-  font: 400 12px / var(--line-height) var(--font-sans);
+  font: 300 1rem / var(--line-height) var(--font-sans);
 }
 ::selection {
   background: var(--c3);
@@ -114,21 +84,19 @@ html {
 h1,
 h2,
 h3 {
-  font-family: var(--font-heading);
-  font-weight: 400;
-  font-synthesis: none;
-  line-height: 1;
+  font-weight: 500;
+  line-height: 1.25;
 }
 h1 {
-  font-size: 48px;
+  font-size: 1.625rem;
   margin-block: 0 calc(var(--space) * 1.25);
 }
 h2 {
-  font-size: 36px;
+  font-size: 1.2rem;
   margin-block: calc(var(--space) * 1.75) calc(var(--space) * 0.75);
 }
 h3 {
-  font-size: 24px;
+  font-size: 1rem;
   margin-block: var(--space) calc(var(--space) * 0.5);
 }
 
@@ -143,8 +111,7 @@ strong {
 a {
   color: var(--c3);
   text-decoration-color: var(--c1);
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0;
+  text-underline-offset: 0.2em;
 }
 a:hover {
   background: var(--c3);
