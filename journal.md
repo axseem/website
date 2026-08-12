@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-12 07:06` `Prague`
+
+I really want to do some manual programming. Yesterday I realized how much I miss this feeling of personal progress and achievement while building something. I want to start reading books too. I've not been reading deeply in a while.
+
+---
+
 `2026-08-11 08:06` `Prague`
 
 I feel melancholic today. I'll go now for a walk, and then figure out what to do today.
