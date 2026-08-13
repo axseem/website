@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-13 11:06` `Prague`
+
+This morning I've been working from home, but I'm about to leave to the office. Will continue work from there, and then we'll have a terrace party in the evening.
+
+---
+
 `2026-08-12 07:06` `Prague`
 
 I really want to do some manual programming. Yesterday I realized how much I miss this feeling of personal progress and achievement while building something. I want to start reading books too. I've not been reading deeply in a while.
