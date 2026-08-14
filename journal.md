@@ -9,6 +9,12 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-14 09:26` `Prague`
+
+So yesterday's party was awesome. I've had a lot of amazing chats with people. Today I'm going to finish a lot of stuff at my job, and then program a bit. I'll also 3D print keyboards enclosures of all sizes, to take photos for the e-shop.
+
+---
+
 `2026-08-13 11:06` `Prague`
 
 This morning I've been working from home, but I'm about to leave to the office. Will continue work from there, and then we'll have a terrace party in the evening.
