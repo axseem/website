@@ -9,6 +9,14 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-15 09:49` `Prague`
+
+Yesterday I didn't 3D print anything, but I did a fair amount of work at my job and program a bit. Still in the evening I've relapsed and started playing Peak, watching YouTube, and scrolling Reddit. I feel really unsatisfied with myself.
+
+Also yesterday suddenly the right speaker on my IEMs stopped working, which was really upsetting. I have Moondrop Chu 2 and ironically this morning I got an email with the announcement of new Chu 3 model. Funny timing.
+
+---
+
 `2026-08-14 09:26` `Prague`
 
 So yesterday's party was awesome. I've had a lot of amazing chats with people. Today I'm going to finish a lot of stuff at my job, and then program a bit. I'll also 3D print keyboards enclosures of all sizes, to take photos for the e-shop.
