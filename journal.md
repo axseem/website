@@ -9,6 +9,20 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-16 10:16` `Prague`
+
+I've woke up just a few hours ago.
+
+Yesterday I've been testing my opencode configuration until 00:30. I realized want an additional agent config where I approved each action manually. It may be easier to actively participate in the process than later reviewing all the slope.
+
+What prompted me is that I recalled how I've been using GPT-5 mini which was released a year ago, and I've been largely satisfied with it, probably because I was treating it as precise code generator instead of autonomous agent. I was requesting a bunch of really tiny pieces to change, and was manually approving and verifying each. According to benchmarks my local Qwen 3.6 35B is on par, if not better than GPT-5 mini, so I must be able to achieve similar flow again.
+
+Other than that, yesterday I also managed to fix my IEMs. I disassembled the nozzle and cleaned everything. It was a bit dirty and there were a bunch of rust due to brass oxidizing. Now they work perfectly good.
+
+Now I'm just about to go to the gym. I'll fight until the habit is developed.
+
+---
+
 `2026-08-15 09:49` `Prague`
 
 Yesterday I didn't 3D print anything, but I did a fair amount of work at my job and program a bit. Still in the evening I've relapsed and started playing Peak, watching YouTube, and scrolling Reddit. I feel really unsatisfied with myself.
