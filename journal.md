@@ -9,6 +9,22 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-17 08:51` `Prague`
+
+Yesterday I've printed updated version of the keyboard backplate that was moved from FreeCAD to OpenSCAD by ChatGPT. It looked good and fit perfectly, however the quality of the print was poor. I ran out of PETG, so I've been using PLA, and I suspect something is wrong with my PLA configuration. I've ordered 5 kg PETG to top up my stock again.
+
+Additionally I've defrosted and then cleaned up every pieces of my fridge. It took me longer than I expected. Removable glass planes, that are used as shelf surfaces, are too large to properly fit in any of my sinks, so all the kitchen was wet after me washing them.
+
+I've deleted Steam. I've been mainly playing games with Aray, especially now when she is at home, but I've noticed that it's too distracting for me, because I always have a temptation to play something when I feel tired or bored.
+
+I also managed to visit the gym for a quick exercise session.
+
+I the late evening I've spent several hours programming. I've been writing Parser for the compiler in Zig. It was really satisfying. I had to force myself to go sleep.
+
+After trying programming with local LLM, by continuously participating and approving or rejecting each of its edits, I didn't quite enjoy it. Perhaps I need to tighten instructions, but LLM still was behaving mostly like an autonomous agent. And then after a few hours I've noticed that I tend to review less and less thoroughly, to the point when I start to offload decision making to it again. It also struggle to write proper Zig 0.16, because a lot has changed in std. I'm still willing to explore this workflow, but now it's a bit less appealing to me.
+
+---
+
 `2026-08-16 10:16` `Prague`
 
 I've woke up just a few hours ago.
