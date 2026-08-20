@@ -9,6 +9,28 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-20 10:30` `Prague`
+
+Yesterday I was at a gym. The plan is to go there everyday, and simply exercise less if my muscles are sore. I feel the momentum, and I'd like to keep the streak going.
+
+Today I've woke up at 6:30 again, although my alarm was set to 7:00. Still I don't feel like I got enough sleep. Instantly after waking up I went for a walk outside. After about 15-20 minutes I got back and took a shower. Then I was downloading new Ornith 1.5 35B to test it out.
+
+I've been thinking about my lifestyle, and everything I do, and I believe I plateaued really hard during this year. I realized that I really want life-lasting financial independence, and the sooner the better. I don't see how I'll be able to achieve it with my current office job alone
+
+Considering my current residency location, my age, my salary and the working condition + benefits, I seem to do awesome, far above average. I do invest money, which slowly but surely accumulates my financial independence. And still, it would likely take me about 10-20 years before I can afford to own an apartment. Which is crazy, as I'd consider it a bare minimum to even just stop worrying about "where will I live in a year?".
+
+For me I see two real ways forward, and I'll follow both of them at once. The one is creating a hardware shop where I'll sell my keyboards, and the second one is content creation. I'm afraid that none of that may succeed, and thus not trying. Additionally I think I'm too attached to my Software Engineer identity.
+
+I'm already doing a decent job at improving my habits. I started to exercise and follow sleep schedule more consistently. I still procrastinate doomscrolling Reddit and YouTube a lot. The thing I want to change the most though, is my book reading habit. I used to read a lot, and I tend to believe that this single habit had the biggest positive impact on me. From today I'll go back to focused reading for at least 1 hour a day.
+
+---
+
+`2026-08-19 07:51` `Prague`
+
+Yesterday was fine. I've hard a lot of stuff to do at my job, so that where the majority of my time was spent. After that I went to the gym. That's I believe a third time in a row, and I'm quite proud of that. Today I've woke up at ~6:30.
+
+---
+
 `2026-08-18 10:05` `Prague`
 
 Yesterday I've been working from the office. After that I went to the gym, and after exercising I've went to supermarket to buy cottage cheese. It was a pretty good day.
