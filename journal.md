@@ -9,6 +9,16 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-21 09:43` `Prague`
+
+Yesterday after the work I went to a gym. After gym I thought maybe I should go for a run too. I quickly realized that I don't really want to run right now, and that's why I finally decided that I'll go for a run. It was hot, and I decided to run with backpack, because I didn't want to waste time going home before run. I've been running for 40 minutes breathing only through the nose. It was hard, but I feel proud.
+
+Then I've read book for one hour. I did that in the late evening, because of how saturated my day was. I'm currently reading "Anything You Want", and yesterday I managed to read o bit more than a half of it, as it is fairly short.
+
+I believe today I should receive PETG filament, and I should start printing keyboard enclosures.
+
+---
+
 `2026-08-20 10:30` `Prague`
 
 Yesterday I was at a gym. The plan is to go there everyday, and simply exercise less if my muscles are sore. I feel the momentum, and I'd like to keep the streak going.
