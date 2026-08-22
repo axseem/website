@@ -9,6 +9,25 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-22 12:42` `Prague`
+
+I came from a gym less than an hour ago. I want to move my exercising closer to early morning now, as consistency becomes less of the problem. I want to keep notes in my journal about if I exercised today or read book or anything I'm aiming to do consistently. I think I'll have a simple check list at then end of each entry just for that.
+
+Yesterday I received filament and already printed and updated back plate for keyboard with it. It seems to be semi-translucent, which is noticeable when I shine light through thin sections, but otherwise I'm satisfied with quality.
+
+The majority of the time I've been working for my job (I've had deadline until yesterday, so I had to wrap everything up), then updating the enclosure, printing it, going to gym, and then reading a book before sleep. I also spend a fair amount of time simply listening to music and singing lyrics in between processes.
+
+Talking about keyboard enclosure, I have rewrote it from OpenSCAD to [build123d](https://github.com/gumyr/build123d) (which uses more robust and powerful Open CASCADE engine under the hood) using LLM. It reduced code by 30%, and now it's about 1k lines.
+
+Also yesterday I've finished reading "Anything You Want" by Derek Sivers. It was a fantastic read. I liked the guy so much I even read through his website after that, and I think perhaps it would be cool to send him a friendly email. I'll update my [books](./books.md) page today adding this book.
+
+I think I'm going to go read for an hour now, so I can put a check in the list already, meaning that everything above will be about 1 hour dated relatively the entry publishing datetime.
+
+- [x] exercise (gym)
+- [x] read book for an hour
+
+---
+
 `2026-08-21 09:43` `Prague`
 
 Yesterday after the work I went to a gym. After gym I thought maybe I should go for a run too. I quickly realized that I don't really want to run right now, and that's why I finally decided that I'll go for a run. It was hot, and I decided to run with backpack, because I didn't want to waste time going home before run. I've been running for 40 minutes breathing only through the nose. It was hard, but I feel proud.
