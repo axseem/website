@@ -9,6 +9,21 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-23 21:53` `Prague`
+
+Today was quite a saturated day. I've spent a lot of time tweaking and testing the design of Flake enclosure plus reading through "Hell Yeah or No" by Derek Sivers. It took me more than an hour, as I've been doing a bunch of things at a time, while also clicking on links in his book reading through his other posts and watching his talks.
+
+Then closer to the evening I've started a huge apartment clean up, but it's too late and there is still a lot of work to do (I should've started cleaning up sooner), so I'll continue tomorrow.
+
+The amount of dust and the tempo at which it accumulates on in my apartment is concerning. I asked LLM and it said it can be fixed with air purifier. I'll learn more about that.
+
+A thing I should've done but I didn't is write a review on the book I've finished. Now it's two books already. Will make sure tomorrow it's going to be fixed. I also want to update gallery with albums and post more of "surrounding" photos.
+
+- [x] exercise (gym)
+- [x] read books (about two hours)
+
+---
+
 `2026-08-22 12:42` `Prague`
 
 I came from a gym less than an hour ago. I want to move my exercising closer to early morning now, as consistency becomes less of the problem. I want to keep notes in my journal about if I exercised today or read book or anything I'm aiming to do consistently. I think I'll have a simple check list at then end of each entry just for that.
