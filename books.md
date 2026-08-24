@@ -15,6 +15,7 @@ Books are ranked by preference within each tier. The list is dynamic and will be
 
 - [**The Courage to Be Disliked**](#the-courage-to-be-disliked-by-ichiro-kishimi-and-fumitake-koga) _by Ichiro Kishimi and Fumitake Koga_
 - [**Atomic Habits**](#atomic-habits-by-james-clear) _by James Clear_
+- [**Hell Yeah or No**](#hell-yeah-or-no-by-derek-sivers) _by Derek Sivers_
 - [**Range**](#range-by-david-epstein) _by David Epstein_
 - [**Can't Hurt Me**](#cant-hurt-me-by-david-goggins) _by David Goggins_
 - [**Man's Search for Meaning**](#mans-search-for-meaning-by-viktor-e-frankl) _by Viktor E. Frankl_
@@ -31,9 +32,11 @@ Books are ranked by preference within each tier. The list is dynamic and will be
 - [**The WEIRDest People in the World**](#the-weirdest-people-in-the-world-by-joseph-henrich) _by Joseph Henrich_
 - [**Fahrenheit 451**](#fahrenheit-451-by-ray-bradbury) _by Ray Bradbury_
 - [**Thinking In Systems**](#thinking-in-systems-by-donella-h-meadows) _by Donella H. Meadows_
+- [**Anything You Want**](#anything-you-want-by-derek-sivers) _by Derek Sivers_
 - [**Factfulness**](#factfulness-by-hans-rosling-with-anna-rosling-rönnlund--ola-rosling) _by Hans Rosling with Anna Rosling Rönnlund & Ola Rosling_
 - [**Stumbling on Happiness**](#stumbling-on-happiness-by-daniel-gilbert) _by Daniel Gilbert_
 - [**Science Fictions**](#science-fictions-by-stuart-ritchie) _by Stuart Ritchie_
+- [**So Good They Can't Ignore You**](#so-good-they-cant-ignore-you-by-cal-newport) _by Cal Newport_
 - [**100 Go Mistakes**](#100-go-mistakes-by-teiva-harsanyi) _by Teiva Harsanyi_
 
 ### B-Tier (3/5)
@@ -55,19 +58,33 @@ Books are ranked by preference within each tier. The list is dynamic and will be
 
 None for now
 
-## Currently Reading
-
-None for now
-
-## Didn't finish
-
-### [**Crime and Punishment** _by _Fyodor Dostoevsky_](https://en.wikipedia.org/wiki/Crime_and_Punishment)
-
-- **Started:** 2025 December 11
-- **Abandoned:** 2025 December 25
-
+---
 
 ## Chronology 
+
+### [**Hell Yeah or No** _by Derek Sivers_](https://sive.rs/n)
+
+A collection of Derek's ideas and wisdom. These thoughts stringed together provide a sort of guide to living a great, fulfilling life. Just as "Anything You Want", the book is relatively short, and is a joy to read. A decent half of reasoning felt satisfyingly relatable, while other half seemed quite peculiar and thought-provoking. The most personally aesthetic part of the book is how Derek make each raised problem feel amazingly simple to solve.
+
+- **Rating:** 5/5
+- **Started:** 2026 August 22
+- **Finished:** 2026 August 23
+
+### [**Anything You Want** _by Derek Sivers_](https://sive.rs/a)
+
+An interesting take on how entrepreneurship can be done. Derek approaches business in a respectable way, trying to provide maximum value to people, while protecting his own happiness. The style of writing and conciseness of the book make it amazingly easy and entertaining to read. Some opinions I perceived as a bit naive, or outdated, or working on only particular scale or in specific context. I was often coming up with examples of big tech companies that do the opposite of the Derek's strategy, and they seem to do great.
+
+- **Rating:** 4/5
+- **Started:** 2026 August 20
+- **Finished:** 2026 August 21
+
+### [**So Good They Can't Ignore You** _by Cal Newport_]
+
+TODO
+
+-- **Rating:** 4/5
+-- **Started:** 2026 June
+-- **Finished:** 2026 August
 
 ### [**Thinking In Systems** _by Donella H. Meadows_](https://en.wikipedia.org/wiki/Thinking_In_Systems:_A_Primer)
 
@@ -268,6 +285,13 @@ It's a hyped book, probably for a good reason. It was the very first book I've d
 
 - **Rating:** 5/5
 - **Finished:** 2024 March 2
+
+## Didn't finish
+
+### [**Crime and Punishment** _by _Fyodor Dostoevsky_](https://en.wikipedia.org/wiki/Crime_and_Punishment)
+
+- **Started:** 2025 December 11
+- **Abandoned:** 2025 December 25
 
 ---
 

@@ -9,6 +9,14 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-24 22:31` `Prague`
+
+Aray is coming back to Prague tomorrow after flying home about a month ago. I'm excited. Today I've been preparing tiny surprises to her arrival, and a planning out tomorrow a bit.
+
+Writing this entry late, but I've just updated [books](./books) page adding review on "Anything You Want" and "Hell Yeah or No". There is also "So Good They Can't Ignore You" that I finished earlier this month, but I'll write a review on it tomorrow. Today I also went to IKEA and bought [UPPÅTVIND](https://www.ikea.com/us/en/p/uppatvind-air-purifier-60498228/) air purifier. It looks awesome in real life.
+
+---
+
 `2026-08-23 21:53` `Prague`
 
 Today was quite a saturated day. I've spent a lot of time tweaking and testing the design of Flake enclosure plus reading through "Hell Yeah or No" by Derek Sivers. It took me more than an hour, as I've been doing a bunch of things at a time, while also clicking on links in his book reading through his other posts and watching his talks.
@@ -34,7 +42,7 @@ The majority of the time I've been working for my job (I've had deadline until y
 
 Talking about keyboard enclosure, I have rewrote it from OpenSCAD to [build123d](https://github.com/gumyr/build123d) (which uses more robust and powerful Open CASCADE engine under the hood) using LLM. It reduced code by 30%, and now it's about 1k lines.
 
-Also yesterday I've finished reading "Anything You Want" by Derek Sivers. It was a fantastic read. I liked the guy so much I even read through his website after that, and I think perhaps it would be cool to send him a friendly email. I'll update my [books](./books.md) page today adding this book.
+Also yesterday I've finished reading "Anything You Want" by Derek Sivers. It was a fantastic read. I liked the guy so much I even read through his website after that, and I think perhaps it would be cool to send him a friendly email. I'll update my [books](./books) page today adding this book.
 
 I think I'm going to go read for an hour now, so I can put a check in the list already, meaning that everything above will be about 1 hour dated relatively the entry publishing datetime.
 
