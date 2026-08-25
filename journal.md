@@ -5,7 +5,16 @@ published_at: 2026-03-12
 
 # journal
 
-_Here I put my thoughts into words, daily_
+_Here I put my thoughts into words, daily
+
+---
+
+`2026-08-25 18:24` `Prague`
+
+In the morning I did the routine exercise and book reading, then I've been doing the work for my job, and now I spend all the time with Aray.
+
+- [x] exercise (gym)
+- [x] read books (one hour)
 
 ---
 
