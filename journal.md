@@ -9,6 +9,15 @@ _Here I put my thoughts into words, daily
 
 ---
 
+`2026-08-26 23:14` `Prague`
+
+I've missed Aray so much, I'm spending all the free time with her. Yesterday and today feel truly wonderful.
+
+- [x] exercise (gym)
+- [x] read books (one hour)
+
+---
+
 `2026-08-25 18:24` `Prague`
 
 In the morning I did the routine exercise and book reading, then I've been doing the work for my job, and now I spend all the time with Aray.
