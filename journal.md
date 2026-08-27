@@ -9,6 +9,15 @@ _Here I put my thoughts into words, daily
 
 ---
 
+`2026-08-27 23:56` `Prague`
+
+Today was pretty lame. I was watching YouTube videos after the work and pretty much nothing else. I barely managed to read for just under one hour.
+
+- [x] exercise (morning run)
+- [x] read books (under an hour)
+
+---
+
 `2026-08-26 23:14` `Prague`
 
 I've missed Aray so much, I'm spending all the free time with her. Yesterday and today feel truly wonderful.
