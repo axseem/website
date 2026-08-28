@@ -9,6 +9,15 @@ _Here I put my thoughts into words, daily
 
 ---
 
+`2026-08-28 22:34` `Prague`
+
+Today was better. I feel like I've managed to fight procrastination a lot better. I've kinda stopped working on Flake's enclosure since Aray came back, as I willingly dedicate most of my time to her. I feel a need to create a focus protecting hours where I fully dedicate myself to work on personal projects, instead of doing them when I feel like doing so. It seems a bit too obvious, so even saying it out loud feels awkward, but I guess I undervalue the importance of this idea if I'm still not doing it by now. Tomorrow I'd like to spend thinking what I want/should do, and how much time I'd like to allocate for everything.
+
+- [x] exercise (gym)
+- [x] read books (one hour)
+
+---
+
 `2026-08-27 23:56` `Prague`
 
 Today was pretty lame. I was watching YouTube videos after the work and pretty much nothing else. I barely managed to read for just under one hour.
