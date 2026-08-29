@@ -9,6 +9,20 @@ _Here I put my thoughts into words, daily
 
 ---
 
+`2026-08-29 22:53` `Prague`
+
+Today I've redesigned my diet. I was already eating a lot of protein, but now mt should be also easier for me to eat more calories, as I suspect I barely hit caloric surplus right now.
+
+I'm also in the process of improving my gym routine. I'm going to change the frequency to 3 sessions per week, as I've read that after 3-4 days per week the diminishing returns make it quite unproductive time spending. I'm still in the process of picking the exercises.
+
+I'm using LLMs for that, which is perhaps not optimal, as I could learn everything from first principles and build plan myself by learning the muscles that each exercise cover, and figuring out to match them. Still I feel like current LLMs produce a really good enough result for such kind of task. I feel a bit guilty because of losing the opportunity to learn and internalize knowledge, but I also feel like I could learn so much more other things, instead of how to micromanage each my muscle (which is probably laziness speaking in me).
+
+I didn't create a schedule though, and that's something I plan to do tomorrow.
+
+- [x] read books (one hour)
+
+---
+
 `2026-08-28 22:34` `Prague`
 
 Today was better. I feel like I've managed to fight procrastination a lot better. I've kinda stopped working on Flake's enclosure since Aray came back, as I willingly dedicate most of my time to her. I feel a need to create a focus protecting hours where I fully dedicate myself to work on personal projects, instead of doing them when I feel like doing so. It seems a bit too obvious, so even saying it out loud feels awkward, but I guess I undervalue the importance of this idea if I'm still not doing it by now. Tomorrow I'd like to spend thinking what I want/should do, and how much time I'd like to allocate for everything.
