@@ -5,7 +5,19 @@ published_at: 2026-03-12
 
 # journal
 
-_Here I put my thoughts into words, daily
+_Here I put my thoughts into words, daily_
+
+---
+
+`2026-08-30 22:31` `Prague`
+
+I've build a schedule. It's quite simple actually. I think I'll share it in my website once I'll dedicate some time to updating pages on my website.
+
+While designing a schedule I've came up with amazing idea. In the morning I'll go outside right after waking up, to get the fresh air and sunlight exposure, but I'll also take the e-book with myself and leave my phone at home. The plan is to read books outside for one hour, away from my phone and laptop and thus from majority of the distractions. Additionally it should reduce my thoughts of doing something else, which seems to be the biggest problem.
+
+After reading I'll go to the gym and when back home, I'll write journal entry and work on the projects that have the biggest potential to increase my financial independence (currently e-shop for keyboards), until job hours start. In the noon I have a half an hour meditation outside and after the job hours I can either continue working on what I've been working in the morning, or spend times for one of my hobbies. This schedule requires me to wake up at 5:20 and fall asleep at 21:00, let's see how well I'll manage.
+
+- [x] read books (one hour)
 
 ---
 

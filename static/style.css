@@ -33,13 +33,6 @@
   --content-width: 30rem;
 }
 
-:root[data-theme="light"] {
-  --c0: #fff;
-  --c1: #ddd;
-  --c2: #222;
-  --c3: #000;
-}
-
 *,
 *::before,
 *::after {
@@ -265,32 +258,15 @@ header {
   font-size: 0.875rem;
   line-height: var(--line-height);
 }
-header nav {
-  display: flex;
-  gap: 0.75rem;
-}
 .brand {
   font-weight: 600;
   text-decoration: none;
   color: var(--c3);
 }
-.map,
-.theme-toggle {
+.map {
   color: var(--c3);
   font-size: 0.875rem;
-  line-height: var(--line-height);
   text-decoration: none;
-}
-.theme-toggle {
-  appearance: none;
-  border: 0;
-  background: transparent;
-  font: inherit;
-  cursor: pointer;
-}
-.theme-toggle:hover {
-  background: var(--c3);
-  color: var(--c0);
 }
 main {
   width: 100%;

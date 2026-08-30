@@ -9,7 +9,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="dark light" />
+    <meta name="color-scheme" content="dark" />
     <meta name="theme-color" content="#000" />
 
     <title>map</title>
@@ -79,11 +79,6 @@
       type="font/woff2"
       crossorigin
     />
-    <script>
-      try {
-        localStorage.removeItem("theme");
-      } catch {}
-    </script>
     <script
       defer
       src="https://cloud.umami.is/script.js"
@@ -95,12 +90,7 @@
     <div class="layout">
       <header>
         <a class="brand" href="/">axseem</a>
-        <nav>
-          <button hidden class="theme-toggle" type="button" aria-label="Switch to light mode">
-            [light]
-          </button>
-          <a class="map" href="/map">[map]</a>
-        </nav>
+        <a class="map" href="/map">[map]</a>
       </header>
       <main>
         <article class="content-wrapper"><h1 id="map">map</h1>
