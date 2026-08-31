@@ -9,6 +9,15 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-08-31 09:55` `Prague`
+
+Today I've woke up at 5:20. Reading book for 1 hour outside sitting on tram stop while it's still dark felt weird. It was difficult but I managed. Now I'm working on job tasks.
+
+- [x] read books (one hour)
+- [x] exercise (gym)
+
+---
+
 `2026-08-30 22:31` `Prague`
 
 I've build a schedule. It's quite simple actually. I think I'll share it in my website once I'll dedicate some time to updating pages on my website.
