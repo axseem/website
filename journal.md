@@ -9,6 +9,19 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-09-01 08:57` `Prague`
+
+I've decided to track my weight daily. That provides a precise feedback on my actions allowing me to see if something is wrong and course correct, instead of trusting the feeling. It feels to obvious, but for some reason I did to that before.
+
+Additionally tomorrow I'll try to write down the amount of reps and the weight I use during exercise. That would show me if my strength improves, and at what tempo.
+
+It would make sense to keep it simple and use journal for storing that info instead of inventing something new. I was afraid about making it messy, but I think that's actually the whole point of the journal.
+
+- read books (one hour)
+- weight: 70.4kg 
+
+---
+
 `2026-08-31 09:55` `Prague`
 
 Today I've woke up at 5:20. Reading book for 1 hour outside sitting on tram stop while it's still dark felt weird. It was difficult but I managed. Now I'm working on job tasks.
