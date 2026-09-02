@@ -9,6 +9,16 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-09-02 21:59` `Prague`
+
+Today my mom and sister came to Prague this morning. Next few days, until Sunday they'll be here, so I took time off at job and will do bare minimum of personal stuff.
+
+- read books (one hour)
+- exercise (gym)
+- weight: 71.1kg
+
+---
+
 `2026-09-01 08:57` `Prague`
 
 I've decided to track my weight daily. That provides a precise feedback on my actions allowing me to see if something is wrong and course correct, instead of trusting the feeling. It feels to obvious, but for some reason I did to that before.
