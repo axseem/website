@@ -9,6 +9,15 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-09-03 23:09` `Prague`
+
+Today we were at [Bohemian Switzerland](https://en.wikipedia.org/wiki/Bohemian_Switzerland). The trip took about the whole day. It was good.
+
+- read books (one hour)
+- weight: 70.7kg
+
+---
+
 `2026-09-02 21:59` `Prague`
 
 Today my mom and sister came to Prague this morning. Next few days, until Sunday they'll be here, so I took time off at job and will do bare minimum of personal stuff.
