@@ -9,6 +9,16 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-09-04 23:06` `Prague`
+
+Today we were in aquapark. It was funny, but rather unjustifiably expensive. I liked the having physical activities in the water a lot though. Today I've also read that GPT-6 Astra was just released. I'm thrilled to try it, but I did have time today.
+
+- read books (one hour)
+- exercise (swimming)
+- weight: 70.7kg
+
+---
+
 `2026-09-03 23:09` `Prague`
 
 Today we were at [Bohemian Switzerland](https://en.wikipedia.org/wiki/Bohemian_Switzerland). The trip took about the whole day. It was good.
