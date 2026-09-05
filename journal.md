@@ -9,6 +9,15 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-09-05 22:10` `Prague`
+
+Today we've been walking around Prague while also shopping. I feel like I'm mentally tired of what feels like empty leisures. I like the physical tiredness I get in the last few days, but I miss the state of deep work and mental challenge. I also feel guilty of the fact that what I do is not aligned with who I want to be and doesn't makes me better. I had similar experience before, and I was convinced by others that I have unhealthy relationships with rest and work, but more and more I tend to believe that likely I just have different values and love doing different things.
+
+- read books (30 min)
+- weight: 70.2kg
+
+---
+
 `2026-09-04 23:06` `Prague`
 
 Today we were in aquapark. It was funny, but rather unjustifiably expensive. I liked the having physical activities in the water a lot though. Today I've also read that GPT-6 Astra was just released. I'm thrilled to try it, but I did have time today.
