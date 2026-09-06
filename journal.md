@@ -9,6 +9,15 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-09-06 21:37` `Prague`
+
+Looking forward for tomorrow. I'm excited to get back to work. I also read a lot of posts today about GPT-6 doing crazy stuff like beating Portal in only about 20 hours. It feels unbelievable. It's still not available in my job, nor personal accounts. I also pretty much finished updating Flake's enclosure CAD model (not taking code quality into account). We'll need to print all sizes and take pictures for the shop in the next few days. Ideally I could do it all tomorrow, but I'll be in the office, so we'll see.
+
+- read books (1 hour)
+- weight: 70.1kg
+
+---
+
 `2026-09-05 22:10` `Prague`
 
 Today we've been walking around Prague while also shopping. I feel like I'm mentally tired of what feels like empty leisures. I like the physical tiredness I get in the last few days, but I miss the state of deep work and mental challenge. I also feel guilty of the fact that what I do is not aligned with who I want to be and doesn't makes me better. I had similar experience before, and I was convinced by others that I have unhealthy relationships with rest and work, but more and more I tend to believe that likely I just have different values and love doing different things.
