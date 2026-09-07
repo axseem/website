@@ -9,6 +9,15 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-09-07 20:50` `Prague`
+
+Today was good. I was in the office today. The majority of the time I've been doing work at my job. I've been also updating my opencode config. This morning I've started writing done the amount of reps and weights during my exercise. Aray also helped me to print some part for Flake enclosures of each size while I was at home.
+
+- read books (30 min)
+- weight: 70.4 kg
+
+---
+
 `2026-09-06 21:37` `Prague`
 
 Looking forward for tomorrow. I'm excited to get back to work. I also read a lot of posts today about GPT-6 doing crazy stuff like beating Portal in only about 20 hours. It feels unbelievable. It's still not available in my job, nor personal accounts. I also pretty much finished updating Flake's enclosure CAD model (not taking code quality into account). We'll need to print all sizes and take pictures for the shop in the next few days. Ideally I could do it all tomorrow, but I'll be in the office, so we'll see.
