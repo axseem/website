@@ -9,6 +9,15 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-09-08 23:52` `Prague`
+
+Today I was closing tasks at work. Tomorrow I plan to go to the office to set up two DGX Sparks that came to the office. Today I've read less, because I've been putting it off until the end of the day.
+
+- read books (30 min)
+- weight: 69.4 kg
+
+---
+
 `2026-09-07 20:50` `Prague`
 
 Today was good. I was in the office today. The majority of the time I've been doing work at my job. I've been also updating my opencode config. This morning I've started writing done the amount of reps and weights during my exercise. Aray also helped me to print some part for Flake enclosures of each size while I was at home.
