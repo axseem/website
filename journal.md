@@ -9,6 +9,15 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-09-09 18:34` `Prague`
+
+Just recently came from the office. I felt pretty sleep today, I would like to fall asleep earlier.
+
+- read books: 30 min
+- weight: 70.0 kg
+
+---
+
 `2026-09-08 23:52` `Prague`
 
 Today I was closing tasks at work. Tomorrow I plan to go to the office to set up two DGX Sparks that came to the office. Today I've read less, because I've been putting it off until the end of the day.
