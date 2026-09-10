@@ -9,6 +9,19 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-09-10 21:36` `Prague`
+
+Today was mid. I've spend a lot of time watching YouTube podcasts and reading through HackerNews and Reddit. Although I should have read the book in the morning, I barely forced myself to do that an hour ago, and read only for half an hour in a very unproductive manner. On the positive note I've finished printing updated Flake enclosure of all sizes, but being fair, I could have done this a few days before already if I was committed enough.
+
+Also I've just noticed that on the yesterdays entry I forgot to put exercise in the list, but I did went to the gym in the morning.
+
+Generally it feels like my habits have been stagnating last few days. Almost like I'm silently giving up. Today I've noticed how often I forgive myself when I plan to do one thing, but then do the other, or avoid tasks that are actually of the highest priority, but I simply don't feel like doing them.
+
+- read books: 30 min
+- weight: 69.1 kg
+
+---
+
 `2026-09-09 18:34` `Prague`
 
 Just recently came from the office. I felt pretty sleep today, I would like to fall asleep earlier.
