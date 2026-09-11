@@ -9,6 +9,16 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-09-11 08:12` `Prague`
+
+This morning feels productive. Right after waking up (or perhaps even before falling asleep), I've been thinking about the issues I've noted yesterday, and so I had a strong desire to course correct. I've managed to read book for an hour, and I've just came from a gym. After taking a shower I felt the gravitation towards checking news (I'm curious about Deepseek V4.1 Flash), and doing any other unimportant stuff, instead of writing this entry. But I also managed to course correct here. I find it fair to say that today is already a successful day based on the first hours in the morning.
+
+- read books: 1 hour
+- exercise: gym
+- weight: 69.4 kg
+
+---
+
 `2026-09-10 21:36` `Prague`
 
 Today was mid. I've spend a lot of time watching YouTube podcasts and reading through HackerNews and Reddit. Although I should have read the book in the morning, I barely forced myself to do that an hour ago, and read only for half an hour in a very unproductive manner. On the positive note I've finished printing updated Flake enclosure of all sizes, but being fair, I could have done this a few days before already if I was committed enough.
