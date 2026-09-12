@@ -9,6 +9,23 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-09-12 23:30` `Prague`
+
+From the very morning I've been putting off writing the journal and reading the book. Now I need to speedrun it all so I can go sleep.
+
+Today the whole day I've been playing with Deepseek V4.1 Flash. I've been building a game in Rust changing the concepts of it drastically with time. It's crazy how much I enjoyed this model. It seems to be really good at following precise instructions and have a really good understanding of what I mean and want, instead of what I'm saying.
+
+Almost after each request it was asking me clarifying questions removing a huge ton of frustration I have with other models. Now, my harness config explicitly asks LLM to clarify user's intent, but surprisingly, it often didn't work for me with ChatGPT and Qwen.
+
+I've seen a lot of people complaining about this model failing to one-shot interactive html pages without glitches, which I guess is fair, however for me all easy to medium tasks it was doing almost always correctly first try, and then for hard tasks it was able to fix each follow up I brought. Maybe that's me, but I don't remember any other model developing with which felt so fluently. The cost also allowed to stopped carefully tracking token spend, which also had its contribution.
+
+The game, or better say gameplay mechanics demo, came up to be something similar to Astroneer with procedural terrain generation and terraforming, semi-realistic physic where the size of planet + distance from it affect the gravity pull and destroying matter in large scale reduces that pull. At some point I got obsessed with the idea of adding liquids with proper physics too. I didn't expect it to work but it worked! It took some iteration, but I never felt stuck. It looks so satisfying, because liquid tries to reach the core, and because of that it gets evenly spread across surface filling deepest pockets, just as in real life.
+
+- read books: 30 min
+- weight: 70.3 kg
+
+---
+
 `2026-09-11 08:12` `Prague`
 
 This morning feels productive. Right after waking up (or perhaps even before falling asleep), I've been thinking about the issues I've noted yesterday, and so I had a strong desire to course correct. I've managed to read book for an hour, and I've just came from a gym. After taking a shower I felt the gravitation towards checking news (I'm curious about Deepseek V4.1 Flash), and doing any other unimportant stuff, instead of writing this entry. But I also managed to course correct here. I find it fair to say that today is already a successful day based on the first hours in the morning.
