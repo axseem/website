@@ -9,4 +9,8 @@ image_width: 960
 
 ![Max watches at camera](./profile.png)
 
-I'm a Software Engineer and Digital Creator. Writing code and building hardware are my primary ways of bringing ideas to life. Curious about almost _everything_, I can't live a day without learning something new.
+I'm a Software Engineer and Digital Creator. Curious about _everything_, I can't live a day without learning something new.
+
+---
+
+[`/now`](./now) [`/projects`](./projects) [`/essays`](./essays) [`/gallery`](./gallery) [`/journal`](./journal) [`/contact`](./contact)
