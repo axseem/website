@@ -9,6 +9,17 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-09-13 19:32` `Prague`
+
+I need to focus on what's hard and important, but I keep doing only what's fun. Spend the whole day continue iterating on the game with Deepseek. The model is awesome I have to say, I'm kinda in doubt though, why would I need this game after I made it. It'd be better if I was working on organizing docs for Flake the whole day instead.
+
+Also I didn't read book in the morning, and managed to do it only a few minutes ago. I think this get unproductive, so I'll reduce the daily goal from an hour to 20 minutes. I think it's going to be more useful and feel a lot less as a chore.
+
+- read books: 20 min
+- weight: 69.6 kg
+
+---
+
 `2026-09-12 23:30` `Prague`
 
 From the very morning I've been putting off writing the journal and reading the book. Now I need to speedrun it all so I can go sleep.
