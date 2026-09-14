@@ -9,6 +9,18 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-09-14 08:16`
+
+Yesterday evening I've added [now](./now) page. Then I updated the [home](./index) page changing the description and including the most important pages from [map](./map). It was quick and rewarding.
+
+I'll stop adding `Prague` tag to each journal entry from now. I thought it'll be fun to read if there is a lot of context about my state when I write the entry, including where I write it. But I currently rarely ever change the location, so it acts as a noise instead of data. I think I'll add it the moments I move around, and if there is no tag, that means the location is the same as the last mentioned in the previous entries.
+
+- read books: 20 min
+- exercise: gym
+- weight: 69.8 kg
+
+---
+
 `2026-09-13 19:32` `Prague`
 
 I need to focus on what's hard and important, but I keep doing only what's fun. Spend the whole day continue iterating on the game with Deepseek. The model is awesome I have to say, I'm kinda in doubt though, why would I need this game after I made it. It'd be better if I was working on organizing docs for Flake the whole day instead.
