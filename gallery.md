@@ -6,7 +6,7 @@ optimize_images: true
 
 # gallery
 
-![light shining through Flake keyboard bottom-plate](./gallery/2026-08-23-000000.jpg)
+![light shining through Flake keyboard bottom-plate](./gallery/2026-08-23-000000.png)
 
 ![img](./gallery/2025-12-12-010950.webp)
 
