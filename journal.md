@@ -9,6 +9,17 @@ _Here I put my thoughts into words, daily_
 
 ---
 
+`2026-09-15 07:21`
+
+Today I'll force myself to update the docs for Flake. I'd also want to rethink the structure of repos, because current state feels suboptimal, still I'm not sure what's the optimal one.
+
+Can't weight myself today, because batteries have died.
+
+- read books: 20 min
+- weight: ?
+
+---
+
 `2026-09-14 08:16`
 
 Yesterday evening I've added [now](./now) page. Then I updated the [home](./index) page changing the description and including the most important pages from [map](./map). It was quick and rewarding.
