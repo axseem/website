@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /*.md
 
 Sitemap: https://axseem.me/sitemap.xml
