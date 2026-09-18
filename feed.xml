@@ -472,6 +472,15 @@
     <content type="html" xml:base="https://axseem.me/journal">&lt;h1 id=&#34;journal&#34;&gt;journal&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Here I put my thoughts into words, daily&lt;/em&gt;&lt;/p&gt;
 &lt;hr/&gt;
+&lt;p&gt;&lt;code&gt;2026-09-18 20:48&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Today I was working from the office. We&amp;#39;ve had a whole day of interviewing users (some were interviewing, while team was taking note). It was fun but exhausting. Also after some thinking I think that there is actually not as many value in it, as other often claim. These people are such a drop in the sea, There is no way I can do any decisions based on what they say. For decisions that generalize for the majority of users, I need huge amount of data, on every single one of them, and the best way is to track how they use the product via the product itself.&lt;/p&gt;
+&lt;p&gt;Additionally there are so many techniques nowadays to collect and analyze it unlocking amazing insight, something that I see big tech always doing. I heard the argument that yeah, thus we should do both, and I think it&amp;#39;s a too simplistic answer, because how much of each should be done? I hesitate to say that personal interviews are useless, but it seems that many people overstate the value.&lt;/p&gt;
+&lt;p&gt;I&amp;#39;ll fall asleep late today, because I need to meat Aray at the bus station in a few hours.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;read books: 20 min&lt;/li&gt;
+&lt;li&gt;exercise: gym&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr/&gt;
 &lt;p&gt;&lt;code&gt;2026-09-17 07:38&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;I&amp;#39;ve spend more time working on Flake docs. Just as before, I started closer to the evening. I&amp;#39;ve already pushed a lot of changes, including the change to readme, organizing files around and deleting a lot of noise like needless dirs, files, text etc.&lt;/p&gt;
 &lt;ul&gt;
