@@ -17,8 +17,8 @@
     <updated>2026-09-13T00:00:00Z</updated>
     <link href="https://axseem.me/now" rel="alternate" type="text/html"/>
     <content type="html" xml:base="https://axseem.me/now">&lt;h1 id=&#34;now&#34;&gt;now&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/gallery/2026-08-23-000000.png&#34; alt=&#34;light shining through Flake keyboard bottom-plate&#34;/&gt;&lt;/p&gt;
-&lt;p&gt;Creating an e-shop for &lt;a href=&#34;https://github.com/anywhy-io/flake&#34;&gt;my keyboard&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/gallery/2026-08-23-000000.png&#34; alt=&#34;light shining through Lever Flake keyboard bottom-plate&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;Creating an e-shop for &lt;a href=&#34;https://github.com/lever-tech/flake&#34;&gt;my keyboard&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   
@@ -399,7 +399,7 @@
     <updated>2026-03-12T00:00:00Z</updated>
     <link href="https://axseem.me/gallery" rel="alternate" type="text/html"/>
     <content type="html" xml:base="https://axseem.me/gallery">&lt;h1 id=&#34;gallery&#34;&gt;gallery&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/gallery/2026-08-23-000000.png&#34; alt=&#34;light shining through Flake keyboard bottom-plate&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/gallery/2026-08-23-000000.png&#34; alt=&#34;light shining through Lever Flake keyboard bottom-plate&#34;/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/gallery/2025-12-12-010950.webp&#34; alt=&#34;img&#34;/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/gallery/2025-12-11-233539.webp&#34; alt=&#34;img&#34;/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/gallery/2025-06-07-000000.jpg&#34; alt=&#34;img&#34;/&gt;&lt;/p&gt;
@@ -471,6 +471,14 @@
     <link href="https://axseem.me/journal" rel="alternate" type="text/html"/>
     <content type="html" xml:base="https://axseem.me/journal">&lt;h1 id=&#34;journal&#34;&gt;journal&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Here I put my thoughts into words, daily&lt;/em&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;code&gt;2026-10-09 20:01&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;#39;ve published simple static website on &lt;a href=&#34;https://levertech.org&#34;&gt;levertech.org&lt;/a&gt;. I&amp;#39;ve also update the content of the repos to use the new name, however there are still production files like PCB and some SVGs that were not yet updated. I&amp;#39;ll do it tomorrow&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;read books: 20 min&lt;/li&gt;
+&lt;li&gt;weight: 68.1 kg&lt;/li&gt;
+&lt;li&gt;exercise: gym&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr/&gt;
 &lt;p&gt;&lt;code&gt;2026-10-08 11:01&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;I&amp;#39;ve renamed anywhy to levertech. I&amp;#39;ve updated organization on github already. I&amp;#39;ll update any mentioning of the old name in the repos, and the I&amp;#39;ll create a tiny static website that is going to be on levertech.org domain, until I complete the proper website.&lt;/p&gt;
@@ -3592,8 +3600,8 @@ Original code snippets are licensed under the &lt;a href=&#34;https://opensource
     <updated>2026-03-12T00:00:00Z</updated>
     <link href="https://axseem.me/projects" rel="alternate" type="text/html"/>
     <content type="html" xml:base="https://axseem.me/projects">&lt;h1 id=&#34;projects&#34;&gt;projects&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/anywhy-io/flake&#34;&gt;&lt;img src=&#34;/projects/anywhy-flake.jpg&#34; alt=&#34;keyboard&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/anywhy-io/flake&#34;&gt;&lt;strong&gt;Anywhy Flake&lt;/strong&gt;&lt;/a&gt; - &lt;em&gt;An open-source, wireless, split ergonomic keyboard designed to be productive, healthy, and enjoyable&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/lever-tech/flake&#34;&gt;&lt;img src=&#34;/projects/lever-flake.jpg&#34; alt=&#34;keyboard&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/lever-tech/flake&#34;&gt;&lt;strong&gt;Lever Flake&lt;/strong&gt;&lt;/a&gt; - &lt;em&gt;An open-source, wireless, split ergonomic keyboard designed to be productive, healthy, and enjoyable&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;KiCad&lt;/code&gt; &lt;code&gt;FreeCAD&lt;/code&gt; &lt;code&gt;Hardware&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://codeberg.org/axseem/garden&#34;&gt;&lt;img src=&#34;/projects/axseemdotme.svg&#34; alt=&#34;website&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/axseem/website&#34;&gt;&lt;strong&gt;axseem.me&lt;/strong&gt;&lt;/a&gt; - &lt;em&gt;Simple, stylish, completely markdown driven personal website. You are using it right now.&lt;/em&gt;&lt;/p&gt;
