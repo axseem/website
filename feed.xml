@@ -472,6 +472,14 @@
     <content type="html" xml:base="https://axseem.me/journal">&lt;h1 id=&#34;journal&#34;&gt;journal&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Here I put my thoughts into words, daily&lt;/em&gt;&lt;/p&gt;
 &lt;hr/&gt;
+&lt;p&gt;&lt;code&gt;2026-11-22 23:46&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Today was quite productive. I&amp;#39;ve migrated lever brand to &lt;a href=&#34;https://lever.technology/&#34;&gt;lever.technology&lt;/a&gt; domain, and I&amp;#39;ve update the page adding cool animated, dithered background. I then did a decent progress on lever lang and lever harness. I was actually able to compile a tiny terminal ray marching program using the compiler, and it worked well enough. The harness requires a bit more of my attention though. This morning I thought I&amp;#39;ll manage to polish it to state to make repo public today, but I think I don&amp;#39;t want to rush. I want proper, stylish branding, and websites with documentation. It should not be hard if I&amp;#39;ll focus on it. I&amp;#39;m writing late because in the evening I&amp;#39;ve decided to take all the photos of the Flake keyboard so I can use them in shop. AFAIK it&amp;#39;s the only physical task that blocks me from publishing store. Before that I cleaned up my whole apartment, which felt gratifying. The only bad thing about today is that I&amp;#39;m going to bed late.&lt;/p&gt;
+&lt;p&gt;Oh and another big thing I&amp;#39;ve decided today is to quit keto diet for now. I&amp;#39;m too lazy to eat enough fat, so I&amp;#39;m loosing weight -- the opposite of what I want. I remember last time I did something similar, but then went back to keto because of noticeable difference in a mental clarity. It&amp;#39;s always a problem that it&amp;#39;s hard to remember to compare the feelings in retrospective. However if it will be too bad, I&amp;#39;m open to go back to keto, I just would need to be stricter about consuming enough calories to grow muscles. For now I chose the path of least resistance on this front.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;read books: 20 min&lt;/li&gt;
+&lt;li&gt;weight: 68.8 kg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr/&gt;
 &lt;p&gt;&lt;code&gt;2026-11-21 22:25&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Almost the whole day I&amp;#39;ve been using Gemini 4 Neon to orchestrate Deepseek agents to do the work on harness and programming language. Is was my one of the best experiences of agentic coding so far. I canceled my GPT subscription (that I got for free a few days ago thanks to some OpenAI&amp;#39;s promotion), as the results were quite mid.&lt;/p&gt;
 &lt;ul&gt;
